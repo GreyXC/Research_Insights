@@ -1,0 +1,30 @@
+TY  - GEN
+AB  - The Underground Logistics System (ULS) is a promising mode of freight transportation for the future. It is expected to address conventional city logistics dilemmas such as low transport efficiency and negative environmental impacts. A comprehensive understanding of ULS functions is crucial for promoting its development. Therefore, this research aims to (1) review ULS-related studies; (2) outline the main ULS designs from the perspectives of network types, network planning and optimization, as well as last-mile delivery measures; and (3) summarize the impacts of ULS on society, the economy, and the environment. Adhering to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines, a total of 132 research articles were retrieved from three databases (i.e., Scopus, Web of Science, and IEEE Xplore) and grey literature to conduct a systematic literature review. In general, this systematic review reveals that the integration of ULS with the metro system is a current research hotspot. It is also found that the mixed-integer programming model is commonly adopted in existing studies to solve problems related to location and routing. Additionally, several last-mile delivery solutions for ULS (i.e., door-to-door, self-pickup, and a combination of other overground delivery methods) are presented. Moreover, the findings demonstrate that, despite high construction costs, ULS can provide significant benefits to society, the economy, and the environment. More importantly, the limitations of current ULS-related research are analyzed, and future research directions for ULS are proposed. This research provides comprehensive insights into ULS and offers specific policy implications for its future management.
+AU  - Li, Fengshan
+AU  - Yuen, Kum Fai
+DA  - 2025/5//
+DO  - 10.1016/j.tust.2025.106483
+KW  - Automation
+KW  - City logistics
+KW  - Freight transportation
+KW  - Sustainable transport
+KW  - Systematic literature review
+KW  - Underground logistics system
+PB  - Elsevier Ltd
+PY  - 2025
+TI  - A systematic review on underground logistics system: designs, impacts, and future directions
+T2  - Tunnelling and Underground Space Technology
+VL  - 159
+ER  -
+TY  - JOUR
+AB  - This paper investigates the environmental impact of urban road freight in the Paris region, focusing on pollutant emissions. We develop a modeling chain including a freight demand model, a multiclass traffic assignment model, and a road emission model. This allows for a detailed representation - spatially and with regard to operations - of urban road freight. We find that while urban road freight represents only 6% of trips and 8% of distances traveled by road in the Paris region, it accounts for 36% of total damages caused by pollutant emissions from road traffic. This is the combined result of light and heavy goods vehicles emitting more than private cars, and of freight traffic being more spatially concentrated (within the city center) than passenger traffic, thereby affecting more population. All in all, the environmental cost of urban road freight is around 2.1 billion € per year. Some policy implications are discussed.
+AU  - Coulombel, Nicolas
+AU  - Dablanc, Laetitia
+AU  - Gardrat, Mathieu
+AU  - Koning, Martin
+DO  - 10.1016/j.trd.2018.06.002
+PY  - 2018
+TI  - The environmental social cost of urban road freight: Evidence from the Paris region
+T2  - Transportation Research Part D: Transport and Environment
+VL  - 63
+ER  -
