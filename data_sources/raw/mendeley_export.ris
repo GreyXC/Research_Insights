@@ -28,3 +28,79 @@ TI  - The environmental social cost of urban road freight: Evidence from the Par
 T2  - Transportation Research Part D: Transport and Environment
 VL  - 63
 ER  -
+TY  - GEN
+AU  - Mecatti, Sara
+AU  - European Commission
+DA  - 2025/4//
+PY  - 2025
+TI  - Urban freight/city logistics: Microhubs as the future of last-mile logistics
+T2  - News Article
+UR  - https://urban-mobility-observatory.transport.ec.europa.eu/news-events/news/microhubs-future-last-mile-logistics-2025-04-14_en
+ER  -
+TY  - RPRT
+AU  - Boin, Riccardo
+AU  - Möller, Timo
+AU  - Pokotilo, Vadim
+AU  - Ricotti, Andrea
+AU  - Sandri, Nicola
+DA  - 2023/3//
+PY  - 2023
+TI  - infrastructure-technologies-challenges-and-solutions-for-smart-mobility-in-urban-areas
+UR  - https://www.mckinsey.com/~/media/mckinsey/industries/travel%20logistics%20and%20infrastructure/our%20insights/infrastructure%20technologies%20challenges%20and%20solutions%20for%20smart%20mobility%20in%20urban%20areas/infrastructure-technologies-challenges-and-solutions-for-smart-mobility-in-urban-areas.pdf
+ER  -
+TY  - RPRT
+AU  - Brady-Phillips, Vivian
+DA  - 2024/12//
+PY  - 2024
+TI  - Transforming Urban Logistics: Sustainable and Efficient Last-Mile Delivery in Cities
+UR  - https://reports.weforum.org/docs/WEF_Transforming_Urban_Logistics_2024.pdf
+ER  -
+TY  - GEN
+AU  - Francis, Sam
+DA  - 2025/9//
+PY  - 2025
+TI  - Last-mile delivery robots: Navigating sidewalks and urban landscapes
+UR  - https://roboticsandautomationnews.com/2025/09/26/last-mile-delivery-robots-navigating-sidewalks-and-urban-landscapes/94758/
+ER  -
+TY  - JOUR
+AB  - The smart grid spawns many innovative ideas, but many of them cannot be easily integrated into the existing power system due to power system constraints, such as the lack of capacity to transport renewable energy in remote areas to the urban centers. An energy delivery system can be built upon the traffic network and electric vehicles (EVs) utilized as energy carriers to transport energy over a large geographical region. A generalized architecture called the vehicular energy network (VEN) is constructed and a mathematically tractable framework is developed. Dynamic wireless (dis)charging allows electric energy, as an energy packet, to be added and subtracted from EV batteries seamlessly. With proper routing, energy can be transported from the sources to destinations through EVs along appropriate vehicular routes. This paper gives a preliminary study of VEN. Models are developed to study its operational and economic feasibilities with real traffic data in the United Kingdom. Our study shows that a substantial amount of renewable energy can be transported from some remote wind farms to London under some reasonable settings and VEN is likely to be profitable in the near future. VEN can complement the power network and enhance its power delivery capability.
+AU  - Lam, Albert Y. S.
+AU  - Leung, Ka-Cheong
+AU  - Li, Victor O. K.
+DA  - 2015/8//
+DO  - 10.1109/TTE.2017.2649887
+PY  - 2015
+TI  - Vehicular Energy Network
+UR  - http://arxiv.org/abs/1408.1312
+UR  - http://dx.doi.org/10.1109/TTE.2017.2649887
+ER  -
+TY  - GEN
+AB  - Utrecht has become the first European city to implement a large-scale vehicle-to-grid (V2G) system through a collaboration between Renault Group, We Drive Solar, MyWheels, and the local municipality. The initiative, called Utrecht Energized, aims to stabilise the electricity grid while providing affordable, sustainable transport.
+The project has launched with 50 Renault 5 E-Tech electric vehicles and 50 bidirectional chargers, which have been added into the MyWheels ridesharing fleet. There are plans to scale up to 500 EVs. The scheme targets residents who mainly walk or cycle but occasionally need a car, encouraging them to give up private vehicle ownership entirely.
+The system allows cars to charge when solar energy is abundant and discharge back into the grid during peak demand. This is particularly effective in Utrecht, where 35% of rooftops are fitted with solar panels. V2G advocates highlight the potential for storing surplus solar energy in EV batteries rather than selling it cheaply abroad. Carsharing operators can also generate income from parked vehicles providing grid services.
+Despite its promise, the initiative faces regulatory and logistical challenges. Differences in tax rules, grid tariffs, and local parking regulations - especially across multiple grid operators - present hurdles. Renault plans to expand the concept into Germany, where over 850 grid operators operate under varied protocols.
+According to Mobilize’s energy director, removing regulatory barriers and standardising systems will be key to making V2G a mainstream element of future energy networks.
+AU  - Mecatti, Sara
+DA  - 2025/7//
+PY  - 2025
+TI  - Two European cities advance vehicle-to-grid (V2G) solutions
+T2  - European Commission
+UR  - https://urban-mobility-observatory.transport.ec.europa.eu/news-events/news/two-european-cities-advance-vehicle-grid-v2g-solutions-2025-07-04_en
+ER  -
+TY  - JOUR
+AB  - This briefing summarizes findings from the Vehicle-to-Grid Oxford project, funded by Innovate UK. The research was conducted by the Transport Studies Unit, University of Oxford. The results set out the role and advantages of using the Vehicle-to-Grid (V2G) system in fleet management, the current barriers to its uptake, implementation strategies and policy recommendations. This briefing has been written for policy-makers and fleet market professionals.
+AU  - Meelen, Toon
+AU  - Budnitz, Hannah
+AU  - Schwanen, Tim
+DA  - 2020/11//
+PY  - 2020
+TI  - Advantages of Electric Vehicle adoption and Vehicle-to-Grid charging in the fleet market: Lessons from the V2GO project
+T2  - https://www.tsu.ox.ac.uk/sites/default/files/2023-01/V2GO-Policy-Brief-TSU.pdf
+ER  -
+TY  - GEN
+DA  - 2025/4//
+PY  - 2025
+TI  - Sustainable Transportation in Logistics: Tracking the Global Shift in 2025 and Beyond
+T2  - CF Global
+UR  - https://blog.cfglobal.co/sustainable-transportation-in-logistics-tracking-the-global-shift-in-2025-and-beyond/
+ER  -
