@@ -1,0 +1,6 @@
+{
+  "environment": ["emissions", "impact", "pollution", "carbon", "sustainable", "environmental", "footprint", "climate"],
+  "policy": ["regulation", "compliance", "standards", "framework", "governance", "targets", "policy"],
+  "transport": ["vehicles", "freight", "routing", "delivery", "network", "mobility"],
+  "economics": ["cost", "benefits", "investment", "subsidy", "externalities", "valuation"]
+}

@@ -1,0 +1,6 @@
+{
+  "logistics": ["freight", "delivery", "routing", "transportation", "network", "metro", "system", "hub", "infrastructure"],
+  "optimization": ["model", "integer", "assignment", "planning", "efficiency", "algorithm", "heuristic"],
+  "urban": ["city", "metro", "underground", "density", "urban", "congestion"],
+  "research": ["review", "articles", "analysis", "studies", "literature", "guidelines"]
+}
