@@ -28,7 +28,3 @@ def plot_theme_clusters(themes_dict):
 
     ax.set_title("Keyword Frequencies by Theme")
     ax.set_ylabel("Frequency")
-    ax.set_xticks([])
-    ax.legend()
-    plt.tight_layout()
-    plt.show()

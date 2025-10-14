@@ -3,6 +3,8 @@ from scripts.load.load_ris import load_ris
 from scripts.clean.clean_data import clean_dataframe
 from scripts.extract.extract_keywords import extract_keywords
 from scripts.visualize.plot_keywords import plot_keywords
+from scripts.analysis.analyze_insights import extract_themes
+from scripts.visualize.plot_themes import plot_theme_clusters
 
 def run_pipeline():
     print("Loading RIS data...")
@@ -14,6 +16,7 @@ def run_pipeline():
     keywords = extract_keywords(df_clean, "abstract")
     print("Top Keywords:", keywords)
 
+    theme_map_name = "logistics_review"  # Set your default theme map here
     print(f"\nGrouping keywords using theme map: {theme_map_name}")
     themes = extract_themes(df_clean, map_name=theme_map_name)
     for theme, words in themes.items():
