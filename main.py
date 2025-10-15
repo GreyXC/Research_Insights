@@ -25,7 +25,7 @@ def run_pipeline():
             print(f"  {word} ({count})")
 
     print("\nGenerating clustered keyword frequency plot...")
-    plot_theme_clusters(themes)  # ✅ Trigger plot
+    plot_theme_clusters(themes)  
 
 if __name__ == "__main__":
     run_pipeline()
