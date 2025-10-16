@@ -121,6 +121,263 @@ AU  - YouGov
 CY  - London
 DA  - 2004/2//
 PY  - 2004
-TI  - Living in London
+TI  - Living in London: Survey Data From Residents of London
 UR  - https://d3nkl3psvxxpe9.cloudfront.net/documents/YG-Archives-pol-itv-LivingLondon-040304.pdf
+ER  -
+TY  - CONF
+AB  - This study was designed to evaluate innovative last-mile delivery concepts involving autonomous parcel robots with simulation and optimization. In the proposed concept, the last mile of parcel delivery is split into a two-tiered system, where parcels are first transported to a transfer point by conventional trucks and then delivered with parcel robots on customer demand. The purpose of this publication is to compare different time slot selection options for customers, namely due window and on demand selection, in the context of city logistics measures such as access regulations and driving bans for city centers. An agent-based simulation model is used, including a Geographic Information System environment and optimization algorithms for allocation and scheduling of delivery robots. The concept is tested in a comprehensive case study located in the city center of Cologne (Germany) based on real data from the parcel delivery company Hermes.
+AU  - Poeting, Moritz
+AU  - Schaudt, Stefan
+AU  - Clausen, Uwe
+DO  - 10.1109/WSC40007.2019.9004811
+PY  - 2019
+TI  - A Comprehensive Case Study in Last-Mile Delivery Concepts for Parcel Robots
+T2  - Proceedings - Winter Simulation Conference
+VL  - 2019-December
+ER  -
+TY  - JOUR
+AB  - Electric cars are no longer the future fantasy, but an emerging technological reality, with billions being put into electric car production by Tesla, Ford, and GM. And with governments embracing net zero emission goals, one would ask: Can the world gear up for this shift into EV? Issues range from limited charging infrastructure to battery-related environmental concerns on the road ahead. How likely are you to buy an electric vehicle today? What’s holding you back, if you aren’t?
+AU  - Chaudhary, afif-ul-hussain
+DA  - 2024/11//
+PY  - 2024
+TI  - Electric Vehicles: Is the World Ready for the EV Revolution?
+T2  - Web Article
+UR  - https://medium.com/be-open/electric-vehicles-is-the-world-ready-for-the-ev-revolution-53ff2688c372
+ER  -
+TY  - JOUR
+AB  - The principle limitation of perovskite solar cells is related to their instability and, hence, their limited lifetime. Herein, we employ an imidazolium iodide dopant, 1-methyl-3-(1H,1H,2H,2H-nonafluorohexyl)-imidazolium iodide, containing a perfluorous appendage, which leads to prolonged (unencapsulated, under Ar atmosphere) device activities exceeding 100 days without compromising the power conversion efficiency and other photovoltaic parameters. The extended lifetime of the device can be attributed, at least in part, to the hydrophobic nature of the imidazolium iodide salt. The functionalization of the perovskite material was found to have negligible influence on the perovskite crystal structure.
+AU  - Salado, Manuel
+AU  - Ramos, F. Javier
+AU  - Manzanares, Valentin M.
+AU  - Gao, Peng
+AU  - Nazeeruddin, Mohammad Khaja
+AU  - Dyson, Paul J.
+AU  - Ahmad, Shahzada
+DO  - 10.1002/cssc.201601030
+IS  - 18
+PY  - 2016
+TI  - Extending the Lifetime of Perovskite Solar Cells using a Perfluorinated Dopant
+T2  - ChemSusChem
+VL  - 9
+ER  -
+TY  - JOUR
+AB  - Perovskite thin films directly impact solar cell properties, making defect reduction crucial in perovskite solar cell research. In our study, we used perovskite quantum dots in the anti-solvent to act as nucleation centers in MAPbI3 thin films. These centers had lower nucleation barriers than homogeneous nucleation, improving perovskite crystallinity, reducing defects, and extending carrier lifetime. Fine-tuning the energy band also enhanced carrier transport. The most effective results were obtained using CsPb(Br0.5 I0.5)3 perovskite quantum dots. The resulting device, ITO/SnO2/MAPbI3 (300 nm)/spiro-OMeTAD (200 nm)/Ag (100 nm), achieved a 12.88% power conversion efficiency, a 16% increase from the standard element. The modified device maintained approximately 95% of its efficiency over 100 h in a 70% humidity environment.
+AU  - Tsai, Ming Chen
+AU  - Chu, Sheng Yuan
+AU  - Kao, Po Ching
+DO  - 10.3390/ma17061238
+IS  - 6
+PY  - 2024
+TI  - Performance Enhancement of Three-Dimensional MAPbI3 Perovskite Solar Cells by Doping Perovskite Films with CsPbX3 Quantum Dots
+T2  - Materials
+VL  - 17
+ER  -
+TY  - JOUR
+AB  - 
+	Please use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&Cs and Copyright Policy. Email licensing@ft.com to buy additional rights. Subscribers may share up to 10 or 20 articles per month using the gift article service. More information can be found at https://www.ft.com/tour.
+	https://www.ft.com/content/a5095373-1762-41cd-a078-af533e2644fc
+	Sunlight is the most abundant energy source on earth, now harnessed by a vast array of silicon solar panels on rooftops and in fields across the world. But a new generation of panels is emerging using a class of materials called perovskites, which can be thinner, lighter, less rigid and generate more power.
+The technology means solar panels could be integrated into new places such as car roofs, lampposts and even windows. It also could mean increased solar power generation without having to devote as much land to solar farms.
+AU  - Arrowsmith, Jack
+DA  - 2025/10//
+PY  - 2025
+TI  - How next-gen solar panels could go on lampposts, cars and even windows
+T2  - Web Article
+UR  - https://www.ft.com/content/a5095373-1762-41cd-a078-af533e2644fc
+ER  -
+TY  - RPRT
+AB  - The chart displays recent research that differentiates four major technologies: general Si-based cells, highly optimized GaAs-based cells, multijunction cells, and filters, an emerging PV. Efficiencies have increased across all technologies over the last 15 years.
+AU  - NREL
+DA  - 2025/6//
+PY  - 2025
+TI  - Interactive Best Research-Cell Efficiency Chart
+UR  - https://www.nrel.gov/pv/interactive-cell-efficiency
+ER  -
+TY  - GEN
+AB  - Leading custom solar panel manufacturer OPES Solutions has partnered with the green logistics experts from Urban Mobility to equip e-cargo bikes with robust and lightweight solar panels. Developed especially for vehicles, the integrated solar solution provides up to 20% more range in delivery practice if the heavy payload of 250 kg plus driver is fully utilized.
+AU  - OPES Solutions
+DA  - 2022/5//
+PY  - 2022
+TI  - New solar solution increases range of electric cargo bikes by up to 20 percent
+T2  - Web Article
+UR  - https://www.opes-solutions.com/news/new-solar-solution-increases-range-of-electric-cargo-bikes-by-up-to-20-percent/
+ER  -
+TY  - JOUR
+AB  - Problem, research strategy, and findings: Warehousing and distribution center (W&D) expansion has raised concerns about the disproportionate exposure of nearby communities to freight traffic and its resulting health consequences. While local governments wield several tools to manage logistics-related development, few may be as consequential to public health disparities as zoning. In this study we synthesized the state of recent U.S. zoning actions related to W&D, examining their role as tools—or barriers—for advancing public health in communities historically burdened by freight traffic. Specifically, we investigated 92 zoning actions at 67 locations (51 municipalities, 9 counties, and 7 states) and assessed the level at which environmental justice (EJ) principles informed these actions. The most common zoning actions were discretionary decisions on site permits (n = 32). While we offer examples of councils considering EJ issues raised by communities, discretionary processes have drawbacks. Other actions include long-term plans (n = 17), land use definitions (n = 13), development standards (n = 12), and conditional use permitting (n = 14). We also examined four state-level policies. Many regulations restrict by-right W&D development with little indication that these changes are intended to benefit historically burdened communities. Takeaway for practice: Local jurisdictions lack a unified regulatory approach to W&D. However, long-term plans and state environmental policies guide jurisdictions with the most EJ-explicit actions. Equitable and healthy urban freight requires clear strategic land use priorities and environmental safeguards for vulnerable communities but could also include flexibility for W&D development outside conventional industrial areas. We discuss how these findings fit into contemporary debates about zoning and urban freight planning.
+AU  - Fried, Travis
+AU  - Tejada, Carla
+AU  - Dennis-Bauer, Sarah
+AU  - Bolbaatar, Otgondulam
+AU  - Goodchild, Anne
+AU  - Marshall, Julian D.
+AU  - Olmedo, Oliver
+AU  - García, Lizándro
+DO  - 10.1080/01944363.2025.2515134
+KW  - Environmental justice
+KW  - equity
+KW  - last-mile delivery
+KW  - urban freight
+KW  - zoning
+PB  - Routledge
+PY  - 2025
+TI  - Logistics of Zoning, Zoning for Logistics: Toward Healthy and Equitable Development for Urban Freight
+T2  - Journal of the American Planning Association
+ER  -
+TY  - RPRT
+AB  - In 2008 WSP was appointed as the Highways and Transport Term consultant for Wokingham Borough Council 
+(WBC). This included the use and on-going maintenance of the Wokingham Strategic Transport Model 
+(WSTM) and its use to support transport policies and scheme development. Since this appointment WSP have 
+completed two model updates and in Autumn 2015 was commissioned to progress a third: 
+WSTM2 - update of forecast scenarios to include details of Strategic Development Locations (SDLs) and 
+mitigation measures 
+WSTM3 - Update to a 2010 model base year from 2005, compliance with DfT Transport Analysis 
+Guidance, integration of a Public Transport model in VISUM and a Variable Demand Model (VDM) 
+developed using DIADEM 
+WSTM4 - Commissioned in 2015 to update the model base year to 2015 to support strategic and local 
+planning for the next plan period. The model software platform has been changed to VISUM. 
+The WSTM3 has been used for wider strategic testing, localised testing, plan policy evaluation and scheme 
+appraisal within Wokingham Borough shaping transport planning policies and strategies. This has included:  
+Park and Ride Strategy Action Plan 
+Wokingham Town Centre Parking Strategy 
+Wokingham LSTF programme evaluation along the A329 corridor 
+Public consultation on locally significant schemes for Arborfield Relief Road, North Wokingham Distributor 
+Road, South Wokingham Relief Road  
+DfT's LSTF funding (£2.75m) and funding from the Local Pinch Point Fund for: 
+A329 Coppid Beech Junction Improvement (£1.859m of £2.655m total scheme cost) 
+Station Link Road (£2.650m of £3.786m total scheme cost) 
+Section 106 contributions from developers: 
+Hatch Farm Dairies development to Winnersh Relief Road Phase 1 
+South of the M4 J10 development to Eastern Relief Road (ERR) east of Shinfield 
+Initial assessment of the viability for a Third Thames Crossing to support transport objectives of 
+Wokingham and Reading Borough Councils 
+Business Case development and Planning Applications for the Arborfield Cross Relief Road (ACRR), 
+South Wokingham Distributor Road (SWDR) and North Wokingham Distributor Road (NWDR).
+AU  - Murungi, Diana
+AU  - Burton-Brown, Lucy
+DA  - 2018/5//
+PY  - 2018
+SP  - 23
+EP  - 26
+TI  - WOKINGHAM STRATEGIC TRANSPORT MODEL 4 (WSTM4) Local Model Validation Report
+UR  - https://www.wokingham.gov.uk/sites/wokingham/files/2023-06/Wokingham%20Strategic%20Transport%20Model%204%20Local%20Model%20Validation%20Report.pdf
+ER  -
+TY  - JOUR
+AB  - Purpose-Resilience concepts in integrated urban transport refer to the performance of dealing with external shock and the ability to continue to provide transportation services of all modes. A robust transportation resilience is a goal in pursuing transportation sustainability. Under this specified context, while before the perturbations, robustness refers to the degree of the system's capability of functioning according to its design specifications on integrated modes and routes, redundancy is the degree of duplication of traffic routes and alternative modes to maintain persistency of service in case of perturbations. While after the perturbations, resourcefulness refers to the capacity to identify operational problems in the system, prioritize interventions and mobilize necessary material/ human resources to recover all the routes and modes, rapidity is the speed of complete recovery of all modes and traffic routes in the urban area. These "4R" are the most critical components of urban integrated resilience. Design/methodology/approach-The trends of transportation resilience's connotation, metrics and strategies are summarized from the literature. A framework is introduced on both qualitative characteristics and quantitative metrics of transportation resilience. Using both model-based and mode-free methodologies that measure resilience in attributes, topology and system performance provides a benchmark for evaluating the mechanism of resilience changes during the perturbation. Correspondingly, different pre-perturbation and post-perturbation strategies for enhancing resilience under multi-mode scenarios are reviewed and summarized. Findings-Cyber-physic transportation system (CPS) is a more targeted solution to resilience issues in transportation. A well-designed CPS can be applied to improve transport resilience facing different perturbations. The CPS ensures the independence and integrity of every child element within each functional zone while reacting rapidly. Originality/value-This paper provides a more comprehensive understanding of transportation resilience in terms of integrated urban transport. The fundamental characteristics and strategies for resilience are summarized and elaborated. As little research has shed light on the resilience concepts in integrated urban transport, the findings from this paper point out the development trend of a resilient transportation system for digital and data-driven management.
+AU  - Du, Yuchuan
+AU  - Wang, Han
+AU  - Gao, Qian
+AU  - Pan, Ning
+AU  - Zhao, Cong
+AU  - Liu, Chenglong
+DA  - 2022/7//
+DO  - 10.1108/srt-06-2022-0013
+IS  - 2
+PY  - 2022
+TI  - Resilience concepts in integrated urban transport: a comprehensive review on multi-mode framework
+T2  - Smart and Resilient Transportation
+VL  - 4
+ER  -
+TY  - RPRT
+AB  - This document addresses planning in uncertain times 
+when a major crisis is triggering significant changes in 
+all areas. An immediate crisis can cause further long
+term changes and increase the impact of other major 
+trends, such as climate change. Managing such 
+fundamental change processes is a key challenge for 
+urban mobility practitioners to integrate into their plans.
+ In this document, a crisis can be defined as any event 
+that may lead to an unstable and dangerous situation 
+which affects the urban mobility systems or whose 
+impact, duration and severity are affected by the urban 
+mobility system. Crises covered in this guide include, but 
+are not limited to, natural or man-made disasters, 
+pandemics, economic crises, social crises, 
+environmental crisis, terrorism, cyberattacks, 
+geopolitical crises, etc.  
+This document is the attempt to articulate generic 
+lessons from how urban mobility systems responded to 
+and were managed during the COVID-19 pandemic. 
+Since the onset of the pandemic, public transport use 
+has been severely reduced, while other modes were 
+rising in popularity. It may sound like a platitude, but it is 
+now truer than ever: Due to the inherent uncertainty of 
+future developments, cities must remain flexible. 
+The climate crisis and other major change processes 
+have been disrupting and continue to disrupt the status 
+quo cities. The necessity to handle these uncertainties 
+and impacts will increase in the years to come.  
+While COVID-19 was the initial impetus for the creation 
+of this guide, this document is intended to suggest 
+responses to this crisis but also to contribute to 
+resilience planning for any future crises. More 
+specifically, it aims at including resilience principles in 
+sustainable urban mobility planning (SUMP). 
+The first section of this topic guide first introduces the 
+concept of resilience in the context of urban mobility and 
+the importance of integrating it into the SUMP procedure. 
+It presents the 4 phases of the SUMP cycle with a 
+resilience focus.
+ The second section addresses specific resilience-related 
+themes such as car independent lifestyles, 
+electromobility, collective passenger transport, demand 
+management strategies, road safety, transport 
+telematics and urban freight. This section results from 
+hands-on experiences made by research and innovation 
+projects related to the mentioned topics proposed for 
+short-term and long-term measures, lessons learned 
+and case examples, using the COVID-19 pandemic as a 
+case study.
+AU  - Böhler, Susanne
+AU  - Brand, Ralf
+AU  - Marie Brunner, Lisa
+AU  - Juliat, Morgane
+AU  - Rupprecht Laura Babío Somoza, Siegfried
+AU  - Cré, Ivo
+AU  - Karmigianni, Maria
+AU  - Pana Tronca, Luciano
+AU  - Kao, Ping-Jen
+AU  - Bosetti, Simone
+AU  - Borgato Georgia Ayfantopoulou, Stefano
+AU  - Xenou, Elpida
+AU  - Teresa De la Cruz Eiriz, M
+AU  - Royo Caroline Busquet, Beatriz
+AU  - Fernández Balaguer, Sergio
+AU  - Burrieza Galán, Javier
+AU  - Maria Salanova, Jose
+AU  - Magkos, Evripidis
+PY  - 2021
+SP  - 37
+EP  - 37
+TI  - PLANNING FOR MORE RESILIENT AND ROBUST URBAN MOBILITY
+ER  -
+TY  - RPRT
+AB  - The transition from fossil-fuel-based transportation systems to those reliant on lowand 
+zero-emission technologies marks a crucial paradigm shift, necessitating a reevaluation of resilience metrics 
+and strategies. As infrastructure investments adapt to a changing climate and the risk of extreme events, our 
+paper identifies the complexities of resilience within the transportation sector, which now integrates a broad 
+array of energy sources like electricity, hydrogen, and synthetic fuels. This deepening integration increases 
+the complexity of maintaining transportation resilience, highlighting the inadequacy of traditional resilience 
+metrics designed for centralized systems under stable climate conditions. We propose a Multi-System 
+Dynamics (MSD) framework to develop new, system-level resilience metrics to effectively manage emerging 
+risks associated with diverse energy sources and extreme weather conditions. This study emphasizes the 
+need for robust scenario analysis and the integration of Cost-Benefit Analysis (CBA) tools that account for 
+resilience, offering a framework to evaluate the economic impacts and benefits of resilience investments. 
+Our proposed approach encompasses evaluating resilience at the system level to identify and mitigate 
+new risks introduced by the adoption of low-carbon technologies and the interconnectedness of modern 
+energy and transportation infrastructures. Through rigorous scenario analysis, we aim to support robust 
+decision-making that can withstand and adapt to the unpredictabilities of a low-carbon future. By advancing 
+these areas, the paper contributes to the strategic planning necessary to foster a resilient, sustainable 
+transportation ecosystem capable of facing both current and future challenges.
+AU  - Prinn, Ronald G
+AU  - Yeh, Sonia
+AU  - Paltsev, Sergey
+AU  - Reilly, John M
+AU  - Daniels, David
+AU  - Linares, Pedro
+DA  - 2024/7//
+PY  - 2024
+SP  - 4
+EP  - 10
+TI  - Designing Resilience for Multi-System Dynamics of Future Transportation
+UR  - http://globalchange.mit.edu/
 ER  -
