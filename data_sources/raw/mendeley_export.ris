@@ -381,3 +381,175 @@ EP  - 10
 TI  - Designing Resilience for Multi-System Dynamics of Future Transportation
 UR  - http://globalchange.mit.edu/
 ER  -
+TY  - GEN
+AB  - Kinetic pavement technology operates on a simple principle: the conversion of mechanical energy from pedestrian footsteps into electrical energy. Beneath the surface of these pavements lie a network of sensors and generators that capture the pressure and movement caused by walking. As individuals traverse these pavements, their footsteps cause slight deflections, activating the embedded mechanisms that produce electricity.
+These systems utilise various mechanisms such as electromagnetic generators, to convert mechanical energy into electrical power. The generated electricity can be stored in batteries or fed directly into local applications, such as phone charging stations, lighting, or data capture.
+AU  - PAVEGEN
+DA  - 2024/2//
+PY  - 2024
+TI  - Transforming Urban Spaces with Kinetic Pavements
+T2  - Web Article
+UR  - https://www.pavegen.com/blog/kinetic-pavements
+ER  -
+TY  - RPRT
+AB  - The aim of this report is to equip cities with 
+practical but evidence-based actions to 
+accelerate accessibility and inclusion in their 
+physical infrastructure, buildings, services 
+and operation.  
+Cities worldwide are experiencing continued 
+growth and increasing resource challenges. 
+In low-and-middle income settings, this 
+is particularly challenging, where in many 
+cases huge infrastructural development 
+is necessary. With resource constraints 
+and increasing global challenges (rising 
+inequality, climate changes, pandemics), it 
+is even more critical that accessibility and 
+inclusive design are seamlessly integrated 
+into the planning and design of cities and all 
+their functions, to ensure the effective  and 
+resilient use of resources to create liveable 
+and enjoyable cities and ensure persons 
+with disabilities are not left behind. 
+Disability policy is generally set by national 
+governments, while cities need locally
+adaptable and practical frameworks for 
+inclusive action. This suggests a need for 
+global agenda of inclusive practices for cities 
+to catalyse shared learning and collective 
+efforts, not reinvent the wheel, and help 
+cities to create their inclusive city.
+AU  - Patrick, Mikaela
+AU  - Muldowney, Annamae
+AU  - Gupta, Shivani
+AU  - McKinnon, Iain
+PY  - 2024
+SP  - 12
+EP  - 13
+TI  - Delivering Inclusive Design in Cities: A Global Action Report
+UR  - https://www.at2030.org/static/at2030_core/outputs/GDI_Hub_-_A_global_action_report_on_Delivering_Inclusive_Desi_vV9Id7s.pdf
+ER  -
+TY  - JOUR
+AB  - Most of a delivery driver’s time is spent outside the vehicle, walking the last-50-feet to reach the delivery customers while the vehicle is stationary. However, little is known about the walking component of delivery routes, while most models and algorithms used for scheduling and planning urban freight vehicles focus solely on the driving component. This study fills this research gap by providing an empirical analysis of the role of walking in last-mile deliveries. The study aims to empirically quantify delivery drivers’ walking distances and shed light on the interrelation between walking and the overall efficiency and sustainability of delivery routes. Two data samples were obtained that recorded more than 1,800 real deliveries performed by a parcel carrier and a beverage carrier in Seattle, WA. Data on both vehicle routes and drivers’ walking sub-routes were obtained and analyzed. Dwell time regression analyses and simulations were performed to understand the impact of walking on last-mile routes. The results highlighted the importance of walking across different types of deliveries. Both carriers either walked longer distances to find better parking or to serve multiple delivery customers from a single stop. The parcel carrier also showed large economies of scale in performing multiple deliveries per stop. An increase in willingness to walk showed a general reduction in the number of stops per route and in total vehicle miles traveled. The paper concludes with a discussion on the importance of walking in scheduling and planning for delivery vehicles in urban areas.
+AU  - Dalla Chiara, Giacomo
+AU  - Goodchild, Anne
+DA  - 2025/6//
+DO  - 10.1007/s11116-025-10633-6
+KW  - Freight parking
+KW  - Freight simulation
+KW  - Last-mile
+KW  - Urban freight
+KW  - Walking behavior
+PB  - Springer
+PY  - 2025
+TI  - The role of walking in last-mile urban deliveries
+T2  - Transportation
+UR  - https://urbanfreightlab.com/wp-content/uploads/2025/06/The-Role-of-Walking-in-Last-Mile-Urban-Delivery.pdf
+ER  -
+TY  - RPRT
+AB  - Cross River Partnership (CRP), The Fitzrovia Partnership, The London Borough of
+ Camden, UPS and Heal’s launched the London Light Freight Walking Freight Trial on
+ the 5th of May 2023 to support low emission last-mile deliveries in the London
+ Borough of Camden. 
+This marked the first time such a trial has taken place on public land, setting a ground
+breaking precedent for future initiatives aimed at improving urban sustainability. By
+ testing low-emission last-mile deliveries in a high-density area, the trial provided
+ valuable insights into the potential for integrating eco-friendly logistics solutions
+ within public spaces and urban infrastructure.
+ The trial formed part of the Smarter Greener Logistics Programme, funded by the
+ Department of Food and Rural Affairs (Defra). The trial, initially scheduled to conclude
+ in May 2024 after a 12-month duration, ended after 10 months in March 2024, due to
+ unforeseen works taking place at the host site, Heal’s. 
+ The London Light Freight Walking Trial aimed to assess the feasibility of walking
+ freight couriers with electric assisted trolleys as a sustainable alternative for last mile
+ deliveries in dense urban areas and pedestrianised zones. The trial focussed on
+ reducing congestion, lowering emissions and improving air quality by replacing light
+ goods vehicles with a zero-emission solution. 
+The trial also highlights the economic and operational advantages of walking freight
+ such as minimising noise pollution and better use of urban spaces. By gathering data
+ on efficiency and scalability, the trial supports the development of future sustainable
+ urban logistics, encouraging a wider adoption of low-impact delivery methods in
+ London. The Cross River Partnership launched this trial to support London’s
+ sustainability goals and explore innovative ways to improve urban logistics.
+DA  - 2025/2//
+PY  - 2025
+TI  - SGL Unpacked: The London Light Freight Walking Trial
+UR  - https://crossriverpartnership.org/wp-content/uploads/2025/02/SGL-Unpacked-The-London-Light-Walking-Freight-Trial-FINAL-1.pdf
+ER  -
+TY  - RPRT
+AB  - Historical manifest data from a parcel carrier undertaking 'next-day' (i.e. non-express) deliveries in an area of central London (mainly EC2 postcode district) were used to quantify the potential benefits of switching from the current van-based deliveries to one where porters or cycle couriers are used for the last-mile delivery, working from set drop-off points. The results suggested that over the business-as-usual case for the area of London studied, the carrier could reduce CO2 emissions by 45% (9500kg/year) and NOx emissions by 33% (7.64kg/year). Annual driving distance could be reduced by 78% (48,100km) and the amount of time spent stationary at the curbside by 45% (2558 hours/year). Scaling up the modelled emissions savings to London's Central Activities Zone, an area approximately 10 times bigger than the modelled case study area and with estimated total annual parcel delivery distance of 15 million km, could see annual emissions savings in the region of 2 million kgCO2 and 1633kgNOx if all carriers utilised porters or cycle couriers. Overall cost savings to the carrier were estimated to be in the range 34%-39%. Some practical operating challenges are identified including sorting and packing of items, parcel handover arrangements, how to deal with failed deliveries, and how to incorporate express items.
+AU  - McLeod, F
+AU  - Bektas, T
+AU  - Allen, J
+AU  - Martinez-Sykora, A
+AU  - Lamas Fernandez, C
+AU  - Bates, O
+AU  - Cheliotis, K
+AU  - Friday, A
+AU  - Piecyk, M
+AU  - Wise, S
+DA  - 2020/3//
+DO  - https://doi.org/10.1016/j.trd.2020.102311
+PY  - 2020
+TI  - Quantifying environmental and financial benefits of using porters and cycle couriers for last-mile parcel delivery Internal report by F
+UR  - https://discovery.ucl.ac.uk/id/eprint/10101730/1/portering_preprint%281%29.pdf
+ER  -
+TY  - JOUR
+AB  - Urban freight and city logistics are central to the UK economy, but face a number of economic and environmental challenges. This paper contributes to a new body of research that investigates the potential of cargo cycles to make city logistics more sustainable and explores ways to encourage their diffusion. The paper makes three key contributions. First, it develops a typology of cycle logistics based on a literature review and expert interviews in order to clarify definitions and terminology. Second, it identifies perception issues, lack of awareness and regulations as major barriers to wider implementation at city level based on snap-shot case studies. Third, it suggests a sustainable city logistics framework for urban governance, logistic operations and future research, to harness the potential of using cargo cycles for sustainable urban freight transport. The paper argues that local authorities have a key role to play in creating conditions that incentivise large logistic companies such as DHL, Hermes and TNT to integrate cargo cycles into their supply chain and hence drive a long-term modal shift. The findings of the paper are of interest to policy makers, urban logistic operators, research institutions and citizens as potential customers.
+AU  - Schliwa, Gabriele
+AU  - Armitage, Richard
+AU  - Aziz, Sara
+AU  - Evans, James
+AU  - Rhoades, Jasmine
+DA  - 2015/3//
+DO  - 10.1016/j.rtbm.2015.02.001
+PY  - 2015
+TI  - Sustainable city logistics - Making cargo cycles viable for urban freight transport
+T2  - Research in Transportation Business and Management
+VL  - 15
+ER  -
+TY  - RPRT
+AB  - Cycle-friendly design and planning: Overview www.cyclinguk.org/campaigns Briefing 2A (October 2012) 0844 736 8450 Cycle-friendly design and planning: Overview THIS BRIEFING COVERS General principles; traffic volume reduction; urban streets and rural lanes; dual carriageways, inter-urban main roads and major junctions; off-road cycle facilities; other cycling infrastructure; maintenance and funding; ensuring high and consistent quality. HEADLINE MESSAGES  Cycling UK's vision is to see a massive step-change in cycle use, so that people of all ages, backgrounds and abilities feel able to cycle safely and confidently for all types of journey.  Our neighbourhoods, town centres and road networks should be fundamentally redesigned to be 'people-friendly', with cycling not only contributing to a reduction in car dependence, but also benefiting from it. Through-traffic should be channelled onto a limited network of main roads-which should have dedicated cycle provision on or alongside them-while traffic volumes and speeds are kept low on other streets or lanes. Dedicated cycle routes and cycle-friendly access restrictions (e.g. limiting motorised access to town-centres or rat-runs) can encourage people to choose cycling over motorised travel for day-today journeys.  The cycle network should include the whole road network, supplemented by high-quality cycle routes away from the road network, e.g. through parks and open spaces, or along canals, waterfronts and disused rail corridors. Dedicated cycle provision should be safe and feel safe, showing that society positively values those who choose to cycle, and avoiding any impression that they are a 'nuisance' to be 'kept out of the way of the traffic.'  In general, Cycling UK advocates: o 20 mph limits for most built-up streets (including villages), and the widespread adoption of 40 mph or lower limits for rural lanes; o Some form of dedicated space on busier urban roads, particularly where higher speed limits are retained; and o Parallel off-road facilities for dual carriageways and inter-urban roads. However, decisions on appropriate solutions will also need to reflect local factors, such as junctions and junction layouts, and demand for parking or loading.  In most places, the main priority for significant capital spending in the years ahead will be to redesign larger junctions to be cycle-friendly, or to open up links for cyclists across (or avoiding) major barriers to safe and convenient cycle travel. Opportunities should also be sought to maximise the funding for cycling improvements through the planning system and road maintenance budgets.
+AU  - WACUK
+DA  - 2012/10//
+PY  - 2012
+TI  - Cycling UK CAMPAIGNS BRIEFING
+Cycle-friendly design and planning: Overview
+UR  - www.cyclinguk.org/campaigns
+ER  -
+TY  - RPRT
+AB  - Kerbside becoming increasingly in-demand & contested space - not possible to meet all 
+transport & place-based functions required of it 
+• National/local government, town planners & urban designers should recognise kerbside 
+needs of freight transport & its importance  
+• National/local government need to reform planning policy to ensure landlords & building 
+occupants implement infrastructure & operations to reduce freight use of kerb space & time  
+• Urban authorities should have to:- Develop kerbside strategies taking account of all stakeholders’ needs & views- Carry out regular reviews of existing kerbside provision for freight transport (suitability of quantity, 
+location & vehicle dwell time)- Engage with & develop working relationships with freight transport industry through regular 
+conversations and meetings - Better incorporate freight kerbside needs into space allocation hierarchies & streetscape designs 
+• Would help to avoid unnecessary freight vehicle km & related emissions impacts as well as 
+negative local business impacts
+ • Such efforts especially important given scale of urban development & rate of change in retail 
+& commercial land use
+AU  - Allen, Julian
+AU  - Piecyk, Maja
+DA  - 2022/11//
+PY  - 2022
+TI  - FREIGHT TRANSPORT AND THE KERBSIDE: THE FUTURE OF LOADING AND UNLOADING IN URBAN AREAS
+UR  - http://www.csrf.ac.uk/
+ER  -
+TY  - JOUR
+AB  - Electric cargo cycles are often considered a viable alternative mode for delivering goods in an urban area. However, cities in the U.S. are struggling to regulate cargo cycles, with most authorities applying the same rules used for motorized vehicles or traditional bikes. One reason is the lack of understanding of the relationship between existing regulations and transport infrastructure and cargo cycle parking and driving behaviors. In this study, we analyzed a cargo cycle pilot test in Seattle and collected detailed data on the types of infrastructure used for driving and parking. GPS data were augmented by installing a video camera on the cargo cycle and recording the types of infrastructure used (distinguishing between the travel lane, bicycle lane, and sidewalk), the time spent on each type, and the activity performed. The analysis created a first-of-its-kind, detailed profile of the parking and driving behaviors of a cargo cycle driver. We observed a strong preference for parking (80 percent of the time) and driving (37 percent of the time) on the sidewalk. We also observed that cargo cycle parking was generally short (about 4 min), and the driver parked very close to the delivery address (30 m on average) and made only one delivery. Using a random utility model, we identified the infrastructure design parameters that would incentivize drivers to not use the sidewalk and to drive more on travel and bicycle lanes. The results from this study can be used to better plan for a future in which cargo cycles are used to make deliveries in urban areas.
+AU  - Dalla Chiara, Giacomo
+AU  - Donnelly, Griffin
+AU  - Gunes, Seyma
+AU  - Goodchild, Anne
+DA  - 2022/12//
+DO  - 10.1016/j.tra.2022.103562
+PY  - 2022
+TI  - How cargo cycle drivers use the urban transport infrastructure
+T2  - Transportation Research Part A: Policy and Practice
+UR  - https://urbanfreightlab.com/publications/how-cargo-cycle-drivers-use-the-urban-transport-infrastructure/
+VL  - 167
+ER  -
