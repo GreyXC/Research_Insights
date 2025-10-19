@@ -16,7 +16,7 @@ def run_pipeline():
     keywords = extract_keywords(df_clean, "abstract")
     print("Top Keywords:", keywords)
 
-    theme_map_name = "logistics_review"  # Set your default theme map here
+    theme_map_name = "emissions_policy"  # Set your default theme map here
     print(f"\nGrouping keywords using theme map: {theme_map_name}")
     themes = extract_themes(df_clean, map_name=theme_map_name)
     for theme, words in themes.items():
