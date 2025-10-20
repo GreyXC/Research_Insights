@@ -1,31 +1,87 @@
 import pandas as pd
-from scripts.load.load_ris import load_ris
-from scripts.clean.clean_data import clean_dataframe
-from scripts.extract.extract_keywords import extract_keywords
-from scripts.visualize.plot_keywords import plot_keywords
-from scripts.analysis.analyze_insights import extract_themes
-from scripts.visualize.plot_themes import plot_theme_clusters
+from scripts.load.load_json import load_mendeley_json
+from scripts.analysis.cluster_keywords import cluster_keywords
+from scripts.visualize.plot_keywords import plot_keyword_bar_chart
+from scripts.visualize.plot_vosmap import plot_vos_map
+
+def name_clusters(clusters):
+    labels = {}
+    for cluster_id, keywords in clusters.items():
+        terms = [kw.lower() for kw, _ in keywords]
+
+        if any(t in terms for t in [
+            "resilience", "policy", "governance", "equity", "justice", "participation",
+            "decision-making", "institutional", "framework", "regulation"
+        ]):
+            labels[cluster_id] = "Governance & Equity"
+
+        elif any(t in terms for t in [
+            "flood", "infrastructure", "landslide", "critical", "risk", "disaster",
+            "vulnerability", "adaptation", "earthquake", "storm", "hazard"
+        ]):
+            labels[cluster_id] = "Infrastructure Risk & Resilience"
+
+        elif any(t in terms for t in [
+            "food", "service", "development", "access", "health", "education",
+            "basic services", "livelihood", "housing", "nutrition", "welfare"
+        ]):
+            labels[cluster_id] = "Sustainable Systems & Access"
+
+        elif any(t in terms for t in [
+            "urban", "freight", "gis", "planning", "spatial", "zoning", "mapping",
+            "open data", "smart city", "land use", "urban design"
+        ]):
+            labels[cluster_id] = "Urban Planning & Open Data"
+
+        elif any(t in terms for t in [
+            "crisis", "communication", "modeling", "game", "simulation", "scenario",
+            "response", "preparedness", "emergency", "coordination", "alert"
+        ]):
+            labels[cluster_id] = "Crisis Modeling & Communication"
+
+        elif any(t in terms for t in [
+            "mobility", "delivery", "transport", "logistics", "last mile", "routing",
+            "distribution", "vehicle", "fleet", "traffic", "modal"
+        ]):
+            labels[cluster_id] = "Urban Logistics & Mobility"
+
+        elif any(t in terms for t in [
+            "data", "simulation", "model", "network", "algorithm", "machine learning",
+            "optimization", "system", "architecture", "computational", "digital twin"
+        ]):
+            labels[cluster_id] = "Computational Modeling & Systems"
+
+        elif any(t in terms for t in [
+            "air", "pollution", "region", "hazard", "wildfire", "emissions",
+            "toxicity", "exposure", "geographic", "environmental health"
+        ]):
+            labels[cluster_id] = "Regional Environmental Hazards"
+
+        else:
+            top_term = terms[0].title() if terms else "Unknown"
+            labels[cluster_id] = f"Theme: {top_term}"
+
+    return labels
 
 def run_pipeline():
-    print("Loading RIS data...")
-    df_raw = load_ris("data_sources/raw/mendeley_export.ris")
-    df_clean = clean_dataframe(df_raw)
-    print(f"Loaded {len(df_clean)} cleaned abstracts.")
+    print("Loading Mendeley metadata...")
+    df = load_mendeley_json("data_sources/raw/mendeley_metadata.json")
+    print(f"Loaded {len(df)} entries.")
 
-    print("\nExtracting keywords...")
-    keywords = extract_keywords(df_clean, "abstract")
-    print("Top Keywords:", keywords)
+    print("\nClustering keywords from abstracts...")
+    clusters = cluster_keywords(df, column="abstract")
+    print(f"Identified {len(clusters)} keyword clusters.")
 
-    theme_map_name = "emissions_policy"  # Set your default theme map here
-    print(f"\nGrouping keywords using theme map: {theme_map_name}")
-    themes = extract_themes(df_clean, map_name=theme_map_name)
-    for theme, words in themes.items():
-        print(f"\n{theme.upper()}:")
-        for word, count in words:
-            print(f"  {word} ({count})")
+    print("\nAssigning cluster names...")
+    cluster_names = name_clusters(clusters)
+    for label, name in cluster_names.items():
+        print(f"{label}: {name}")
 
-    print("\nGenerating clustered keyword frequency plot...")
-    plot_theme_clusters(themes)  
+    print("\nGenerating bar chart...")
+    plot_keyword_bar_chart(clusters, cluster_names)
+
+    print("\nGenerating VOS-style map...")
+    plot_vos_map(clusters, cluster_names)
 
 if __name__ == "__main__":
     run_pipeline()

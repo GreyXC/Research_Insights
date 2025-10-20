@@ -1,22 +1,41 @@
 import matplotlib.pyplot as plt
+import seaborn as sns
 
-def plot_keywords(keywords, top_n=20):
-    """
-    Plots a horizontal bar chart of the top keywords.
+def plot_keyword_bar_chart(clusters, cluster_names=None):
+    # Flatten data for plotting
+    data = []
+    for cluster_id, keywords in clusters.items():
+        label = cluster_names.get(cluster_id, cluster_id) if cluster_names else cluster_id
+        for keyword, count in keywords:
+            data.append({
+                "Keyword": keyword,
+                "Count": count,
+                "Cluster": label
+            })
 
-    Parameters:
-    - keywords: List of (keyword, frequency) tuples
-    - top_n: Number of top keywords to display
-    """
-    # Select top N keywords
-    top_keywords = keywords[:top_n]
-    words = [kw[0] for kw in top_keywords]
-    counts = [kw[1] for kw in top_keywords]
+    # Create DataFrame
+    import pandas as pd
+    df = pd.DataFrame(data)
+
+    # Set up color palette
+    cluster_order = sorted(df["Cluster"].unique())
+    palette = sns.color_palette("hls", len(cluster_order))
 
     # Plot
-    plt.figure(figsize=(10, 6))
-    plt.barh(words[::-1], counts[::-1], color="skyblue")
-    plt.xlabel("Frequency")
-    plt.title("Top Keywords in Abstracts")
+    plt.figure(figsize=(14, 6))
+    sns.barplot(
+        data=df,
+        x="Keyword",
+        y="Count",
+        hue="Cluster",
+        palette=dict(zip(cluster_order, palette)),
+        dodge=False
+    )
+
+    plt.title("Top Keywords by Cluster")
+    plt.xlabel("Keyword")
+    plt.ylabel("Count")
+    plt.xticks(rotation=45, ha="right")
+    plt.legend(title="Cluster", bbox_to_anchor=(1.05, 1), loc="upper left")
     plt.tight_layout()
     plt.show()
