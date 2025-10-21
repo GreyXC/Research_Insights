@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def plot_keyword_bar_chart(clusters, cluster_names=None):
+def plot_keyword_bar_chart(clusters, cluster_names, cluster_colors=None):
     # Flatten data for plotting
     data = []
     for cluster_id, keywords in clusters.items():
