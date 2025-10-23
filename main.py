@@ -39,20 +39,27 @@ cluster_names, cluster_colors = name_clusters(clusters)
 flat_keywords = [kw for tokens in filtered_lists for kw in tokens]
 term_freq = Counter(flat_keywords)
 
-# Bar chart (optional)
+# Optional bar chart
 plot_keyword_bar_chart(clusters, cluster_names)
 
 # Build graph
 G = build_graph(clusters, cluster_names)
 
+# Filter nodes (optional threshold)
+visible_nodes = {n for n in G.nodes() if term_freq.get(n, 0) >= 5}
+G = G.subgraph(visible_nodes).copy()
+term_freq = {k: v for k, v in term_freq.items() if k in visible_nodes}
+
 # Compute layout
-pos = compute_layout(G, layout="kamada_kawai")
+pos = compute_layout(G, layout_type="spring")
 
 # Render interactive map
 plot_interactive(
     G,
     term_freq,
     pos,
-    sizing_mode="frequency",  # 'frequency' or "co-occurrence"
-    cluster_colors=cluster_colors
+    sizing_mode="frequency",
+    cluster_colors=cluster_colors,
+    strong_edge_scale=0.5,
+    weak_edge_scale=0.1
 )
