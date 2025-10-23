@@ -13,12 +13,19 @@ def curved_edge(x0, y0, x1, y1, curvature=0.05, resolution=50):
     ox, oy = -dy / norm, dx / norm
     cx, cy = mx + curvature * ox, my + curvature * oy
 
-    # Quadratic Bézier interpolation
     t_vals = np.linspace(0, 1, resolution)
     x_vals = (1 - t_vals)**2 * x0 + 2 * (1 - t_vals) * t_vals * cx + t_vals**2 * x1
     y_vals = (1 - t_vals)**2 * y0 + 2 * (1 - t_vals) * t_vals * cy + t_vals**2 * y1
 
     return list(x_vals) + [None], list(y_vals) + [None]
+
+def compute_thickness(weight, strong_scale=1.0, weak_scale=1.0, base=0.5, power=2.5, range=10):
+    scaled = base + (weight ** power) * range
+    return max(scaled * (strong_scale if weight >= 0.3 else weak_scale), 0.5)
+
+def compute_opacity(weight, strong_scale=1.0, weak_scale=1.0, base=0.1, power=2.5, range=2.0):
+    scaled = base + (weight ** power) * range
+    return min(scaled * (strong_scale if weight >= 0.3 else weak_scale), 1.0)
 
 def plot_interactive(
     G,
@@ -41,24 +48,24 @@ def plot_interactive(
         cluster_edges[cluster].append((source, target))
 
     traces = []
+    visible_nodes = set(pos.keys())
 
     for cluster, nodes in cluster_nodes.items():
         color = cluster_colors.get(cluster, "#CCCCCC") if cluster_colors else "#CCCCCC"
         node_x, node_y, node_text, node_size = [], [], [], []
 
         for node in nodes:
+            if node not in pos:
+                continue
             x, y = pos[node]
-
             if sizing_mode == "frequency":
                 freq = term_freq.get(node, 1)
                 size = max(min(math.log(freq + 1) * 10, 60), 5)
                 label = f"{node} ({freq})"
-
             elif sizing_mode == "co-occurrence":
                 weight_sum = sum(G[node][nbr].get("weight", 1) for nbr in G.neighbors(node))
                 size = max(min(math.log(weight_sum + 1) * 10, 60), 5)
                 label = f"{node} ({int(weight_sum)})"
-
             else:
                 size = 10
                 label = node
@@ -87,25 +94,16 @@ def plot_interactive(
         traces.append(node_trace)
 
         for source, target in cluster_edges[cluster]:
+            if source not in visible_nodes or target not in visible_nodes:
+                continue
             x0, y0 = pos[source]
             x1, y1 = pos[target]
-
             distance = np.sqrt((x1 - x0)**2 + (y1 - y0)**2)
             resolution = int(min(max(distance * 0.5, 10), 30))
-
             cx, cy = curved_edge(x0, y0, x1, y1, curvature=0.15, resolution=resolution)
-
             weight = G[source][target].get("weight_norm", 0.5)
-
-            # Stronger edges: thicker and darker
-            thickness = max(0.5 + (weight**2.5) * 10 * strong_edge_scale, 0.5)
-            opacity = min(0.1 + (weight**2.5) * 2.0 * strong_edge_scale, 1.0)
-
-            # Weaker edges: thinner and lighter
-            if weight < 0.3:
-                thickness *= weak_edge_scale
-                opacity *= weak_edge_scale
-
+            thickness = compute_thickness(weight, strong_edge_scale, weak_edge_scale)
+            opacity = compute_opacity(weight, strong_edge_scale, weak_edge_scale)
             color = f"rgba(100, 100, 100, {opacity:.3f})"
 
             edge_trace = go.Scatter(
