@@ -51,7 +51,7 @@ G = G.subgraph(visible_nodes).copy()
 term_freq = {k: v for k, v in term_freq.items() if k in visible_nodes}
 
 # Compute layout
-pos = compute_layout(G, layout_type="spring")
+pos = compute_layout(G, layout_type="kamada")
 
 # Render interactive map
 plot_interactive(
