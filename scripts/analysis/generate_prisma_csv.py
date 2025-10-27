@@ -1,91 +1,102 @@
-import json
 import csv
+import json
 from pathlib import Path
 
-# Paths
-COUNTS_PATH = Path("data_sources_raw/logs/prisma_counts.json")
-CSV_PATH = Path("data_sources/raw/logs/prisma_flow.csv")
-
 def generate_csv():
-    if not COUNTS_PATH.exists():
+    # Define input and output paths
+    counts_path = Path("data_sources_raw/logs/prisma_counts.json")
+    output_path = Path("data_sources_raw/logs/prisma_diagram.csv")
+
+    # Check if the counts file exists
+    if not counts_path.exists():
         raise FileNotFoundError("Missing prisma_counts.json. Run count_prisma_stages.py first.")
 
-    with COUNTS_PATH.open(encoding="utf-8") as f:
-        c = json.load(f)
+    # Load PRISMA counts
+    with counts_path.open("r", encoding="utf-8") as f:
+        counts = json.load(f)
 
+    # Define rows in PRISMA format
     rows = [
         {
-            "data": "Records identified from: Mendeley",
-            "node": "identification",
-            "box": "records_identified",
-            "description": "Metadata records retrieved from Mendeley",
-            "boxtext": f"{c['identified']} records identified",
-            "tooltips": "Initial records retrieved from database",
-            "url": ""
+            "data": "records_identified",
+            "node": "node7",
+            "box": "box2",
+            "description": "Records identified from: Mendeley",
+            "boxtext": "Records identified",
+            "tooltips": "Metadata records retrieved from Mendeley",
+            "url": "NA",
+            "n": counts.get("records_identified", 0)
         },
         {
-            "data": "Records removed before screening: duplicates",
-            "node": "screening",
-            "box": "duplicates_removed",
-            "description": "Records removed due to duplicate DOIs",
-            "boxtext": f"{c['duplicates_removed']} duplicates removed",
+            "data": "duplicates",
+            "node": "node8",
+            "box": "box3",
+            "description": "Duplicate records removed",
+            "boxtext": "Duplicate records",
             "tooltips": "Removed based on duplicate identifiers",
-            "url": ""
+            "url": "NA",
+            "n": counts.get("duplicates_removed", 0)
         },
         {
-            "data": "Records screened",
-            "node": "screening",
-            "box": "records_screened",
-            "description": "Records screened for relevance and completeness",
-            "boxtext": f"{c['screened']} records screened",
+            "data": "records_screened",
+            "node": "node9",
+            "box": "box4",
+            "description": "Records screened for relevance",
+            "boxtext": "Records screened",
             "tooltips": "Screening based on title, abstract, and year",
-            "url": ""
+            "url": "NA",
+            "n": counts.get("records_screened", 0)
         },
         {
-            "data": "Records excluded",
-            "node": "screening",
-            "box": "records_excluded",
-            "description": "Excluded due to missing or irrelevant metadata",
-            "boxtext": f"{c['excluded_screening']} records excluded",
-            "tooltips": "Missing abstract, title, or invalid year",
-            "url": ""
+            "data": "records_excluded",
+            "node": "node10",
+            "box": "box5",
+            "description": "Records excluded during screening",
+            "boxtext": "Records excluded",
+            "tooltips": "Excluded due to missing abstract, title, or invalid year",
+            "url": "NA",
+            "n": counts.get("records_excluded", 0)
         },
         {
-            "data": "Reports assessed for eligibility",
-            "node": "eligibility",
-            "box": "full_text_articles",
-            "description": "Remaining records assessed for full-text eligibility",
-            "boxtext": f"{c['eligibility']} reports assessed",
+            "data": "reports_assessed",
+            "node": "node13",
+            "box": "box8",
+            "description": "Reports assessed for eligibility",
+            "boxtext": "Reports assessed",
             "tooltips": "Eligibility based on scope and availability",
-            "url": ""
+            "url": "NA",
+            "n": counts.get("reports_assessed", 0)
         },
         {
-            "data": "Reports excluded",
-            "node": "eligibility",
-            "box": "reports_excluded",
-            "description": "Excluded during full-text eligibility assessment",
-            "boxtext": f"{c['excluded_eligibility']} reports excluded",
+            "data": "reports_excluded",
+            "node": "node14",
+            "box": "box9",
+            "description": "Reports excluded during eligibility",
+            "boxtext": "Reports excluded",
             "tooltips": "Out of scope or inaccessible",
-            "url": ""
+            "url": "NA",
+            "n": counts.get("reports_excluded", 0)
         },
         {
-            "data": "Studies included in synthesis",
-            "node": "inclusion",
-            "box": "studies_included",
-            "description": "Final records included in keyword synthesis",
-            "boxtext": f"{c['included']} studies included",
+            "data": "studies_included",
+            "node": "node15",
+            "box": "box10",
+            "description": "Studies included in synthesis",
+            "boxtext": "Studies included",
             "tooltips": "Included in final analysis and visualisation",
-            "url": ""
+            "url": "NA",
+            "n": counts.get("studies_included", 0)
         }
     ]
 
-    CSV_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with CSV_PATH.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=[
-            "data", "node", "box", "description", "boxtext", "tooltips", "url"
-        ])
+    # Write to CSV
+    with output_path.open("w", newline="", encoding="utf-8") as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=["data", "node", "box", "description", "boxtext", "tooltips", "url", "n"])
         writer.writeheader()
         writer.writerows(rows)
 
+    print(f"PRISMA CSV saved to: {output_path.resolve()}")
+
+# Entry point
 if __name__ == "__main__":
     generate_csv()
