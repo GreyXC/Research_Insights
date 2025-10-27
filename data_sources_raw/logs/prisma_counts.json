@@ -1,9 +1,9 @@
 {
-  "identified": 52,
+  "identified": 61,
   "duplicates_removed": 0,
+  "screened": 61,
   "excluded_screening": 9,
+  "eligibility": 52,
   "excluded_eligibility": 0,
-  "screened": 52,
-  "eligibility": 43,
-  "included": 43
+  "included": 52
 }

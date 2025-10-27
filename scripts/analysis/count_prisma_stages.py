@@ -4,8 +4,8 @@ from pathlib import Path
 # Paths
 METADATA_PATH = Path("data_sources/raw/mendeley_metadata.json")
 CLEANED_PATH = Path("data_sources/raw/cleaned_metadata.json")
-DECISIONS_PATH = Path("data_sources/raw/logs/prisma_decisions.jsonl")
-COUNTS_PATH = Path("data_sources/raw/logs/prisma_counts.json")
+DECISIONS_PATH = Path("data_sources_raw/logs/prisma_decisions.jsonl")
+COUNTS_PATH = Path("data_sources_raw/logs/prisma_counts.json")
 
 def count_prisma_stages():
     # Load metadata

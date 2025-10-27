@@ -2,8 +2,9 @@ import re
 import subprocess
 from pathlib import Path
 from collections import Counter
+import time
 
-# Reset PRISMA logs
+# Reset PRISMA logs BEFORE any subprocess runs
 log_dir = Path("data_sources_raw/logs")
 counts_path = log_dir / "prisma_counts.json"
 decisions_path = log_dir / "prisma_decisions.jsonl"
@@ -13,9 +14,19 @@ for path in [counts_path, decisions_path]:
         path.unlink()
         print(f"Reset: {path.name}")
 
-# Refresh PRISMA tracking: clean data, count stages, generate CSV
+# Run cleaning and count scripts
 subprocess.run(["python", "-m", "scripts.clean.clean_data"], check=True)
 subprocess.run(["python", "-m", "scripts.analysis.count_prisma_stages"], check=True)
+
+# Wait for prisma_counts.json to exist and be non-empty
+for _ in range(20):
+    if counts_path.exists() and counts_path.stat().st_size > 0:
+        break
+    time.sleep(0.2)
+else:
+    raise FileNotFoundError("prisma_counts.json not found or empty after count_prisma_stages.py")
+
+# Now safe to generate CSV
 subprocess.run(["python", "-m", "scripts.analysis.generate_prisma_csv"], check=True)
 
 # Load modules
