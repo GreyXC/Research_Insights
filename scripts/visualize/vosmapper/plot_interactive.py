@@ -34,7 +34,8 @@ def plot_interactive(
     sizing_mode="co-occurrence",
     cluster_colors=None,
     strong_edge_scale=1.0,
-    weak_edge_scale=1.0
+    weak_edge_scale=1.0,
+    edge_threshold=0.05
 ):
     cluster_nodes = defaultdict(list)
     cluster_edges = defaultdict(list)
@@ -52,12 +53,14 @@ def plot_interactive(
 
     for cluster, nodes in cluster_nodes.items():
         color = cluster_colors.get(cluster, "#CCCCCC") if cluster_colors else "#CCCCCC"
-        node_x, node_y, node_text, node_size = [], [], [], []
+        node_x, node_y, node_text, node_size, node_border_color, node_border_width = [], [], [], [], [], []
 
         for node in nodes:
             if node not in pos:
                 continue
             x, y = pos[node]
+
+            # Sizing logic
             if sizing_mode == "frequency":
                 freq = term_freq.get(node, 1)
                 size = max(min((freq + 1) ** 1.2 * 1, 500), 0.5)
@@ -70,19 +73,60 @@ def plot_interactive(
                 size = 0.5
                 label = node
 
+            # Outline styling for isolated nodes
+            is_isolated = G.degree(node) == 0
+            border_color = "#999999" if is_isolated else "black"
+            border_width = 2 if is_isolated else 0.5
+
             node_x.append(x)
             node_y.append(y)
             node_size.append(size)
             node_text.append(label)
+            node_border_color.append(border_color)
+            node_border_width.append(border_width)
 
-        node_trace = go.Scatter(
-            x=node_x, y=node_y,
+        # Separate regular and isolated nodes
+        regular_x, regular_y, regular_text, regular_size = [], [], [], []
+        isolated_x, isolated_y, isolated_text, isolated_size = [], [], [], []
+
+        for i, node in enumerate(nodes):
+            if node not in pos:
+                continue
+            x, y = pos[node]
+            is_isolated = G.degree(node) == 0
+
+            if sizing_mode == "frequency":
+                freq = term_freq.get(node, 1)
+                size = max(min((freq + 1) ** 1.2 * 1, 500), 0.5)
+                label = f"{node} ({freq})"
+            elif sizing_mode == "co-occurrence":
+                weight_sum = sum(G[node][nbr].get("weight", 1) for nbr in G.neighbors(node))
+                size = max(min((weight_sum + 1) ** 1.1 * 1, 500), 0.5)
+                label = f"{node} ({int(weight_sum)})"
+            else:
+                size = 0.5
+                label = node
+
+            if is_isolated:
+                isolated_x.append(x)
+                isolated_y.append(y)
+                isolated_text.append(label)
+                isolated_size.append(size)
+            else:
+                regular_x.append(x)
+                regular_y.append(y)
+                regular_text.append(label)
+                regular_size.append(size)
+
+        # Regular node trace
+        traces.append(go.Scatter(
+            x=regular_x, y=regular_y,
             mode='markers+text',
-            text=node_text,
+            text=regular_text,
             textposition='top center',
             hoverinfo='text',
             marker=dict(
-                size=node_size,
+                size=regular_size,
                 color=color,
                 line=dict(width=0.5, color='black')
             ),
@@ -90,8 +134,25 @@ def plot_interactive(
             legendgroup=cluster,
             showlegend=True,
             visible=True
-        )
-        traces.append(node_trace)
+        ))
+
+        # Isolated node trace
+        traces.append(go.Scatter(
+            x=isolated_x, y=isolated_y,
+            mode='markers+text',
+            text=isolated_text,
+            textposition='top center',
+            hoverinfo='text',
+            marker=dict(
+                size=isolated_size,
+                color=color,
+                line=dict(width=10, color="#B91818")
+            ),
+            name=f"{cluster} (isolated)",
+            legendgroup=cluster,
+            showlegend=False,
+            visible=True
+        ))
 
         for source, target in cluster_edges[cluster]:
             if source not in visible_nodes or target not in visible_nodes:
