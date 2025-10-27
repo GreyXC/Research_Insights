@@ -70,12 +70,28 @@ for cluster_id, keywords in clusters.items():
     if fallback_nodes:
         visible_nodes.add(fallback_nodes[0])
 
+# Ensure every visible node has a frequency entry
+for node in visible_nodes:
+    term_freq.setdefault(node, 1)
+
 # Rebuild graph and term_freq
 G = G.subgraph(visible_nodes).copy()
 term_freq = {k: v for k, v in term_freq.items() if k in visible_nodes}
 
+# Tag isolated nodes (no edges)
+for node in G.nodes():
+    if G.degree(node) == 0:
+        G.nodes[node]["isolated"] = True
+
+# Identify isolated nodes (no edges)
+isolated_nodes = [n for n in G.nodes() if G.degree(n) == 0]
+
+# Optional: assign a fallback edge weight or tag for styling
+for node in isolated_nodes:
+    G.nodes[node]["isolated"] = True
+
 # Compute layout
-pos = compute_layout(G, layout_type="kamada")
+pos = compute_layout(G, layout_type="kamada") # "kamada" or "spring", "spectral", "circular"
 
 # Render interactive map
 plot_interactive(
@@ -85,5 +101,6 @@ plot_interactive(
     sizing_mode="frequency",  # or "co-occurrence"
     cluster_colors=cluster_colors,
     strong_edge_scale=0.5,
-    weak_edge_scale=0.1
+    weak_edge_scale=0.5,
+    edge_threshold=0.1
 )
