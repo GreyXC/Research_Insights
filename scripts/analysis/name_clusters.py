@@ -66,6 +66,7 @@ def name_clusters(clusters):
             label = "Regional Environmental Hazards"
 
         else:
+            # generate label from top term as a fallback to catch keywords that don't fit above
             top_term = terms[0].title() if terms else "Unknown"
             label = f"Theme: {top_term}"
 
