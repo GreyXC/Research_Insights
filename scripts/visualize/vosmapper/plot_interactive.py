@@ -60,14 +60,14 @@ def plot_interactive(
             x, y = pos[node]
             if sizing_mode == "frequency":
                 freq = term_freq.get(node, 1)
-                size = max(min(math.log(freq + 1) * 10, 60), 0.5)
+                size = max(min((freq + 1) ** 1.2 * 1, 500), 0.5)
                 label = f"{node} ({freq})"
             elif sizing_mode == "co-occurrence":
                 weight_sum = sum(G[node][nbr].get("weight", 1) for nbr in G.neighbors(node))
-                size = max(min(math.log(weight_sum + 1) * 10, 60), 0.5)
+                size = max(min((weight_sum + 1) ** 1.1 * 1, 500), 0.5)
                 label = f"{node} ({int(weight_sum)})"
             else:
-                size = 10
+                size = 0.5
                 label = node
 
             node_x.append(x)
