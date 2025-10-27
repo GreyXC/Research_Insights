@@ -45,6 +45,7 @@ df = load_mendeley_json("data_sources/raw/cleaned_metadata.json")
 available_fields = ["title", "abstract", "keywords", "subject_area"]
 existing_fields = [col for col in available_fields if col in df.columns]
 
+
 # Extract all individual words from metadata fields
 def extract_words(row):
     words = []
