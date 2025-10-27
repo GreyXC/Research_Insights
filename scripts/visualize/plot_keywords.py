@@ -32,7 +32,7 @@ def plot_keyword_bar_chart(clusters, cluster_names, cluster_colors=None):
         dodge=False
     )
 
-    plt.title("Top Keywords by Cluster")
+    plt.title("Top Keywords by Theme")
     plt.xlabel("Keyword")
     plt.ylabel("Count")
     plt.xticks(rotation=45, ha="right")
