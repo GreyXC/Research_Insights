@@ -1,5 +1,35 @@
 import re
+import subprocess
+from pathlib import Path
 from collections import Counter
+import time
+
+# Reset PRISMA logs BEFORE any subprocess runs
+log_dir = Path("data_sources_raw/logs")
+counts_path = log_dir / "prisma_counts.json"
+decisions_path = log_dir / "prisma_decisions.jsonl"
+
+for path in [counts_path, decisions_path]:
+    if path.exists():
+        path.unlink()
+        print(f"Reset: {path.name}")
+
+# Run cleaning and count scripts
+subprocess.run(["python", "-m", "scripts.clean.clean_data"], check=True)
+subprocess.run(["python", "-m", "scripts.analysis.count_prisma_stages"], check=True)
+
+# Wait for prisma_counts.json to exist and be non-empty
+for _ in range(20):
+    if counts_path.exists() and counts_path.stat().st_size > 0:
+        break
+    time.sleep(0.2)
+else:
+    raise FileNotFoundError("prisma_counts.json not found or empty after count_prisma_stages.py")
+
+# Generate PRISMA2020-compliant CSV
+subprocess.run(["python", "-m", "scripts.analysis.generate_prisma_csv"], check=True)
+
+# Load modules
 from scripts.load.load_json import load_mendeley_json
 from scripts.analysis.cluster_keywords import cluster_keywords
 from scripts.analysis.name_clusters import name_clusters
@@ -8,8 +38,8 @@ from scripts.visualize.vosmapper.build_graph import build_graph
 from scripts.visualize.vosmapper.compute_layout import compute_layout
 from scripts.visualize.vosmapper.plot_interactive import plot_interactive
 
-# Load metadata
-df = load_mendeley_json("data_sources/raw/mendeley_metadata.json")
+# Load cleaned metadata
+df = load_mendeley_json("data_sources/raw/cleaned_metadata.json")
 
 # Dynamically select available metadata fields
 available_fields = ["title", "abstract", "keywords", "subject_area"]
@@ -83,22 +113,15 @@ for node in G.nodes():
     if G.degree(node) == 0:
         G.nodes[node]["isolated"] = True
 
-# Identify isolated nodes (no edges)
-isolated_nodes = [n for n in G.nodes() if G.degree(n) == 0]
-
-# Optional: assign a fallback edge weight or tag for styling
-for node in isolated_nodes:
-    G.nodes[node]["isolated"] = True
-
 # Compute layout
-pos = compute_layout(G, layout_type="kamada") # "kamada" or "spring", "spectral", "circular"
+pos = compute_layout(G, layout_type="kamada")
 
 # Render interactive map
 plot_interactive(
     G,
     term_freq,
     pos,
-    sizing_mode="frequency",  # 'frequency' or "co-occurrence"
+    sizing_mode="frequency",
     cluster_colors=cluster_colors,
     strong_edge_scale=0.5,
     weak_edge_scale=0.5,
