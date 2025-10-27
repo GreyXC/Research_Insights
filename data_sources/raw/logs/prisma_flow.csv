@@ -1,8 +1,8 @@
-data,node,n,note
-Records identified from: Mendeley Metadata,identification,61,
-Records removed before screening: duplicates,screening,0,Duplicate DOIs
-Records screened,screening,61,
-Records excluded,screening,21,Irrelevant or incomplete
-Reports assessed for eligibility,eligibility,40,Aligned with scope
-Reports excluded,eligibility,0,Out of scope
-Studies included in synthesis,inclusion,40,relevant studies for analysis
+data,node,box,description,boxtext,tooltips,url
+Records identified from: Mendeley,identification,records_identified,Metadata records retrieved from Mendeley,52 records identified,Initial records retrieved from database,
+Records removed before screening: duplicates,screening,duplicates_removed,Records removed due to duplicate DOIs,0 duplicates removed,Removed based on duplicate identifiers,
+Records screened,screening,records_screened,Records screened for relevance and completeness,52 records screened,"Screening based on title, abstract, and year",
+Records excluded,screening,records_excluded,Excluded due to missing or irrelevant metadata,9 records excluded,"Missing abstract, title, or invalid year",
+Reports assessed for eligibility,eligibility,full_text_articles,Remaining records assessed for full-text eligibility,43 reports assessed,Eligibility based on scope and availability,
+Reports excluded,eligibility,reports_excluded,Excluded during full-text eligibility assessment,0 reports excluded,Out of scope or inaccessible,
+Studies included in synthesis,inclusion,studies_included,Final records included in keyword synthesis,43 studies included,Included in final analysis and visualisation,
