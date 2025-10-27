@@ -98,7 +98,7 @@ plot_interactive(
     G,
     term_freq,
     pos,
-    sizing_mode="frequency",  # or "co-occurrence"
+    sizing_mode="frequency",  # 'frequency' or "co-occurrence"
     cluster_colors=cluster_colors,
     strong_edge_scale=0.5,
     weak_edge_scale=0.5,

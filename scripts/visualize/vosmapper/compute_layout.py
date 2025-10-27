@@ -1,6 +1,6 @@
 import networkx as nx
 
-def compute_layout(G, layout_type="spring", seed=1472, k=0.5, iterations=500):
+def compute_layout(G, layout_type="spring", seed=1472, k=50, iterations=1000):
     layout_type = layout_type.lower()
 
     """
