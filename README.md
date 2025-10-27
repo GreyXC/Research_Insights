@@ -1,7 +1,24 @@
-# _This is a data miner for mendeley_
+# _This is a data miner and data visualiser for mendeley_
 
+## Purpose:
 
-So that I can take mendeley paper collections and extract keywords between all of them
+The aim is to speed up research insights amongst me conducting a thorough thematic analysis, and back my claims via such tools like:
+
+- Standardised frameworks
+- Keyword frequencies 
+- Frequency co-occurrences amongst reports
+- Co-occurrence VOS connections between reports
+
+---
+
+The general flow:
+
+1. extract mendeley collection using mendeley API
+2. Clean, normalise and filter the data using PRISMA 2020 Framework and general flattening techniques
+3. export clean .csv for containing PRISMA reporting data, for use in PRISMA flowchart diagram (online at: https://estech.shinyapps.io/prisma_flowdiagram/)
+4. extract keywords and cluster them into themematic groups
+5. created a bar chart for the most frequent key words of out of all the groups
+6. use keyword frequencies and link them with co-occurrence traces on a VOS Map (adjustable between frequency and co-occurrence node filtering)
 
 ---
 
