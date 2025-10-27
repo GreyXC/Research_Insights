@@ -1,8 +1,0 @@
-data,node,box,description,boxtext,tooltips,url,n
-records_identified,node7,box2,Records identified from: Mendeley,Records identified,Metadata records retrieved from Mendeley,NA,0
-duplicates,node8,box3,Duplicate records removed,Duplicate records,Removed based on duplicate identifiers,NA,0
-records_screened,node9,box4,Records screened for relevance,Records screened,"Screening based on title, abstract, and year",NA,0
-records_excluded,node10,box5,Records excluded during screening,Records excluded,"Excluded due to missing abstract, title, or invalid year",NA,0
-reports_assessed,node13,box8,Reports assessed for eligibility,Reports assessed,Eligibility based on scope and availability,NA,0
-reports_excluded,node14,box9,Reports excluded during eligibility,Reports excluded,Out of scope or inaccessible,NA,0
-studies_included,node15,box10,Studies included in synthesis,Studies included,Included in final analysis and visualisation,NA,0

@@ -26,7 +26,7 @@ for _ in range(20):
 else:
     raise FileNotFoundError("prisma_counts.json not found or empty after count_prisma_stages.py")
 
-# Now safe to generate CSV
+# Generate PRISMA2020-compliant CSV
 subprocess.run(["python", "-m", "scripts.analysis.generate_prisma_csv"], check=True)
 
 # Load modules
@@ -44,7 +44,6 @@ df = load_mendeley_json("data_sources/raw/cleaned_metadata.json")
 # Dynamically select available metadata fields
 available_fields = ["title", "abstract", "keywords", "subject_area"]
 existing_fields = [col for col in available_fields if col in df.columns]
-
 
 # Extract all individual words from metadata fields
 def extract_words(row):
@@ -114,22 +113,15 @@ for node in G.nodes():
     if G.degree(node) == 0:
         G.nodes[node]["isolated"] = True
 
-# Identify isolated nodes (no edges)
-isolated_nodes = [n for n in G.nodes() if G.degree(n) == 0]
-
-# Optional: assign a fallback edge weight or tag for styling
-for node in isolated_nodes:
-    G.nodes[node]["isolated"] = True
-
 # Compute layout
-pos = compute_layout(G, layout_type="kamada")  # "kamada", "spring", "spectral", "circular"
+pos = compute_layout(G, layout_type="kamada")
 
 # Render interactive map
 plot_interactive(
     G,
     term_freq,
     pos,
-    sizing_mode="frequency",  # 'frequency' or 'co-occurrence'
+    sizing_mode="frequency",
     cluster_colors=cluster_colors,
     strong_edge_scale=0.5,
     weak_edge_scale=0.5,
