@@ -1,0 +1,740 @@
+[
+  {
+    "title":"An analysis of the causes and circumstances of flood disaster deaths",
+    "authors":[
+      "Jonkman",
+      "Kelman"
+    ],
+    "year":"2005",
+    "type":"journal",
+    "source":"Disasters",
+    "keywords":null,
+    "abstract":"The objective of this paper is to investigate and to improve understanding of the causes and circumstances of flood disaster deaths. A standardised method of classfiying flood deaths is proposed and the difficulties associated with comparing and assessing existing information on flood deaths are discussed. Thirteen flood cases from Europe and the United States, resulting in 247 flood disaster fatalities, were analysed and taken as indicative of flood disaster deaths. Approximately two-thirds of the deaths occurred through drowning. Thus, a substantial number of flood disaster fatalities are not related to drowning. Furthermore, males are highly vulnerable to dying infloods and unnecessary risk-taking behaviour contributes significantly to flood disaster deaths. Based on these results, recommendations are made to prevent loss of life in floods. To provide a more solid basis for the formulation of prevention strategies, better systematic recording of flood fatalities is suggested, especially those caused by different types of floods in all countries. \u00a9 Overseas Development Institute, 2005."
+  },
+  {
+    "title":"Smart Home Security Solutions using Facial Authentication and Speaker Recognition through Artificial Neural Networks",
+    "authors":[
+      "Saxena",
+      "Varshney"
+    ],
+    "year":"2021",
+    "type":"journal",
+    "source":"International Journal of Cognitive Computing in Engineering",
+    "keywords":null,
+    "abstract":"In this paper, a holistic solution for Smart Home Security is implemented which helps in improving privacy and security using two independent and emerging technologies of facial authentication and speech recognition. With the help of the proposed application, the user will be able to monitor his home through his mobile phone\/tablet\/PC. This method involves facial recognition by taking a real-time feed of the person at the door and then analysis of the live feed is carried out where the face recognised is authenticated with the data of owners in the database which matches the face to a name. Speech recognition has been used to doubly check the output of facial authentication. The entire process is carried out with the help of neural networks. If there's an unauthorized person at the door, an alert will be triggered and the owner will get a notification of this unauthorized access and would get to choose whether they want to add the person to their database or not. The overall accuracy of the proposed model is 82.71% with an accuracy of 87.5 % for Facial Authentication and 84.62 % for Speaker Authentication. Along with this, the main novelty for the research is to identify faces through masks which will help to properly verify the identity of the person and would prove to be beneficial not only in the current COVID-19 scenario but also in cases of thefts and burglaries by alerting the owner about the anomaly. Thus this smart security system can be extended to applications like banks, malls, offices, etc., and shall not be limited to only homes."
+  },
+  {
+    "title":"Consumer attitude towards sustainability of fast fashion products in the uk",
+    "authors":[
+      "Zhang",
+      "Zhang",
+      "Zhou"
+    ],
+    "year":"2021",
+    "type":"journal",
+    "source":"Sustainability (Switzerland)",
+    "keywords":null,
+    "abstract":"This paper attempts to provide an up-to-date depiction and analysis of the consumer\u2019s attitude towards sustainability of fast fashion products in the UK. Four related strands of literature are reviewed to establish a tri-component model of attitude (ABC), i.e., Affective, Behavioural and Cognitive. A wide set of determinants for attitude is identified, including income, price, gender, culture, religion, age, etc. Based on this conceptual framework, an online questionnaire is designed and sent to university students and alumni in the UK, returning 128 valid responses. Both descriptive statistics and regression analysis (oprobit) are employed to shed light on the three components of attitude towards sustainability. It is found that cognitive and behavioural components converge across cultures and religions, but the affective component remains significantly diverse. Employment status contributes to the awareness, decision and feeling of sustainability features, but gender only matters for purchase decisions. In general, there is an improved cognitive and affective awareness of sustainability, but this does not automatically translate to purchase behaviour. Policy interventions like taxes and subsidies are still needed to foster sustainability in the fast fashion industry."
+  },
+  {
+    "title":"Floods have become less deadly: an analysis of global flood fatalities 1975\u20132022",
+    "authors":[
+      "Jonkman",
+      "Curran",
+      "Bouwer"
+    ],
+    "year":"2024",
+    "type":"journal",
+    "source":"Natural Hazards",
+    "keywords":null,
+    "abstract":"Floods are amongst the most frequent disasters in terms of human and economic impacts. This study provides new insights into the frequency of loss of life at the global scale, mortality fractions of the population exposed to floods, and underlying trends. A dataset is compiled based on the EM-DAT disaster database covering the period 1975 until 2022, extending previous studies on this topic. Flood impact data are analysed over spatial, temporal and economic scales, decomposed in various flood types and compared with other natural disasters. Floods are the most frequent natural disasters up to 1000 fatalities, and flash floods lead to the highest mortality fractions per event, i.e. the number of deaths in an event relative to the exposed population. Despite population growth and increasing flood hazards, the average number of fatalities per event has declined over time. Mortality fractions per event have decreased over time for middle- and high-middle-income countries, but increased for low-income countries. This highlights the importance of continuing and expanding risk reduction and adaptation efforts."
+  },
+  {
+    "title":"Investigating the non-linear impacts of seven types of natural disasters on inbound tourism: Insights from the EM-DAT database",
+    "authors":[
+      "Biardeau",
+      "Sahli"
+    ],
+    "year":"2024",
+    "type":"journal",
+    "source":"Tourism Economics",
+    "keywords":null,
+    "abstract":"The growing frequency and intensity of disasters due to climate change present considerable risks for tourist destinations, necessitating comprehensive research on their economic impacts. This study investigates the contemporaneous dose-response relationship between natural disasters and inbound tourism by estimating a flexible binned regression model. The analysis is conducted in a panel data setting from 1995 to 2019, spanning over 150 countries and accounting for the impact of more than 8,300 individual disasters from seven distinct categories. Examining seven natural disaster types (earthquakes, epidemics, extreme temperature events, floods, landslides, storms and wildfires) and five disaster impact metrics reflecting their human and economic impacts, the analysis reveals that increased disaster impact, except for earthquakes, correlates with reduced levels of tourist arrivals and travel expenditure. The paper provides valuable insights into the relationship between disasters, climate change, and tourism economics, informing disaster mitigation strategies and broader climate change assessments for tourism sector policy and decision-makers."
+  },
+  {
+    "title":"Towards Design Guidelines for IoT Applications considering Elderly Users",
+    "authors":[
+      "Rodrigues",
+      "Fortes",
+      "Rodrigues"
+    ],
+    "year":"2023",
+    "type":"conference_proceedings",
+    "source":"ACM International Conference Proceeding Series",
+    "keywords":null,
+    "abstract":"The Internet of Things (IoT) has become a relevant topic in Human-Computer Interaction (HCI), as it has introduced a new technological paradigm capable of transforming how people experience and use technology. Despite the significant growth in the number of connected devices in IoT scenarios, not all users have the same ability to benefit from this technology. Population aging is a global phenomenon that occurs at an accelerated pace. Thus, elderly users (60+) also must be able to use technologies like IoT. In this regard, design guidelines play a crucial role. Therefore, in this paper, we have established a set of guidelines to support designers and developers in constructing IoT solutions, focusing on elderly users and considering requirements such as usability and accessibility. The guidelines were created following several steps, namely: literature review, interviews with elderly users and companies, expert evaluation steps, and conducting a proof of concept. The guidelines were subjected to cycles of evaluations and refinements that resulted in new versions of the set. The results of the evaluations showed that the current version of the guidelines (version 2.1) supports the development of IoT applications since developers, when using them, consider accessibility and usability issues more effectively for elders."
+  },
+  {
+    "title":"Environmental Impact of Footwear Using Life Cycle Assessment\u2014Case Study of Professional Footwear",
+    "authors":[
+      "Sinha",
+      "Sadat",
+      "Sayem",
+      "Majumdar",
+      "Boggia",
+      "Bodoga",
+      "Nistorac",
+      "Loghin",
+      "Isopescu"
+    ],
+    "year":"2024",
+    "type":"journal",
+    "source":"Sustainability 2024, Vol. 16, Page 6094",
+    "keywords":[
+      "carbon footprint",
+      "cradle",
+      "environmental management",
+      "grave approach",
+      "sustainability",
+      "to"
+    ],
+    "abstract":"Life cycle assessment (LCA) is a method for assessing the environmental impact of a product, activity, or system across all the stages of its life cycle. LCA can identify the activities with a major impact on the environment throughout the life cycle of a product. To analyze the environmental implications of footwear, the LCA was applied to a pair of shoes designed for professional use. In this paper, the impact of a single pair of shoes was studied. Every year, footwear production worldwide is over 22 billion pairs, which has a significant impact on the environment. In this case study, the \u201ccradle-to-grave\u201d approach was used, which refers to all the activities involved in the life cycle of a footwear product, starting from raw material extraction, manufacturing, use, maintenance, and, in the end, disposal. The LCA was conducted using the SimaPro software. The environmental impact assessment of the analyzed shoe needed the acquisition of two crucial datasets. Background inventory data were sourced from the Ecoinvent database (version 3.3). The impact was quantified using the Global Warming Potential (GWP) metric, which calculates the contribution of emissions to global warming over a 100-year time limit according to the established values provided by the Intergovernmental Panel on Climate Change (IPCC). The impact of greenhouse gas (GHG) emissions was measured in relative carbon dioxide equivalents (kg CO2eq) to facilitate a standardized comparison. The results show that the total carbon footprint for a pair of safety boots is 18.65 kg of CO2eq with the \u201ccomponent manufacture\u201d stage as a major contributor accumulating almost 80%."
+  },
+  {
+    "title":"Frequency Shift Chirp Modulation: The LoRa Modulation",
+    "authors":[
+      "Vangelista"
+    ],
+    "year":"2017",
+    "type":"journal",
+    "source":"IEEE Signal Processing Letters",
+    "keywords":null,
+    "abstract":"Low power wide area networks (LPWAN) are emerging as a new paradigm, especially in the field of Internet of Things (IoT) connectivity. LoRa is one of the LPWAN and it is gaining quite a lot of commercial traction. The modulation underlying LoRa is patented and has never been described theoretically. The aim of this letter is to give the first rigorous mathematical signal processing description of the modulation and demodulation processes. We provide as well a theoretical derivation of the optimum receiver entailing a low-complexity demodulation process, resorting to the Fast Fourier Transform. We compare then the performance of the LoRa modulation and the frequency-shift keying modulation both in an additive white gaussian noise channel and a frequency selective channel, showing the superiority of the LoRa modulation in the frequency selective channel. The results of this letter will enable a further assessment of the LoRa based networks, much more rigorous than what has been done until now."
+  },
+  {
+    "title":"Internet of things enabled parking management system using long range wide area network for smart city",
+    "authors":[
+      "Jabbar",
+      "Tiew",
+      "Ali Shah"
+    ],
+    "year":"2024",
+    "type":"journal",
+    "source":"Internet of Things and Cyber-Physical Systems",
+    "keywords":null,
+    "abstract":"As the Internet of Things (IoT) evolves, it paves the way for vital smart city applications, with the Smart Parking Management System (SPMS) standing as a prime example. This research introduces a novel IoT-driven SPMS that leverages Long Range Wide Area Network (LoRaWAN) technology, termed as IoT-SPMS-LoRaWAN, to surmount typical restrictions related to communication range, energy usage, and implementation cost seen in traditional systems. IoT-SPMS-LoRaWAN features intelligent sensing nodes that incorporate an Arduino UNO microcontroller and two sensors\u2014a triaxial magnetic sensor and a waterproof ultrasonic sensor. These components collaboratively detect vehicle occupancy and transmit this data to the server via a LoRaWAN gateway. Notably, the integration of LoRa technology enables extensive network coverage and energy efficiency. Users are provided with real-time updates on parking availability via the accessible AllThingsTalk Maker graphical user interface. Additionally, the system operates independently, sustained by a solar-powered rechargeable battery. Practical testing of IoT-SPMS-LoRaWAN under various scenarios validates its merits in terms of functionality, ease of use, reliable data transmission, and precision. Its urban implementation is expected to alleviate traffic congestion, optimize parking utilization, and elevate awareness about available parking spaces among users. Primarily, this study enriches the realm of smart city solutions by enhancing the efficiency of parking management and user experience via IoT."
+  },
+  {
+    "title":"Analysis and Simulation of LoRaWAN LR-FHSS for Direct-to-Satellite Scenario",
+    "authors":[
+      "Ullah",
+      "Mikhaylov",
+      "Alves"
+    ],
+    "year":"2022",
+    "type":"journal",
+    "source":"IEEE Wireless Communications Letters",
+    "keywords":null,
+    "abstract":"Long Range-Frequency Hopping Spread Spectrum (LR-FHSS) has been recently introduced into the LoRaWAN protocol specification to increase network capacity and collision robustness, and enable direct connectivity between machine devices and the Low Earth Orbit (LEO) satellites. In this letter, we first construct the analytical and simulation models for packet delivery over LR-FHSS from ground nodes to a LEO satellite, and then use the developed analytic and simulation models to generate the numerical results. Our results reveal the potential feasibility of large-scale networks, demonstrate some trade-offs between the two new LR-FHSS-based data rates for the EU region, and reveal the key reasons for packet losses."
+  },
+  {
+    "title":"Enabling mMTC in Remote Areas: LoRaWAN and LEO Satellite Integration for Offshore Wind Farm Monitoring",
+    "authors":[
+      "Ullah",
+      "Mikhaylov",
+      "Alves"
+    ],
+    "year":"2022",
+    "type":"journal",
+    "source":"IEEE Transactions on Industrial Informatics",
+    "keywords":null,
+    "abstract":"The offshore wind farms are gaining momentum due to their promise to offer sustainable energy with low pollution and greenhouse gas emission. However, despite all the immense technological progress of recent years, the operation in a harsh and hard-to-reach environment remains challenging. According to the reports, each offshore wind turbine requires five maintenance visits a year on average, and the cumulative repair costs constitute around 30% of the turbine's life-cycle expenditure. Motivated by the advancement of massive machine-type connectivity (mMTC) and satellite technologies, in this study, we investigate the potential of these to enable remote monitoring of the offshore wind farms. Specifically, the two alternative architectures are considered. The indirect architecture relies on using a local mMTC gateway (GW) with a backbone over a reliable communication channel (e.g., satellite or wire-based). The direct approach implies the transmission of the data by sensors on the wind turbines directly to the mMTC GW on the low-Earth-orbit satellite. The details of the system design, the alternative implementation strategies, and relevant pros, cons, and tradeoffs are pin-pointed. Finally, we employ simulations using realistic deployment and traffic and advanced propagation and collision models to characterize these two approaches' feasibility and packet delivery probability numerically when implemented over LoRaWAN mMTC technology."
+  },
+  {
+    "title":"Effective Communication of Coastal Flood Warnings: Challenges and Recommendations",
+    "authors":[
+      "Pang",
+      "Penney",
+      "Wang"
+    ],
+    "year":"2023",
+    "type":"generic",
+    "source":"Sustainability (Switzerland)",
+    "keywords":null,
+    "abstract":"With the increasing risk of coastal flooding facing coastal communities due to climate change, coastal flood warnings (CFWs) are expected to play a critical role in the protection of people and property to ensure communities\u2019 sustainable development. However, as destructive coastal flooding hazards have caused considerable damage in recent years, the effectiveness of coastal flooding warnings could be questioned considering their objective of disaster risk reduction. Here, we deliver a review investigation of the current CFWs in the USA and Canada based on their setup and dissemination, and a case study of two representative coastal flooding events. Through this review, we found that collaboration between multi-level administration regarding CFW mechanisms has the potential to strengthen these mechanisms, improving their efficacy. We also found that CFWs presented in the media often lacked consideration of public acceptance and practicability in their reports, which may have affected the performance of these CFWs. Meanwhile, the technological limitations and uncertain public acceptance may also reduce the CFWs\u2019 effectiveness in application. Accordingly, the media should further consider the understandability of CFW-related reports. Moreover, emergency information channels should be set in both traditional media and social media for accessible use by residents with different customs. Lastly, starting from the normalized prevention of coastal flood disaster, a consensus of crisis awareness should be built with which the social aspects of the defense against coastal flooding can be established for future environmental sustainability."
+  },
+  {
+    "title":"Identifying societal challenges in flood early warning systems",
+    "authors":[
+      "Perera",
+      "Agnihotri",
+      "Seidou",
+      "Djalante"
+    ],
+    "year":"2020",
+    "type":"journal",
+    "source":"International Journal of Disaster Risk Reduction",
+    "keywords":null,
+    "abstract":"Flood Early Warning Systems (FEWS) are implemented in many parts of the world, but early warnings do not always translate into an emergency response from all individuals at risk. This article examines challenges such as warning communication and community response capabilities. Literature review, global online survey results, and experiential knowledge helped identify cross-cutting issues such as failure to use participatory approaches involving communities and addressing their concerns in warning, insufficient preparedness and response levels of FEWS, inadequate translation of disaster risk reduction (DRR) policies into action at the community level, lack of DRR knowledge and practices among key stakeholders, insufficient gender and social inclusion in all stages of FEWS, gaps in institutional communication and collaboration, and, finally, technical and financial constraints. The paper also discusses the contribution of Civil Society Organizations (CSOs) in addressing the identified challenges and eventually strengthening FEWS locally. CSOs were found to act positively at local level challenges and significantly contribute to addressing them through tailored solutions to community concerns. Such solutions include DRR awareness campaigns to educate the communities and key officials; enhanced communication between vulnerable communities and local authorities; transforming reactive community response that relied on government officials to a risk-informed and self-prepared community response; gender inclusion and diversity in various stages of FEWS; and advocacy campaigns to build resilience to disasters. Eventually, policy-based recommendations that can help to root out the challenges discussed in this study are presented."
+  },
+  {
+    "title":"Crisis communication in a natural disaster: A chaos theory approach",
+    "authors":[
+      "Purworini",
+      "Purnamasari",
+      "Hartuti"
+    ],
+    "year":"2019",
+    "type":"journal",
+    "source":"Jurnal Komunikasi: Malaysian Journal of Communication",
+    "keywords":[
+      "Chaos theory",
+      "Crisis",
+      "Crisis communication",
+      "Disaster",
+      "Flood"
+    ],
+    "abstract":"Various studies indicated the need for crisis communications in natural disasters because a disaster can trigger crisis. Disasters that occur in remote areas need a strategised approach and tailored communication plan to suit with the characteristics of the local community. This research uses chaos theory to describe crisis communication and analyses the role of communications during floods in the Klaten region in Indonesia. Flood is often struck in this area. The concepts of chaos theory are analysed during this disaster, such as guidance on the initial conditions, the shock of the situation, the changes of the existing system, and the emergence of a helper. In-depth interviews were conducted with 14 informants from residents in two sub-districts of Klaten and 4 staff in the disaster menagement district office Klaten region (BPBD). The results indicated that although the same catastrophic pattern is observed, people still find it shocking everytime. It was also observed that ideas or strategy to deal with the flood are made spontaneously following the disaster, often in an urgent state. The role of the helper is also very memorable for the community. The communication channel used are informal, face to face and utilising traditional channels. The ability of social media has not been employed by the villagers, particularly the older generation, nevertheless the younger generation could still explore this platform during crisis. Future research can evaluate another important field that appears to be important in disaster communication, which is public diplomacy. This hopefully could explore more asumptions of the chaos theory during disaster."
+  },
+  {
+    "title":"Report of the open-ended intergovernmental expert \nworking group on indicators and terminology relating to \ndisaster risk reduction",
+    "authors":[
+      "United Nations",
+      "Assembly"
+    ],
+    "year":"2016",
+    "type":"report",
+    "source":null,
+    "keywords":null,
+    "abstract":"A\/71\/644 Seventy-first session Agenda item 19 (c) Sustainable development: disaster risk reduction"
+  },
+  {
+    "title":"Smart living for elderly: Design and human-computer interaction considerations",
+    "authors":[
+      "Sharma",
+      "Nah",
+      "Sharma",
+      "Katta",
+      "Pang",
+      "Yong"
+    ],
+    "year":"2016",
+    "type":"conference_proceedings",
+    "source":"Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+    "keywords":null,
+    "abstract":"To address aging challenges, we examine the concept of smart living and its applications for the elderly. Smart living refers to improving quality of life by transforming environments to become more intelligent and adaptable to users. In this paper, we discuss how smart living applications can help to address the needs of the elderly, as well as the design and human-computer interaction considerations for such applications."
+  },
+  {
+    "title":"Infrastructure failure cascades quintuple risk of storm and flood-induced service disruptions across the globe",
+    "authors":[
+      "M\u00fchlhofer",
+      "Bresch",
+      "Koks"
+    ],
+    "year":"2024",
+    "type":"journal",
+    "source":"One Earth",
+    "keywords":[
+      "Critical infrastructure",
+      "basic service disruption",
+      "failure cascades",
+      "floods",
+      "healthcare",
+      "natural hazards",
+      "open-source GIS modeling",
+      "power",
+      "risk assessment",
+      "tropical cyclones"
+    ],
+    "abstract":"Society is dependent on critical infrastructure that provides basic services such as healthcare, mobility, communications, and power. Severe weather can damage these vital infrastructure assets, disrupting services. Such disruptions can further escalate due to system interdependencies. Although research increasingly evaluates physical risks to infrastructure assets, knowledge on service disruption risks from natural hazard-induced failure cascades across networked infrastructure systems remains limited. Here, we couple an open-source risk model with a complex network-based infrastructure module to simulate spatially explicit service disruptions from 700 historic floods and tropical cyclones in 30 countries. We find that failure cascades account for 64\u201389% of service disruptions, which also spread beyond the hazard footprint in nearly 3 out of 4 events. Disruption-affected population surpasses estimates of physically affected by up to ten-fold. We demonstrate that knowledge of the effect of infrastructure network designs, population distribution, wealth, and hazard characteristics can help prioritize systemic adaptation strategies over asset-focused ones."
+  },
+  {
+    "title":"Can Smart Home Technologies Help Older Adults Manage Their Chronic Condition? A Systematic Literature Review.",
+    "authors":[
+      "Facchinetti",
+      "Petrucci",
+      "Albanesi",
+      "De Marinis",
+      "Piredda"
+    ],
+    "year":"2023",
+    "type":"report",
+    "source":null,
+    "keywords":null,
+    "abstract":"The management of chronic diseases requires personalized healthcare that allows older adults to manage their diseases at home. This systematic review aimed to describe the smart home technologies used in the management of chronic diseases in older people. A systematic literature review was conducted on four databases and was reported following the PRISMA statement. Nineteen articles were included. The intervention technologies were classified into three groups: smart home, characterized by environmental sensors detecting motion, contact, light, temperature, and humidity; external memory aids, characterized by a partnership between mobile apps and smart home-based activity learning; and hybrid technology, with the integration of multiple technologies, such as devices installed at patients' homes and telemedicine. The health outcomes evaluated are vital signs, medication management, ADL-IADL, mobility, falls, and quality of life. Smart homes show great potential in the management of chronic diseases by favouring the control of exacerbations and increasing patients' safety by providing support in disease management, including support for cognitively impaired older people. The use of smart homes in the community could bring numerous benefits in terms of continuity of care, allowing the constant monitoring of older people by local and hospital health services."
+  },
+  {
+    "title":"Elderly's intention to use technologies: A systematic literature review",
+    "authors":[
+      "Yap",
+      "Tan",
+      "Choon"
+    ],
+    "year":"2022",
+    "type":"generic",
+    "source":"Heliyon",
+    "keywords":null,
+    "abstract":"The population aging and an increased life expectancy are widely recognized social changes. Technologies are believed to improve the elderly's daily lives and maintain their health efficiently. Despite the advantage of adopting technologies, the elderly are slower to adopt new technologies compared to younger adults. This paper presents a Systematic Literature Review (SLR) to identify the different antecedents prevailing in the literature on elderly technology adoption. The SLR classifies and analyzes 26 relevant articles on elderly's technology adoption. Our findings revealed that quantitative approach and cross-sectional studies predominate in this field, building fundamentally upon the technology-driven theories. We identify seven categories of antecedents influencing elderly's use of technology, namely, technology, psychological, social, personal, cost, behavior, and environment antecedents. A conceptual framework for elderly's technology adoption and recommendations were presented. Particular attention is given to the need for in depth study for the antecedents, development of new measurement scales and investigation on the effectiveness of the proposed benefits after technology adoption."
+  },
+  {
+    "title":"The promise and perils of private voluntary regulation: Labor standards and work organization in two mexican garment factories",
+    "authors":[
+      "Locke",
+      "Romis"
+    ],
+    "year":"2010",
+    "type":"journal",
+    "source":"Review of International Political Economy",
+    "keywords":null,
+    "abstract":"What role can corporate codes of conduct play in monitoring compliance with international labor standards and improving working conditions in global supply chains? How does this system of private voluntary regulation relate to other strategies and regulatory approaches aimed at promoting just working conditions in global supply chains? This paper explores the potential and limitations of private voluntary regulation through a detailed matched pair case study of two factories supplying Nike, the world's largest athletic footwear and apparel company. These two factories have many similarities - both are in Mexico, both are in the apparel industry, both produce more or less the same products for Nike (and other brands) and both are subject to the same code of conduct. On the surface, both factories appear to have similar employment (i.e. recruitment, training, remuneration) practices and they receive comparable scores when audited by Nike's compliance staff. However, underlying (and somewhat obscured by) these apparent similarities, significant differences in actual labor conditions exist between these two factories. What drives these differences in working conditions? What does this imply for traditional systems of monitoring and codes of conduct? Field research conducted at these two factories reveals that beyond the code of conduct and various monitoring efforts aimed at enforcing it, workplace conditions and labor standards are shaped by very different patterns of work organization and human resource management policies. The promotion of these alternative work\/human resources management practices can complement traditional monitoring efforts in ways that promoted improved labor standards. \u00a9 2010 Taylor & Francis."
+  },
+  {
+    "title":"Walk the Talk: The Boohoo Case Study",
+    "authors":[
+      "Nassar",
+      "Goddard",
+      "Freeman"
+    ],
+    "year":"2023",
+    "type":"journal",
+    "source":"Journal of Macromarketing",
+    "keywords":null,
+    "abstract":"This case study of a UK-based global fast fashion brand Boohoo encourages critical exploration of a complex, ethical and reputational crisis. Taking a macromarketing perspective, the reader is encouraged to consider all of the factors, actors and relationships in the industry, society and the supply chain to appreciate the resulting ethical considerations that arise. Boohoo has been described as a successful online company that provides a wide range of products, including clothing, footwear, beauty products and accessories. However, the company came under fire in July 2020 after an expos\u00e9 published in the Sunday Times, the Sunday paper of The Times, named Britain's most trusted national newspaper. The expos\u00e9 published a report from an undercover investigation that revealed some unacceptable practices in relation to working conditions. The poor working conditions were worsened by the COVID-19 outbreak. As the media criticised Boohoo, the company launched an independent review which eventually confirmed the allegations and stated that the investigation's findings were \u201csubstantially true\u201d. Written from the perspective of a PR consultancy that wants to help Boohoo restore its reputation, the case uses secondary information to thoroughly understand Boohoo's situation. The PR consultants therefore investigate the Sunday Times\u2019 allegations, Boohoo's practices and responses to those allegations, and the company's practices from an ethical point of view. The PR consultancy also investigates the fashion industry, with a focus on fast fashion, which creates an environment where suppliers and retailers in the system try to produce products as cheaply and profitably as possible. To fully understand those affected by this expos\u00e9, those influential to the industry and those stakeholders who govern or put pressure on the industry, they consider: the people and local government of Leicester (pronounced Lester), the supplier factories, national government websites and views of pressure groups and charities."
+  },
+  {
+    "title":"Generation Z's green purchase behavior: Do green consumer knowledge, consumer social responsibility, green advertising, and green consumer trust matter for sustainable development?",
+    "authors":[
+      "Borah",
+      "Dogbe",
+      "Marwa"
+    ],
+    "year":"2024",
+    "type":"journal",
+    "source":"Business Strategy and the Environment",
+    "keywords":null,
+    "abstract":"Generation Z (Gen-Z), representing a demographic cohort of persons born from 1995 to 2010, has demonstrated their concerns for environmental protection. On September 20, 2019, for example, millions of Gen-Zs from over 150 different countries across the globe embarked on a protest to pressure decision-makers and governments to help save the planet. Such campaigns have caused firms to rethink how they operate by adopting green operations in their production and distribution of products. The footwear industry is not left out. The problem this research sought to address is the assessment of the effect of green consumer knowledge on green purchase behavior among Gen-Z consumers towards footwear while assessing the roles of consumer social responsibility, green advertising, and green consumer trust. The study was quantitative in nature and used an online questionnaire to survey 559 Chinese Gen-Z consumers. Findings revealed that although green consumer knowledge had a direct effect on green purchase behavior, this effect was partially mediated by consumer social responsibility. The effect of consumer social responsibility on green purchase behavior was positively moderated by green advertising, and the moderating effect of green advertising was further strengthened by green consumer trust. Finally, the mediating effect of consumer social responsibility was conditional on the moderating effects of green advertising and green consumer trust. It was concluded that green consumer knowledge is an essential ingredient in enhancing Gen-Z consumers' green purchase behavior towards footwear, as such, advocacy and pressure groups must increasingly conscientize consumers."
+  },
+  {
+    "title":"Health barriers for girls and women in sport",
+    "authors":[
+      "Mp"
+    ],
+    "year":"2024",
+    "type":"report",
+    "source":null,
+    "keywords":null,
+    "abstract":"Third Report of Session 2023-24 Report, together with formal minutes relating to the report Women and Equalities Committee"
+  },
+  {
+    "title":"Implementation of Lean Manufacturing Tools in Footwear Industry of Bangladesh",
+    "authors":[
+      "Sayid Mia"
+    ],
+    "year":"2017",
+    "type":"journal",
+    "source":"Aspects in Mining & Mineral Science",
+    "keywords":null,
+    "abstract":"Lean manufacturing is an applied methodology of scientific, objective techniques that cause work tasks in a process to be performed with a minimum of non-value adding activities resulting in greatly reduced wait time, queue time, move time, administrative time, and other delays. This work addresses the implementation of lean principles in a footwear manufacturing industry in order to evaluate present Process Cycle Efficiency (PCE) and lead time prior to developing an improved strategy to bring the improved PCE and to reduce the lead time. At the present state, the PCE was found 15.28% and after the implementation of lean tools, it would be 34.05% at the future state where lead time would also be reduced by 55.09% evaluated by Pareto analysis and value stream mapping tools. The production flow was optimized by minimizing several non-value added activities and time such as bottlenecking, machine breakdown, queue time, waiting time, material handling time, etc. Eventually, this study will be useful in developing a more generic approach to design lean environment in the management system of the studied reputed Footwear Industry in Bangladesh."
+  },
+  {
+    "title":"THE MEASURE OF MAN: HUMAN FACTORS IN DESIGN",
+    "authors":[
+      "Dreyfuss"
+    ],
+    "year":"1966",
+    "type":"report",
+    "source":null,
+    "keywords":null,
+    "abstract":"The first circle Is the bearable aone limit. Outsitfe this limit great discomfort or possible damage is encountered. It is also necessary to consider: infra-red radiation, ultra sonic vibration, noxious gases, dust, pollen, and heat exchange with liquids and solids. Note: All data here are subject to qualification, refer to reference sources; for complete information see bibliography."
+  },
+  {
+    "title":"A systematic review on underground logistics system: designs, impacts, and future directions",
+    "authors":[
+      "Li",
+      "Yuen"
+    ],
+    "year":"2025",
+    "type":"generic",
+    "source":"Tunnelling and Underground Space Technology",
+    "keywords":[
+      "Automation",
+      "City logistics",
+      "Freight transportation",
+      "Sustainable transport",
+      "Systematic literature review",
+      "Underground logistics system"
+    ],
+    "abstract":"The Underground Logistics System (ULS) is a promising mode of freight transportation for the future. It is expected to address conventional city logistics dilemmas such as low transport efficiency and negative environmental impacts. A comprehensive understanding of ULS functions is crucial for promoting its development. Therefore, this research aims to (1) review ULS-related studies; (2) outline the main ULS designs from the perspectives of network types, network planning and optimization, as well as last-mile delivery measures; and (3) summarize the impacts of ULS on society, the economy, and the environment. Adhering to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines, a total of 132 research articles were retrieved from three databases (i.e., Scopus, Web of Science, and IEEE Xplore) and grey literature to conduct a systematic literature review. In general, this systematic review reveals that the integration of ULS with the metro system is a current research hotspot. It is also found that the mixed-integer programming model is commonly adopted in existing studies to solve problems related to location and routing. Additionally, several last-mile delivery solutions for ULS (i.e., door-to-door, self-pickup, and a combination of other overground delivery methods) are presented. Moreover, the findings demonstrate that, despite high construction costs, ULS can provide significant benefits to society, the economy, and the environment. More importantly, the limitations of current ULS-related research are analyzed, and future research directions for ULS are proposed. This research provides comprehensive insights into ULS and offers specific policy implications for its future management."
+  },
+  {
+    "title":"The environmental social cost of urban road freight: Evidence from the Paris region",
+    "authors":[
+      "Coulombel",
+      "Dablanc",
+      "Gardrat",
+      "Koning"
+    ],
+    "year":"2018",
+    "type":"journal",
+    "source":"Transportation Research Part D: Transport and Environment",
+    "keywords":null,
+    "abstract":"This paper investigates the environmental impact of urban road freight in the Paris region, focusing on pollutant emissions. We develop a modeling chain including a freight demand model, a multiclass traffic assignment model, and a road emission model. This allows for a detailed representation - spatially and with regard to operations - of urban road freight. We find that while urban road freight represents only 6% of trips and 8% of distances traveled by road in the Paris region, it accounts for 36% of total damages caused by pollutant emissions from road traffic. This is the combined result of light and heavy goods vehicles emitting more than private cars, and of freight traffic being more spatially concentrated (within the city center) than passenger traffic, thereby affecting more population. All in all, the environmental cost of urban road freight is around 2.1 billion \u20ac per year. Some policy implications are discussed."
+  },
+  {
+    "title":"Vehicular Energy Network",
+    "authors":[
+      "Lam",
+      "Leung",
+      "Li"
+    ],
+    "year":"2015",
+    "type":"journal",
+    "source":null,
+    "keywords":null,
+    "abstract":"The smart grid spawns many innovative ideas, but many of them cannot be easily integrated into the existing power system due to power system constraints, such as the lack of capacity to transport renewable energy in remote areas to the urban centers. An energy delivery system can be built upon the traffic network and electric vehicles (EVs) utilized as energy carriers to transport energy over a large geographical region. A generalized architecture called the vehicular energy network (VEN) is constructed and a mathematically tractable framework is developed. Dynamic wireless (dis)charging allows electric energy, as an energy packet, to be added and subtracted from EV batteries seamlessly. With proper routing, energy can be transported from the sources to destinations through EVs along appropriate vehicular routes. This paper gives a preliminary study of VEN. Models are developed to study its operational and economic feasibilities with real traffic data in the United Kingdom. Our study shows that a substantial amount of renewable energy can be transported from some remote wind farms to London under some reasonable settings and VEN is likely to be profitable in the near future. VEN can complement the power network and enhance its power delivery capability."
+  },
+  {
+    "title":"Two European cities advance vehicle-to-grid (V2G) solutions",
+    "authors":[
+      "Mecatti"
+    ],
+    "year":"2025",
+    "type":"newspaper_article",
+    "source":"European Commission",
+    "keywords":null,
+    "abstract":"Utrecht has become the first European city to implement a large-scale vehicle-to-grid (V2G) system through a collaboration between Renault Group, We Drive Solar, MyWheels, and the local municipality. The initiative, called Utrecht Energized, aims to stabilise the electricity grid while providing affordable, sustainable transport.\n\nThe project has launched with 50 Renault 5 E-Tech electric vehicles and 50 bidirectional chargers, which have been added into the MyWheels ridesharing fleet. There are plans to scale up to 500 EVs. The scheme targets residents who mainly walk or cycle but occasionally need a car, encouraging them to give up private vehicle ownership entirely.\n\nThe system allows cars to charge when solar energy is abundant and discharge back into the grid during peak demand. This is particularly effective in Utrecht, where 35% of rooftops are fitted with solar panels. V2G advocates highlight the potential for storing surplus solar energy in EV batteries rather than selling it cheaply abroad. Carsharing operators can also generate income from parked vehicles providing grid services.\n\nDespite its promise, the initiative faces regulatory and logistical challenges. Differences in tax rules, grid tariffs, and local parking regulations - especially across multiple grid operators - present hurdles. Renault plans to expand the concept into Germany, where over 850 grid operators operate under varied protocols.\n\nAccording to Mobilize\u2019s energy director, removing regulatory barriers and standardising systems will be key to making V2G a mainstream element of future energy networks."
+  },
+  {
+    "title":"Advantages of Electric Vehicle adoption and Vehicle-to-Grid charging in the fleet market: Lessons from the V2GO project",
+    "authors":[
+      "Meelen",
+      "Budnitz",
+      "Schwanen"
+    ],
+    "year":"2020",
+    "type":"journal",
+    "source":"https:\/\/www.tsu.ox.ac.uk\/sites\/default\/files\/2023-01\/V2GO-Policy-Brief-TSU.pdf",
+    "keywords":null,
+    "abstract":"This briefing summarizes findings from the Vehicle-to-Grid Oxford project, funded by Innovate UK. The research was conducted by the Transport Studies Unit, University of Oxford. The results set out the role and advantages of using the Vehicle-to-Grid (V2G) system in fleet management, the current barriers to its uptake, implementation strategies and policy recommendations. This briefing has been written for policy-makers and fleet market professionals."
+  },
+  {
+    "title":"Half of Brits don\u2019t like taking the bus",
+    "authors":[
+      "Smith"
+    ],
+    "year":"2019",
+    "type":"journal",
+    "source":"Web Article",
+    "keywords":null,
+    "abstract":"Despite government efforts to get more people on public transport to cut congestion and pollution, Britons would still rather hop in the car\nAs governments around the world look for ways to get citizens out of cars and onto public transport for health and environmental reasons, a new YouGov RealTime survey reveals that it won\u2019t be easy. Britons would much rather just jump in the car.\n\nWhen asked whether they have a favourable or unfavourable view of travelling in various ways, 81% expressed a positive view of being a car passenger, and 73% said the same about driving themselves.\n\nBut only two thirds of Britons (67%) have a favourable opinion of taking the train, and fewer than half like the idea of having to travel by bus (47%) or coach (42%)."
+  },
+  {
+    "title":"A Comprehensive Case Study in Last-Mile Delivery Concepts for Parcel Robots",
+    "authors":[
+      "Poeting",
+      "Schaudt",
+      "Clausen"
+    ],
+    "year":"2019",
+    "type":"conference_proceedings",
+    "source":"Proceedings - Winter Simulation Conference",
+    "keywords":null,
+    "abstract":"This study was designed to evaluate innovative last-mile delivery concepts involving autonomous parcel robots with simulation and optimization. In the proposed concept, the last mile of parcel delivery is split into a two-tiered system, where parcels are first transported to a transfer point by conventional trucks and then delivered with parcel robots on customer demand. The purpose of this publication is to compare different time slot selection options for customers, namely due window and on demand selection, in the context of city logistics measures such as access regulations and driving bans for city centers. An agent-based simulation model is used, including a Geographic Information System environment and optimization algorithms for allocation and scheduling of delivery robots. The concept is tested in a comprehensive case study located in the city center of Cologne (Germany) based on real data from the parcel delivery company Hermes."
+  },
+  {
+    "title":"Electric Vehicles: Is the World Ready for the EV Revolution?",
+    "authors":[
+      "Chaudhary"
+    ],
+    "year":"2024",
+    "type":"journal",
+    "source":"Web Article",
+    "keywords":null,
+    "abstract":"Electric cars are no longer the future fantasy, but an emerging technological reality, with billions being put into electric car production by Tesla, Ford, and GM. And with governments embracing net zero emission goals, one would ask: Can the world gear up for this shift into EV? Issues range from limited charging infrastructure to battery-related environmental concerns on the road ahead. How likely are you to buy an electric vehicle today? What\u2019s holding you back, if you aren\u2019t?"
+  },
+  {
+    "title":"Extending the Lifetime of Perovskite Solar Cells using a Perfluorinated Dopant",
+    "authors":[
+      "Salado",
+      "Ramos",
+      "Manzanares",
+      "Gao",
+      "Nazeeruddin",
+      "Dyson",
+      "Ahmad"
+    ],
+    "year":"2016",
+    "type":"journal",
+    "source":"ChemSusChem",
+    "keywords":null,
+    "abstract":"The principle limitation of perovskite solar cells is related to their instability and, hence, their limited lifetime. Herein, we employ an imidazolium iodide dopant, 1-methyl-3-(1H,1H,2H,2H-nonafluorohexyl)-imidazolium iodide, containing a perfluorous appendage, which leads to prolonged (unencapsulated, under Ar atmosphere) device activities exceeding 100 days without compromising the power conversion efficiency and other photovoltaic parameters. The extended lifetime of the device can be attributed, at least in part, to the hydrophobic nature of the imidazolium iodide salt. The functionalization of the perovskite material was found to have negligible influence on the perovskite crystal structure."
+  },
+  {
+    "title":"Performance Enhancement of Three-Dimensional MAPbI3 Perovskite Solar Cells by Doping Perovskite Films with CsPbX3 Quantum Dots",
+    "authors":[
+      "Tsai",
+      "Chu",
+      "Kao"
+    ],
+    "year":"2024",
+    "type":"journal",
+    "source":"Materials",
+    "keywords":null,
+    "abstract":"Perovskite thin films directly impact solar cell properties, making defect reduction crucial in perovskite solar cell research. In our study, we used perovskite quantum dots in the anti-solvent to act as nucleation centers in MAPbI3 thin films. These centers had lower nucleation barriers than homogeneous nucleation, improving perovskite crystallinity, reducing defects, and extending carrier lifetime. Fine-tuning the energy band also enhanced carrier transport. The most effective results were obtained using CsPb(Br0.5 I0.5)3 perovskite quantum dots. The resulting device, ITO\/SnO2\/MAPbI3 (300 nm)\/spiro-OMeTAD (200 nm)\/Ag (100 nm), achieved a 12.88% power conversion efficiency, a 16% increase from the standard element. The modified device maintained approximately 95% of its efficiency over 100 h in a 70% humidity environment."
+  },
+  {
+    "title":"How next-gen solar panels could go on lampposts, cars and even windows",
+    "authors":[
+      "Arrowsmith"
+    ],
+    "year":"2025",
+    "type":"journal",
+    "source":"Web Article",
+    "keywords":null,
+    "abstract":"Please use the sharing tools found via the share button at the top or side of articles. Copying articles to share with others is a breach of FT.com T&Cs and Copyright Policy. Email licensing@ft.com to buy additional rights. Subscribers may share up to 10 or 20 articles per month using the gift article service. More information can be found at https:\/\/www.ft.com\/tour.\n\thttps:\/\/www.ft.com\/content\/a5095373-1762-41cd-a078-af533e2644fc\n\n\tSunlight is the most abundant energy source on earth, now harnessed by a vast array of silicon solar panels on rooftops and in fields across the world. But a new generation of panels is emerging using a class of materials called perovskites, which can be thinner, lighter, less rigid and generate more power.\n\nThe technology means solar panels could be integrated into new places such as car roofs, lampposts and even windows. It also could mean increased solar power generation without having to devote as much land to solar farms."
+  },
+  {
+    "title":"Interactive Best Research-Cell Efficiency Chart",
+    "authors":[
+      "NREL"
+    ],
+    "year":"2025",
+    "type":"report",
+    "source":null,
+    "keywords":null,
+    "abstract":"The chart displays recent research that differentiates four major technologies: general Si-based cells, highly optimized GaAs-based cells, multijunction cells, and filters, an emerging PV. Efficiencies have increased across all technologies over the last 15 years."
+  },
+  {
+    "title":"New solar solution increases range of electric cargo bikes by up to 20 percent",
+    "authors":[
+      "OPES Solutions"
+    ],
+    "year":"2022",
+    "type":"web_page",
+    "source":"Web Article",
+    "keywords":null,
+    "abstract":"Leading custom solar panel manufacturer OPES Solutions has partnered with the green logistics experts from Urban Mobility to equip e-cargo bikes with robust and lightweight solar panels. Developed especially for vehicles, the integrated solar solution provides up to 20% more range in delivery practice if the heavy payload of 250 kg plus driver is fully utilized."
+  },
+  {
+    "title":"Logistics of Zoning, Zoning for Logistics: Toward Healthy and Equitable Development for Urban Freight",
+    "authors":[
+      "Fried",
+      "Tejada",
+      "Dennis-Bauer",
+      "Bolbaatar",
+      "Goodchild",
+      "Marshall",
+      "Olmedo",
+      "Garc\u00eda"
+    ],
+    "year":"2025",
+    "type":"journal",
+    "source":"Journal of the American Planning Association",
+    "keywords":[
+      "Environmental justice",
+      "equity",
+      "last-mile delivery",
+      "urban freight",
+      "zoning"
+    ],
+    "abstract":"Problem, research strategy, and findings: Warehousing and distribution center (W&D) expansion has raised concerns about the disproportionate exposure of nearby communities to freight traffic and its resulting health consequences. While local governments wield several tools to manage logistics-related development, few may be as consequential to public health disparities as zoning. In this study we synthesized the state of recent U.S. zoning actions related to W&D, examining their role as tools\u2014or barriers\u2014for advancing public health in communities historically burdened by freight traffic. Specifically, we investigated 92 zoning actions at 67 locations (51 municipalities, 9 counties, and 7 states) and assessed the level at which environmental justice (EJ) principles informed these actions. The most common zoning actions were discretionary decisions on site permits (n = 32). While we offer examples of councils considering EJ issues raised by communities, discretionary processes have drawbacks. Other actions include long-term plans (n = 17), land use definitions (n = 13), development standards (n = 12), and conditional use permitting (n = 14). We also examined four state-level policies. Many regulations restrict by-right W&D development with little indication that these changes are intended to benefit historically burdened communities. Takeaway for practice: Local jurisdictions lack a unified regulatory approach to W&D. However, long-term plans and state environmental policies guide jurisdictions with the most EJ-explicit actions. Equitable and healthy urban freight requires clear strategic land use priorities and environmental safeguards for vulnerable communities but could also include flexibility for W&D development outside conventional industrial areas. We discuss how these findings fit into contemporary debates about zoning and urban freight planning."
+  },
+  {
+    "title":"WOKINGHAM STRATEGIC TRANSPORT MODEL 4 (WSTM4) Local Model Validation Report",
+    "authors":[
+      "Murungi",
+      "Burton-Brown"
+    ],
+    "year":"2018",
+    "type":"report",
+    "source":null,
+    "keywords":null,
+    "abstract":"In 2008 WSP was appointed as the Highways and Transport Term consultant for Wokingham Borough Council \n(WBC). This included the use and on-going maintenance of the Wokingham Strategic Transport Model \n(WSTM) and its use to support transport policies and scheme development. Since this appointment WSP have \ncompleted two model updates and in Autumn 2015 was commissioned to progress a third: \nWSTM2 - update of forecast scenarios to include details of Strategic Development Locations (SDLs) and \nmitigation measures \nWSTM3 - Update to a 2010 model base year from 2005, compliance with DfT Transport Analysis \nGuidance, integration of a Public Transport model in VISUM and a Variable Demand Model (VDM) \ndeveloped using DIADEM \nWSTM4 - Commissioned in 2015 to update the model base year to 2015 to support strategic and local \nplanning for the next plan period. The model software platform has been changed to VISUM. \nThe WSTM3 has been used for wider strategic testing, localised testing, plan policy evaluation and scheme \nappraisal within Wokingham Borough shaping transport planning policies and strategies. This has included:  \nPark and Ride Strategy Action Plan \nWokingham Town Centre Parking Strategy \nWokingham LSTF programme evaluation along the A329 corridor \nPublic consultation on locally significant schemes for Arborfield Relief Road, North Wokingham Distributor \nRoad, South Wokingham Relief Road  \nDfT's LSTF funding (\u00a32.75m) and funding from the Local Pinch Point Fund for: \nA329 Coppid Beech Junction Improvement (\u00a31.859m of \u00a32.655m total scheme cost) \nStation Link Road (\u00a32.650m of \u00a33.786m total scheme cost) \nSection 106 contributions from developers: \nHatch Farm Dairies development to Winnersh Relief Road Phase 1 \nSouth of the M4 J10 development to Eastern Relief Road (ERR) east of Shinfield \nInitial assessment of the viability for a Third Thames Crossing to support transport objectives of \nWokingham and Reading Borough Councils \nBusiness Case development and Planning Applications for the Arborfield Cross Relief Road (ACRR), \nSouth Wokingham Distributor Road (SWDR) and North Wokingham Distributor Road (NWDR)."
+  },
+  {
+    "title":"Resilience concepts in integrated urban transport: a comprehensive review on multi-mode framework",
+    "authors":[
+      "Du",
+      "Wang",
+      "Gao",
+      "Pan",
+      "Zhao",
+      "Liu"
+    ],
+    "year":"2022",
+    "type":"journal",
+    "source":"Smart and Resilient Transportation",
+    "keywords":null,
+    "abstract":"Purpose-Resilience concepts in integrated urban transport refer to the performance of dealing with external shock and the ability to continue to provide transportation services of all modes. A robust transportation resilience is a goal in pursuing transportation sustainability. Under this specified context, while before the perturbations, robustness refers to the degree of the system's capability of functioning according to its design specifications on integrated modes and routes, redundancy is the degree of duplication of traffic routes and alternative modes to maintain persistency of service in case of perturbations. While after the perturbations, resourcefulness refers to the capacity to identify operational problems in the system, prioritize interventions and mobilize necessary material\/ human resources to recover all the routes and modes, rapidity is the speed of complete recovery of all modes and traffic routes in the urban area. These \"4R\" are the most critical components of urban integrated resilience. Design\/methodology\/approach-The trends of transportation resilience's connotation, metrics and strategies are summarized from the literature. A framework is introduced on both qualitative characteristics and quantitative metrics of transportation resilience. Using both model-based and mode-free methodologies that measure resilience in attributes, topology and system performance provides a benchmark for evaluating the mechanism of resilience changes during the perturbation. Correspondingly, different pre-perturbation and post-perturbation strategies for enhancing resilience under multi-mode scenarios are reviewed and summarized. Findings-Cyber-physic transportation system (CPS) is a more targeted solution to resilience issues in transportation. A well-designed CPS can be applied to improve transport resilience facing different perturbations. The CPS ensures the independence and integrity of every child element within each functional zone while reacting rapidly. Originality\/value-This paper provides a more comprehensive understanding of transportation resilience in terms of integrated urban transport. The fundamental characteristics and strategies for resilience are summarized and elaborated. As little research has shed light on the resilience concepts in integrated urban transport, the findings from this paper point out the development trend of a resilient transportation system for digital and data-driven management."
+  },
+  {
+    "title":"PLANNING FOR MORE RESILIENT AND ROBUST URBAN MOBILITY",
+    "authors":[
+      "B\u00f6hler",
+      "Brand",
+      "Marie Brunner",
+      "Juliat",
+      "Rupprecht Laura Bab\u00edo Somoza",
+      "Cr\u00e9",
+      "Karmigianni",
+      "Pana Tronca",
+      "Kao",
+      "Bosetti",
+      "Borgato Georgia Ayfantopoulou",
+      "Xenou",
+      "Teresa De la Cruz Eiriz",
+      "Royo Caroline Busquet",
+      "Fern\u00e1ndez Balaguer",
+      "Burrieza Gal\u00e1n",
+      "Maria Salanova",
+      "Magkos"
+    ],
+    "year":"2021",
+    "type":"report",
+    "source":null,
+    "keywords":null,
+    "abstract":"This document addresses planning in uncertain times \nwhen a major crisis is triggering significant changes in \nall areas. An immediate crisis can cause further long\nterm changes and increase the impact of other major \ntrends, such as climate change. Managing such \nfundamental change processes is a key challenge for \nurban mobility practitioners to integrate into their plans.\n In this document, a crisis can be defined as any event \nthat may lead to an unstable and dangerous situation \nwhich affects the urban mobility systems or whose \nimpact, duration and severity are affected by the urban \nmobility system. Crises covered in this guide include, but \nare not limited to, natural or man-made disasters, \npandemics, economic crises, social crises, \nenvironmental crisis, terrorism, cyberattacks, \ngeopolitical crises, etc.  \nThis document is the attempt to articulate generic \nlessons from how urban mobility systems responded to \nand were managed during the COVID-19 pandemic. \nSince the onset of the pandemic, public transport use \nhas been severely reduced, while other modes were \nrising in popularity. It may sound like a platitude, but it is \nnow truer than ever: Due to the inherent uncertainty of \nfuture developments, cities must remain flexible. \nThe climate crisis and other major change processes \nhave been disrupting and continue to disrupt the status \nquo cities. The necessity to handle these uncertainties \nand impacts will increase in the years to come.  \nWhile COVID-19 was the initial impetus for the creation \nof this guide, this document is intended to suggest \nresponses to this crisis but also to contribute to \nresilience planning for any future crises. More \nspecifically, it aims at including resilience principles in \nsustainable urban mobility planning (SUMP). \nThe first section of this topic guide first introduces the \nconcept of resilience in the context of urban mobility and \nthe importance of integrating it into the SUMP procedure. \nIt presents the 4 phases of the SUMP cycle with a \nresilience focus.\n The second section addresses specific resilience-related \nthemes such as car independent lifestyles, \nelectromobility, collective passenger transport, demand \nmanagement strategies, road safety, transport \ntelematics and urban freight. This section results from \nhands-on experiences made by research and innovation \nprojects related to the mentioned topics proposed for \nshort-term and long-term measures, lessons learned \nand case examples, using the COVID-19 pandemic as a \ncase study."
+  },
+  {
+    "title":"Designing Resilience for Multi-System Dynamics of Future Transportation",
+    "authors":[
+      "Prinn",
+      "Yeh",
+      "Paltsev",
+      "Reilly",
+      "Daniels",
+      "Linares"
+    ],
+    "year":"2024",
+    "type":"report",
+    "source":null,
+    "keywords":null,
+    "abstract":"The transition from fossil-fuel-based transportation systems to those reliant on lowand \nzero-emission technologies marks a crucial paradigm shift, necessitating a reevaluation of resilience metrics \nand strategies. As infrastructure investments adapt to a changing climate and the risk of extreme events, our \npaper identifies the complexities of resilience within the transportation sector, which now integrates a broad \narray of energy sources like electricity, hydrogen, and synthetic fuels. This deepening integration increases \nthe complexity of maintaining transportation resilience, highlighting the inadequacy of traditional resilience \nmetrics designed for centralized systems under stable climate conditions. We propose a Multi-System \nDynamics (MSD) framework to develop new, system-level resilience metrics to effectively manage emerging \nrisks associated with diverse energy sources and extreme weather conditions. This study emphasizes the \nneed for robust scenario analysis and the integration of Cost-Benefit Analysis (CBA) tools that account for \nresilience, offering a framework to evaluate the economic impacts and benefits of resilience investments. \nOur proposed approach encompasses evaluating resilience at the system level to identify and mitigate \nnew risks introduced by the adoption of low-carbon technologies and the interconnectedness of modern \nenergy and transportation infrastructures. Through rigorous scenario analysis, we aim to support robust \ndecision-making that can withstand and adapt to the unpredictabilities of a low-carbon future. By advancing \nthese areas, the paper contributes to the strategic planning necessary to foster a resilient, sustainable \ntransportation ecosystem capable of facing both current and future challenges."
+  },
+  {
+    "title":"Transforming Urban Spaces with Kinetic Pavements",
+    "authors":[
+      "PAVEGEN"
+    ],
+    "year":"2024",
+    "type":"web_page",
+    "source":"Web Article",
+    "keywords":null,
+    "abstract":"Kinetic pavement technology operates on a simple principle: the conversion of mechanical energy from pedestrian footsteps into electrical energy. Beneath the surface of these pavements lie a network of sensors and generators that capture the pressure and movement caused by walking. As individuals traverse these pavements, their footsteps cause slight deflections, activating the embedded mechanisms that produce electricity.\n\nThese systems utilise various mechanisms such as electromagnetic generators, to convert mechanical energy into electrical power. The generated electricity can be stored in batteries or fed directly into local applications, such as phone charging stations, lighting, or data capture."
+  },
+  {
+    "title":"Delivering Inclusive Design in Cities: A Global Action Report",
+    "authors":[
+      "Patrick",
+      "Muldowney",
+      "Gupta",
+      "McKinnon"
+    ],
+    "year":"2024",
+    "type":"report",
+    "source":null,
+    "keywords":null,
+    "abstract":"The aim of this report is to equip cities with \npractical but evidence-based actions to \naccelerate accessibility and inclusion in their \nphysical infrastructure, buildings, services \nand operation.  \nCities worldwide are experiencing continued \ngrowth and increasing resource challenges. \nIn low-and-middle income settings, this \nis particularly challenging, where in many \ncases huge infrastructural development \nis necessary. With resource constraints \nand increasing global challenges (rising \ninequality, climate changes, pandemics), it \nis even more critical that accessibility and \ninclusive design are seamlessly integrated \ninto the planning and design of cities and all \ntheir functions, to ensure the effective  and \nresilient use of resources to create liveable \nand enjoyable cities and ensure persons \nwith disabilities are not left behind. \nDisability policy is generally set by national \ngovernments, while cities need locally\nadaptable and practical frameworks for \ninclusive action. This suggests a need for \nglobal agenda of inclusive practices for cities \nto catalyse shared learning and collective \nefforts, not reinvent the wheel, and help \ncities to create their inclusive city."
+  },
+  {
+    "title":"The role of walking in last-mile urban deliveries",
+    "authors":[
+      "Dalla Chiara",
+      "Goodchild"
+    ],
+    "year":"2025",
+    "type":"journal",
+    "source":"Transportation",
+    "keywords":[
+      "Freight parking",
+      "Freight simulation",
+      "Last-mile",
+      "Urban freight",
+      "Walking behavior"
+    ],
+    "abstract":"Most of a delivery driver\u2019s time is spent outside the vehicle, walking the last-50-feet to reach the delivery customers while the vehicle is stationary. However, little is known about the walking component of delivery routes, while most models and algorithms used for scheduling and planning urban freight vehicles focus solely on the driving component. This study fills this research gap by providing an empirical analysis of the role of walking in last-mile deliveries. The study aims to empirically quantify delivery drivers\u2019 walking distances and shed light on the interrelation between walking and the overall efficiency and sustainability of delivery routes. Two data samples were obtained that recorded more than 1,800 real deliveries performed by a parcel carrier and a beverage carrier in Seattle, WA. Data on both vehicle routes and drivers\u2019 walking sub-routes were obtained and analyzed. Dwell time regression analyses and simulations were performed to understand the impact of walking on last-mile routes. The results highlighted the importance of walking across different types of deliveries. Both carriers either walked longer distances to find better parking or to serve multiple delivery customers from a single stop. The parcel carrier also showed large economies of scale in performing multiple deliveries per stop. An increase in willingness to walk showed a general reduction in the number of stops per route and in total vehicle miles traveled. The paper concludes with a discussion on the importance of walking in scheduling and planning for delivery vehicles in urban areas."
+  },
+  {
+    "title":"SGL Unpacked: The London Light Freight Walking Trial",
+    "authors":[
+
+    ],
+    "year":"2025",
+    "type":"report",
+    "source":null,
+    "keywords":null,
+    "abstract":"Cross River Partnership (CRP), The Fitzrovia Partnership, The London Borough of\n Camden, UPS and Heal\u2019s launched the London Light Freight Walking Freight Trial on\n the 5th of May 2023 to support low emission last-mile deliveries in the London\n Borough of Camden. \nThis marked the first time such a trial has taken place on public land, setting a ground\nbreaking precedent for future initiatives aimed at improving urban sustainability. By\n testing low-emission last-mile deliveries in a high-density area, the trial provided\n valuable insights into the potential for integrating eco-friendly logistics solutions\n within public spaces and urban infrastructure.\n The trial formed part of the Smarter Greener Logistics Programme, funded by the\n Department of Food and Rural Affairs (Defra). The trial, initially scheduled to conclude\n in May 2024 after a 12-month duration, ended after 10 months in March 2024, due to\n unforeseen works taking place at the host site, Heal\u2019s. \n The London Light Freight Walking Trial aimed to assess the feasibility of walking\n freight couriers with electric assisted trolleys as a sustainable alternative for last mile\n deliveries in dense urban areas and pedestrianised zones. The trial focussed on\n reducing congestion, lowering emissions and improving air quality by replacing light\n goods vehicles with a zero-emission solution. \nThe trial also highlights the economic and operational advantages of walking freight\n such as minimising noise pollution and better use of urban spaces. By gathering data\n on efficiency and scalability, the trial supports the development of future sustainable\n urban logistics, encouraging a wider adoption of low-impact delivery methods in\n London. The Cross River Partnership launched this trial to support London\u2019s\n sustainability goals and explore innovative ways to improve urban logistics."
+  },
+  {
+    "title":"Quantifying environmental and financial benefits of using porters and cycle couriers for last-mile parcel delivery Internal report by F",
+    "authors":[
+      "McLeod",
+      "Bektas",
+      "Allen",
+      "Martinez-Sykora",
+      "Lamas Fernandez",
+      "Bates",
+      "Cheliotis",
+      "Friday",
+      "Piecyk",
+      "Wise"
+    ],
+    "year":"2020",
+    "type":"report",
+    "source":null,
+    "keywords":null,
+    "abstract":"Historical manifest data from a parcel carrier undertaking 'next-day' (i.e. non-express) deliveries in an area of central London (mainly EC2 postcode district) were used to quantify the potential benefits of switching from the current van-based deliveries to one where porters or cycle couriers are used for the last-mile delivery, working from set drop-off points. The results suggested that over the business-as-usual case for the area of London studied, the carrier could reduce CO2 emissions by 45% (9500kg\/year) and NOx emissions by 33% (7.64kg\/year). Annual driving distance could be reduced by 78% (48,100km) and the amount of time spent stationary at the curbside by 45% (2558 hours\/year). Scaling up the modelled emissions savings to London's Central Activities Zone, an area approximately 10 times bigger than the modelled case study area and with estimated total annual parcel delivery distance of 15 million km, could see annual emissions savings in the region of 2 million kgCO2 and 1633kgNOx if all carriers utilised porters or cycle couriers. Overall cost savings to the carrier were estimated to be in the range 34%-39%. Some practical operating challenges are identified including sorting and packing of items, parcel handover arrangements, how to deal with failed deliveries, and how to incorporate express items."
+  },
+  {
+    "title":"Sustainable city logistics - Making cargo cycles viable for urban freight transport",
+    "authors":[
+      "Schliwa",
+      "Armitage",
+      "Aziz",
+      "Evans",
+      "Rhoades"
+    ],
+    "year":"2015",
+    "type":"journal",
+    "source":"Research in Transportation Business and Management",
+    "keywords":null,
+    "abstract":"Urban freight and city logistics are central to the UK economy, but face a number of economic and environmental challenges. This paper contributes to a new body of research that investigates the potential of cargo cycles to make city logistics more sustainable and explores ways to encourage their diffusion. The paper makes three key contributions. First, it develops a typology of cycle logistics based on a literature review and expert interviews in order to clarify definitions and terminology. Second, it identifies perception issues, lack of awareness and regulations as major barriers to wider implementation at city level based on snap-shot case studies. Third, it suggests a sustainable city logistics framework for urban governance, logistic operations and future research, to harness the potential of using cargo cycles for sustainable urban freight transport. The paper argues that local authorities have a key role to play in creating conditions that incentivise large logistic companies such as DHL, Hermes and TNT to integrate cargo cycles into their supply chain and hence drive a long-term modal shift. The findings of the paper are of interest to policy makers, urban logistic operators, research institutions and citizens as potential customers."
+  },
+  {
+    "title":"Cycling UK CAMPAIGNS BRIEFING\nCycle-friendly design and planning: Overview",
+    "authors":[
+      "WACUK"
+    ],
+    "year":"2012",
+    "type":"report",
+    "source":null,
+    "keywords":null,
+    "abstract":"Cycle-friendly design and planning: Overview www.cyclinguk.org\/campaigns Briefing 2A (October 2012) 0844 736 8450 Cycle-friendly design and planning: Overview THIS BRIEFING COVERS General principles; traffic volume reduction; urban streets and rural lanes; dual carriageways, inter-urban main roads and major junctions; off-road cycle facilities; other cycling infrastructure; maintenance and funding; ensuring high and consistent quality. HEADLINE MESSAGES \uf0b7 Cycling UK's vision is to see a massive step-change in cycle use, so that people of all ages, backgrounds and abilities feel able to cycle safely and confidently for all types of journey. \uf0b7 Our neighbourhoods, town centres and road networks should be fundamentally redesigned to be 'people-friendly', with cycling not only contributing to a reduction in car dependence, but also benefiting from it. Through-traffic should be channelled onto a limited network of main roads-which should have dedicated cycle provision on or alongside them-while traffic volumes and speeds are kept low on other streets or lanes. Dedicated cycle routes and cycle-friendly access restrictions (e.g. limiting motorised access to town-centres or rat-runs) can encourage people to choose cycling over motorised travel for day-today journeys. \uf0b7 The cycle network should include the whole road network, supplemented by high-quality cycle routes away from the road network, e.g. through parks and open spaces, or along canals, waterfronts and disused rail corridors. Dedicated cycle provision should be safe and feel safe, showing that society positively values those who choose to cycle, and avoiding any impression that they are a 'nuisance' to be 'kept out of the way of the traffic.' \uf0b7 In general, Cycling UK advocates: o 20 mph limits for most built-up streets (including villages), and the widespread adoption of 40 mph or lower limits for rural lanes; o Some form of dedicated space on busier urban roads, particularly where higher speed limits are retained; and o Parallel off-road facilities for dual carriageways and inter-urban roads. However, decisions on appropriate solutions will also need to reflect local factors, such as junctions and junction layouts, and demand for parking or loading. \uf0b7 In most places, the main priority for significant capital spending in the years ahead will be to redesign larger junctions to be cycle-friendly, or to open up links for cyclists across (or avoiding) major barriers to safe and convenient cycle travel. Opportunities should also be sought to maximise the funding for cycling improvements through the planning system and road maintenance budgets."
+  },
+  {
+    "title":"FREIGHT TRANSPORT AND THE KERBSIDE: THE FUTURE OF LOADING AND UNLOADING IN URBAN AREAS",
+    "authors":[
+      "Allen",
+      "Piecyk"
+    ],
+    "year":"2022",
+    "type":"report",
+    "source":null,
+    "keywords":null,
+    "abstract":"Kerbside becoming increasingly in-demand & contested space - not possible to meet all \ntransport & place-based functions required of it \n\u2022 National\/local government, town planners & urban designers should recognise kerbside \nneeds of freight transport & its importance  \n\u2022 National\/local government need to reform planning policy to ensure landlords & building \noccupants implement infrastructure & operations to reduce freight use of kerb space & time  \n\u2022 Urban authorities should have to:- Develop kerbside strategies taking account of all stakeholders\u2019 needs & views- Carry out regular reviews of existing kerbside provision for freight transport (suitability of quantity, \nlocation & vehicle dwell time)- Engage with & develop working relationships with freight transport industry through regular \nconversations and meetings - Better incorporate freight kerbside needs into space allocation hierarchies & streetscape designs \n\u2022 Would help to avoid unnecessary freight vehicle km & related emissions impacts as well as \nnegative local business impacts\n \u2022 Such efforts especially important given scale of urban development & rate of change in retail \n& commercial land use"
+  },
+  {
+    "title":"How cargo cycle drivers use the urban transport infrastructure",
+    "authors":[
+      "Dalla Chiara",
+      "Donnelly",
+      "Gunes",
+      "Goodchild"
+    ],
+    "year":"2022",
+    "type":"journal",
+    "source":"Transportation Research Part A: Policy and Practice",
+    "keywords":null,
+    "abstract":"Electric cargo cycles are often considered a viable alternative mode for delivering goods in an urban area. However, cities in the U.S. are struggling to regulate cargo cycles, with most authorities applying the same rules used for motorized vehicles or traditional bikes. One reason is the lack of understanding of the relationship between existing regulations and transport infrastructure and cargo cycle parking and driving behaviors. In this study, we analyzed a cargo cycle pilot test in Seattle and collected detailed data on the types of infrastructure used for driving and parking. GPS data were augmented by installing a video camera on the cargo cycle and recording the types of infrastructure used (distinguishing between the travel lane, bicycle lane, and sidewalk), the time spent on each type, and the activity performed. The analysis created a first-of-its-kind, detailed profile of the parking and driving behaviors of a cargo cycle driver. We observed a strong preference for parking (80 percent of the time) and driving (37 percent of the time) on the sidewalk. We also observed that cargo cycle parking was generally short (about 4 min), and the driver parked very close to the delivery address (30 m on average) and made only one delivery. Using a random utility model, we identified the infrastructure design parameters that would incentivize drivers to not use the sidewalk and to drive more on travel and bicycle lanes. The results from this study can be used to better plan for a future in which cargo cycles are used to make deliveries in urban areas."
+  }
+]

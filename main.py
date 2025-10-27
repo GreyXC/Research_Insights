@@ -1,5 +1,13 @@
 import re
+import subprocess
 from collections import Counter
+
+# Refresh PRISMA tracking: clean data, count stages, generate CSV
+subprocess.run(["python", "-m", "scripts.clean.clean_data"], check=True)
+subprocess.run(["python", "-m", "scripts.analysis.count_prisma_stages"], check=True)
+subprocess.run(["python", "-m", "scripts.analysis.generate_prisma_csv"], check=True)
+
+# Load modules
 from scripts.load.load_json import load_mendeley_json
 from scripts.analysis.cluster_keywords import cluster_keywords
 from scripts.analysis.name_clusters import name_clusters
@@ -8,8 +16,8 @@ from scripts.visualize.vosmapper.build_graph import build_graph
 from scripts.visualize.vosmapper.compute_layout import compute_layout
 from scripts.visualize.vosmapper.plot_interactive import plot_interactive
 
-# Load metadata
-df = load_mendeley_json("data_sources/raw/mendeley_metadata.json")
+# Load cleaned metadata
+df = load_mendeley_json("data_sources/raw/cleaned_metadata.json")
 
 # Dynamically select available metadata fields
 available_fields = ["title", "abstract", "keywords", "subject_area"]
@@ -91,14 +99,14 @@ for node in isolated_nodes:
     G.nodes[node]["isolated"] = True
 
 # Compute layout
-pos = compute_layout(G, layout_type="kamada") # "kamada" or "spring", "spectral", "circular"
+pos = compute_layout(G, layout_type="kamada")  # "kamada", "spring", "spectral", "circular"
 
 # Render interactive map
 plot_interactive(
     G,
     term_freq,
     pos,
-    sizing_mode="frequency",  # 'frequency' or "co-occurrence"
+    sizing_mode="co-occurrence",  # 'frequency' or 'co-occurrence'
     cluster_colors=cluster_colors,
     strong_edge_scale=0.5,
     weak_edge_scale=0.5,
