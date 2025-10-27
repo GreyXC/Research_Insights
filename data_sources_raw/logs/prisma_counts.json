@@ -1,9 +1,9 @@
 {
-  "identified": 61,
+  "records_identified": 52,
   "duplicates_removed": 0,
-  "screened": 61,
-  "excluded_screening": 9,
-  "eligibility": 52,
-  "excluded_eligibility": 0,
-  "included": 52
+  "records_screened": 52,
+  "records_excluded": 9,
+  "reports_assessed": 43,
+  "reports_excluded": 0,
+  "studies_included": 43
 }
