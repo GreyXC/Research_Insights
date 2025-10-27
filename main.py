@@ -1,6 +1,17 @@
 import re
 import subprocess
+from pathlib import Path
 from collections import Counter
+
+# Reset PRISMA logs
+log_dir = Path("data_sources_raw/logs")
+counts_path = log_dir / "prisma_counts.json"
+decisions_path = log_dir / "prisma_decisions.jsonl"
+
+for path in [counts_path, decisions_path]:
+    if path.exists():
+        path.unlink()
+        print(f"Reset: {path.name}")
 
 # Refresh PRISMA tracking: clean data, count stages, generate CSV
 subprocess.run(["python", "-m", "scripts.clean.clean_data"], check=True)
@@ -106,7 +117,7 @@ plot_interactive(
     G,
     term_freq,
     pos,
-    sizing_mode="co-occurrence",  # 'frequency' or 'co-occurrence'
+    sizing_mode="frequency",  # 'frequency' or 'co-occurrence'
     cluster_colors=cluster_colors,
     strong_edge_scale=0.5,
     weak_edge_scale=0.5,

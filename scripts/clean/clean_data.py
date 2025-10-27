@@ -5,42 +5,66 @@ from ..analysis.log_prisma_decision import log_decision
 def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     """
     Cleans a DataFrame by:
-    - Dropping rows with missing abstracts
+    - Dropping rows with missing or short abstracts
     - Stripping whitespace from 'title' and 'abstract'
     - Replacing semicolons with commas in 'tags'
     - Extracting 4-digit years from 'year'
     Also logs PRISMA screening exclusions.
     """
     df = df.copy()
-    initial_ids = df.index.astype(str)
+    valid_rows = []
 
-    # Drop missing abstracts
-    if "abstract" in df.columns:
-        missing_abstracts = df[df["abstract"].isna()]
-        for idx in missing_abstracts.index:
-            log_decision(record_id=str(idx), stage="screening", decision="exclude_irrelevant", reason="Missing abstract")
-        df = df.dropna(subset=["abstract"])
-        df["abstract"] = df["abstract"].str.strip()
+    def is_valid_record(row):
+        abstract = row.get("abstract", "")
+        title = row.get("title", "")
+        year = row.get("year", "")
 
-    # Strip title
-    if "title" in df.columns:
-        df["title"] = df["title"].str.strip()
-        empty_titles = df[df["title"].isna() | (df["title"].str.strip() == "")]
-        for idx in empty_titles.index:
-            log_decision(record_id=str(idx), stage="screening", decision="exclude_irrelevant", reason="Missing title")
+        # Normalize abstract
+        if isinstance(abstract, list):
+            abstract = " ".join(map(str, abstract))
+        if not isinstance(abstract, str):
+            abstract = str(abstract)
+        abstract = abstract.strip()
 
-    # Clean tags
-    if "tags" in df.columns:
-        df["tags"] = df["tags"].str.replace(";", ",", regex=False).str.strip()
+        # Normalize title
+        if not isinstance(title, str):
+            title = str(title)
+        title = title.strip()
 
-    # Extract 4-digit years
-    if "year" in df.columns:
-        df["year"] = df["year"].astype(str).str.extract(r"(\d{4})")
-        invalid_years = df[df["year"].isna()]
-        for idx in invalid_years.index:
-            log_decision(record_id=str(idx), stage="screening", decision="exclude_irrelevant", reason="Invalid or missing year")
+        # Extract year
+        year_str = str(year)
+        year_match = pd.Series(year_str).str.extract(r"(\d{4})")[0]
+        valid_year = year_match.iloc[0] if not year_match.isna().iloc[0] else None
 
-    return df
+        # Apply filters
+        if abstract == "" or len(abstract) < 30:
+            return False, "Missing or short abstract"
+        if title == "":
+            return False, "Missing title"
+        if valid_year is None:
+            return False, "Invalid or missing year"
+        return True, None
+
+    for idx, row in df.iterrows():
+        keep, reason = is_valid_record(row)
+        if keep:
+            valid_rows.append(row)
+        else:
+            log_decision(record_id=str(idx), stage="screening", decision="exclude_irrelevant", reason=reason)
+
+    df_cleaned = pd.DataFrame(valid_rows)
+
+    # Final cleanup
+    if "abstract" in df_cleaned.columns:
+        df_cleaned["abstract"] = df_cleaned["abstract"].astype(str).str.strip()
+    if "title" in df_cleaned.columns:
+        df_cleaned["title"] = df_cleaned["title"].astype(str).str.strip()
+    if "tags" in df_cleaned.columns:
+        df_cleaned["tags"] = df_cleaned["tags"].str.replace(";", ",", regex=False).str.strip()
+    if "year" in df_cleaned.columns:
+        df_cleaned["year"] = df_cleaned["year"].astype(str).str.extract(r"(\d{4})")
+
+    return df_cleaned
 
 # Optional: theme map name for downstream use
 theme_map_name = "logistics_review"

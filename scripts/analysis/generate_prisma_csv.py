@@ -15,52 +15,75 @@ def generate_csv():
 
     rows = [
         {
-            "data": "Records identified from: Mendeley Metadata",
+            "data": "Records identified from: Mendeley",
             "node": "identification",
-            "n": c.get("identified", 0),
-            "note": ""
+            "box": "records_identified",
+            "description": "Metadata records retrieved from Mendeley",
+            "boxtext": f"{c['identified']} records identified",
+            "tooltips": "Initial records retrieved from database",
+            "url": ""
         },
         {
             "data": "Records removed before screening: duplicates",
             "node": "screening",
-            "n": c.get("duplicates_removed", 0),
-            "note": "Duplicate DOIs"
+            "box": "duplicates_removed",
+            "description": "Records removed due to duplicate DOIs",
+            "boxtext": f"{c['duplicates_removed']} duplicates removed",
+            "tooltips": "Removed based on duplicate identifiers",
+            "url": ""
         },
         {
             "data": "Records screened",
             "node": "screening",
-            "n": c.get("screened", 0),
-            "note": ""
+            "box": "records_screened",
+            "description": "Records screened for relevance and completeness",
+            "boxtext": f"{c['screened']} records screened",
+            "tooltips": "Screening based on title, abstract, and year",
+            "url": ""
         },
         {
             "data": "Records excluded",
             "node": "screening",
-            "n": c.get("excluded_screening", 0),
-            "note": "Irrelevant or incomplete"
+            "box": "records_excluded",
+            "description": "Excluded due to missing or irrelevant metadata",
+            "boxtext": f"{c['excluded_screening']} records excluded",
+            "tooltips": "Missing abstract, title, or invalid year",
+            "url": ""
         },
         {
             "data": "Reports assessed for eligibility",
             "node": "eligibility",
-            "n": c.get("eligibility", 0),
-            "note": "Aligned with scope"
+            "box": "full_text_articles",
+            "description": "Remaining records assessed for full-text eligibility",
+            "boxtext": f"{c['eligibility']} reports assessed",
+            "tooltips": "Eligibility based on scope and availability",
+            "url": ""
         },
         {
             "data": "Reports excluded",
             "node": "eligibility",
-            "n": c.get("excluded_eligibility", 0),
-            "note": "Out of scope"
+            "box": "reports_excluded",
+            "description": "Excluded during full-text eligibility assessment",
+            "boxtext": f"{c['excluded_eligibility']} reports excluded",
+            "tooltips": "Out of scope or inaccessible",
+            "url": ""
         },
         {
             "data": "Studies included in synthesis",
             "node": "inclusion",
-            "n": c.get("included", 0),
-            "note": "relevant studies for analysis"
+            "box": "studies_included",
+            "description": "Final records included in keyword synthesis",
+            "boxtext": f"{c['included']} studies included",
+            "tooltips": "Included in final analysis and visualisation",
+            "url": ""
         }
     ]
 
     CSV_PATH.parent.mkdir(parents=True, exist_ok=True)
     with CSV_PATH.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=["data", "node", "n", "note"])
+        writer = csv.DictWriter(f, fieldnames=[
+            "data", "node", "box", "description", "boxtext", "tooltips", "url"
+        ])
         writer.writeheader()
         writer.writerows(rows)
 
