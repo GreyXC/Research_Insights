@@ -103,7 +103,7 @@ for node in G.nodes():
         G.nodes[node]["isolated"] = True
 
 # Compute layout
-pos = compute_layout(G, layout_type="kamada")
+pos = compute_layout(G, layout_type="Spring") # Spring or kamada or circular
 
 # Render interactive map
 plot_interactive(
