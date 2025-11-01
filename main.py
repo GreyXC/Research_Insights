@@ -113,6 +113,6 @@ plot_interactive(
     sizing_mode="frequency", # "frequency" or "co-occurrence"
     cluster_colors=cluster_colors,
     strong_edge_scale=0.5,
-    weak_edge_scale=0.1,
-    edge_threshold=0.2
+    weak_edge_scale=0.5,
+    edge_threshold=0.1
 )

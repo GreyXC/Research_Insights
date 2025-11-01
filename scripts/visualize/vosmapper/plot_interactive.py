@@ -3,7 +3,7 @@ from collections import defaultdict
 import numpy as np
 import math
 
-def curved_edge(x0, y0, x1, y1, curvature=0.05, resolution=50):
+def curved_edge(x0, y0, x1, y1, curvature=0.05, resolution=500):
     mx, my = (x0 + x1) / 2, (y0 + y1) / 2
     dx, dy = x1 - x0, y1 - y0
     norm = np.sqrt(dx**2 + dy**2)
@@ -19,11 +19,11 @@ def curved_edge(x0, y0, x1, y1, curvature=0.05, resolution=50):
 
     return list(x_vals) + [None], list(y_vals) + [None]
 
-def compute_thickness(weight, strong_scale=1.0, weak_scale=1.0, base=0.5, power=2.5, range=10):
+def compute_thickness(weight, strong_scale=1.5, weak_scale=1.0, base=0.5, power=2.5, range=3):
     scaled = base + (weight ** power) * range
     return max(scaled * (strong_scale if weight >= 0.3 else weak_scale), 0.5)
 
-def compute_opacity(weight, strong_scale=1.0, weak_scale=1.0, base=0.1, power=2.5, range=2.0):
+def compute_opacity(weight, strong_scale=1.0, weak_scale=1.0, base=0.15, power=2.0, range=2.5):
     scaled = base + (weight ** power) * range
     return min(scaled * (strong_scale if weight >= 0.3 else weak_scale), 1.0)
 
