@@ -5,6 +5,7 @@ def build_graph(clusters, cluster_names):
     """
     Builds a co-occurrence graph from clustered keywords.
     Tags nodes with cluster ID and semantic label.
+    Normalizes edge weights for visualization.
     """
     G = nx.Graph()
     keyword_to_cluster = {}
@@ -28,7 +29,13 @@ def build_graph(clusters, cluster_names):
     for (kw1, kw2), weight in cooccurrence.items():
         G.add_edge(kw1, kw2, weight=weight)
 
-    # Optional: tag bridge nodes
+    # Normalize edge weights for visualization
+    if G.number_of_edges() > 0:
+        max_weight = max(data["weight"] for _, _, data in G.edges(data=True))
+        for u, v, data in G.edges(data=True):
+            data["weight_norm"] = data["weight"] / max_weight
+
+    # Tag bridge nodes (connected to multiple clusters)
     for node in G.nodes():
         neighbor_clusters = {G.nodes[n].get("cluster") for n in G.neighbors(node)}
         if len(neighbor_clusters) > 1:
