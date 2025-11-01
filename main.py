@@ -59,27 +59,16 @@ def extract_words(row):
 
 df["word_list"] = df.apply(extract_words, axis=1)
 
-# Define the same palette used in name_clusters()
-cluster_palette = {
-    "Governance & Equity": "#FF7F0E",
-    "Infrastructure Risk & Resilience": "#1F77B4",
-    "Sustainable Systems & Access": "#2CA02C",
-    "Urban Planning & Open Data": "#9467BD",
-    "Crisis Modeling & Communication": "#D62728",
-    "Urban Logistics & Mobility": "#8C564B",
-    "Computational Modeling & Systems": "#E377C2",
-    "Regional Environmental Hazards": "#7F7F7F",
-    "Fallback": "#CCCCCC"
-}
-
-# Set number of clusters dynamically (excluding fallback)
-n_clusters = len([k for k in cluster_palette if k != "Fallback"])
+# Set number of clusters
+n_clusters = 8
 
 # Cluster keywords
 clusters, filtered_lists = cluster_keywords(df, column="word_list", n_clusters=n_clusters, return_tokens=True)
 
 # Assign semantic labels and color codes
 cluster_names, cluster_colors = name_clusters(clusters)
+
+print(f"Raw cluster count: {len(clusters)}")
 
 # Build global term frequency from filtered tokens
 flat_keywords = [kw for tokens in filtered_lists for kw in tokens]
