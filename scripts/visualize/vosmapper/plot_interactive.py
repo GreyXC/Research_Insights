@@ -40,7 +40,7 @@ def plot_interactive(
     cluster_nodes = defaultdict(list)
     cluster_edges = defaultdict(list)
 
-    # ✅ Group by semantic label instead of raw cluster ID
+    # Group by semantic label instead of raw cluster ID
     for node in G.nodes():
         label = G.nodes[node].get("label", G.nodes[node].get("cluster", "Unknown"))
         cluster_nodes[label].append(node)
@@ -65,7 +65,7 @@ def plot_interactive(
 
             if sizing_mode == "frequency":
                 freq = term_freq.get(node, 1)
-                size = max(min((freq + 1) ** 1.2 * 1, 500), 0.5)
+                size = max(min((freq + 1) ** 1.1 * 1, 500), 0.5)
                 label_text = f"{node} ({freq})"
             elif sizing_mode == "co-occurrence":
                 weight_sum = sum(G[node][nbr].get("weight", 1) for nbr in G.neighbors(node))

@@ -103,16 +103,16 @@ for node in G.nodes():
         G.nodes[node]["isolated"] = True
 
 # Compute layout
-pos = compute_layout(G, layout_type="Spring") # Spring or kamada or circular
+pos = compute_layout(G, layout_type="kamada") # spring or kamada or circular or spectral
 
 # Render interactive map
 plot_interactive(
     G,
     term_freq,
     pos,
-    sizing_mode="frequency",
+    sizing_mode="frequency", # "frequency" or "co-occurrence"
     cluster_colors=cluster_colors,
     strong_edge_scale=0.5,
-    weak_edge_scale=0.5,
-    edge_threshold=0.1
+    weak_edge_scale=0.1,
+    edge_threshold=0.2
 )
