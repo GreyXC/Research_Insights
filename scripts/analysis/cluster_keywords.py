@@ -12,6 +12,19 @@ except LookupError:
     nltk.download("stopwords")
 
 def cluster_keywords(df, column="word_list", n_clusters=6, return_tokens=False):
+    """
+    Clusters keywords from a dataframe column containing token lists.
+
+    Parameters:
+        df (pd.DataFrame): Input dataframe with tokenized keyword lists.
+        column (str): Column name containing token lists.
+        n_clusters (int): Number of clusters to generate.
+        return_tokens (bool): Whether to return the filtered token lists.
+
+    Returns:
+        clustered (dict): Cluster ID → list of (keyword, count) tuples.
+        filtered_lists (list): List of filtered token lists (if return_tokens=True).
+    """
     stop_words = set(stopwords.words("english")) | ENGLISH_STOP_WORDS
 
     # Use pre-cleaned token lists from df[column]

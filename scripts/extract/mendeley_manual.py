@@ -3,7 +3,7 @@ import os
 import json
 
 CLIENT_ID = os.getenv("MENDELEY_CLIENT_ID", "21265")
-CLIENT_SECRET = os.getenv("MENDELEY_CLIENT_SECRET")
+CLIENT_SECRET = os.getenv("MENDELEY_CLIENT_SECRET", "xOxlONQTqXwhMFKl")
 REDIRECT_URI = "http://localhost:8080"
 
 def get_access_token(code):
