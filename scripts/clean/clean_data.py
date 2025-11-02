@@ -1,18 +1,20 @@
 import pandas as pd
+import json
 from pathlib import Path
 from ..analysis.log_prisma_decision import log_decision
 
-def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
+def clean_dataframe(df: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
     """
     Cleans a DataFrame by:
     - Dropping rows with missing or short abstracts
     - Stripping whitespace from 'title' and 'abstract'
     - Replacing semicolons with commas in 'tags'
     - Extracting 4-digit years from 'year'
-    Also logs PRISMA screening exclusions.
+    Also logs PRISMA screening exclusions and returns exclusion reasons.
     """
     df = df.copy()
     valid_rows = []
+    exclusion_reasons = {}
 
     def is_valid_record(row):
         abstract = row.get("abstract", "")
@@ -48,9 +50,11 @@ def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     for idx, row in df.iterrows():
         keep, reason = is_valid_record(row)
         if keep:
-            valid_rows.append(row)
+            row_dict = row.to_dict()
+            valid_rows.append(row_dict)
         else:
             log_decision(record_id=str(idx), stage="screening", decision="exclude_irrelevant", reason=reason)
+            exclusion_reasons[reason] = exclusion_reasons.get(reason, 0) + 1
 
     df_cleaned = pd.DataFrame(valid_rows)
 
@@ -64,21 +68,27 @@ def clean_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     if "year" in df_cleaned.columns:
         df_cleaned["year"] = df_cleaned["year"].astype(str).str.extract(r"(\d{4})")
 
-    return df_cleaned
+    return df_cleaned, exclusion_reasons
 
-# Optional: theme map name for downstream use
 theme_map_name = "logistics_review"
 
-# Optional CLI/test entry point
 if __name__ == "__main__":
     input_path = Path("data_sources/raw/mendeley_metadata.json")
     output_path = Path("data_sources/raw/cleaned_metadata.json")
+    exclusion_path = Path("data_sources_raw/logs/prisma_exclusions.json")
 
     if input_path.exists():
         df = pd.read_json(input_path)
-        cleaned = clean_dataframe(df)
+        df["ingestion_source"] = "mendeley_api"
+
+        cleaned, exclusion_reasons = clean_dataframe(df)
         output_path.parent.mkdir(parents=True, exist_ok=True)
         cleaned.to_json(output_path, orient="records", indent=2)
         print(f"Cleaned data saved to {output_path}")
+
+        exclusion_path.parent.mkdir(parents=True, exist_ok=True)
+        with exclusion_path.open("w", encoding="utf-8") as f:
+            json.dump(exclusion_reasons, f, indent=2)
+        print(f"Exclusion summary saved to {exclusion_path}")
     else:
         print(f"Input file not found: {input_path}")
