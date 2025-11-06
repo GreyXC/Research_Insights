@@ -1,58 +1,50 @@
-from collections import defaultdict
 import numpy as np
-from sentence_transformers import SentenceTransformer
 from sklearn.cluster import KMeans
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.decomposition import PCA
+from sentence_transformers import SentenceTransformer
+from collections import defaultdict, Counter
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
-def extract_text_fields(entry):
-    title = entry.get('title', '')
-    abstract = entry.get('abstract', '')
-    keywords = ' '.join(entry.get('keywords', []))
-    return f"{title} {abstract} {keywords}".strip()
-
-def build_author_embeddings(entries):
+def build_author_embeddings(parsed_entries):
     author_texts = defaultdict(list)
-    for entry in entries:
-        text = extract_text_fields(entry)
-        if not text:
-            continue
-        for author in entry.get('authors', []):
-            author_texts[author].append(text)
-
-    author_embeddings = {}
+    for entry in parsed_entries:
+        authors = entry.get("authors", [])
+        abstract = entry.get("abstract", "")
+        for author in authors:
+            if abstract:
+                author_texts[author].append(abstract)
+    embeddings = {}
     for author, texts in author_texts.items():
-        vectors = model.encode(texts)
-        author_embeddings[author] = np.mean(vectors, axis=0)
-
-    return author_embeddings
+        joined = " ".join(texts)
+        embeddings[author] = model.encode(joined)
+    return embeddings
 
 def cluster_author_embeddings(embeddings, n_clusters=6):
-    authors = list(embeddings.keys())
-    X = np.array([embeddings[a] for a in authors])
-    labels = KMeans(n_clusters=n_clusters, random_state=42).fit_predict(X)
-    return dict(zip(authors, labels))
+    X = np.array(list(embeddings.values()))
+    kmeans = KMeans(n_clusters=n_clusters, random_state=42)
+    labels = kmeans.fit_predict(X)
+    return dict(zip(embeddings.keys(), labels))
 
-def label_clusters_by_keywords(entries, semantic_labels, top_k=2):
+def label_clusters_by_keywords(parsed_entries, cluster_map, top_k=2):
     cluster_texts = defaultdict(list)
-
-    for entry in entries:
-        text = extract_text_fields(entry)
-        if not text:
-            continue
-        for author in entry.get('authors', []):
-            cluster = semantic_labels.get(author)
-            if cluster is not None:
-                cluster_texts[cluster].append(text)
+    for entry in parsed_entries:
+        authors = entry.get("authors", [])
+        abstract = entry.get("abstract", "")
+        for author in authors:
+            cluster_id = cluster_map.get(author)
+            if cluster_id is not None and abstract:
+                cluster_texts[cluster_id].extend(abstract.lower().split())
 
     cluster_labels = {}
-    for cluster, texts in cluster_texts.items():
-        vectorizer = TfidfVectorizer(stop_words='english', max_features=1000)
-        X = vectorizer.fit_transform(texts)
-        scores = X.sum(axis=0).A1
-        terms = vectorizer.get_feature_names_out()
-        top_terms = [terms[i] for i in scores.argsort()[::-1][:top_k]]
-        cluster_labels[cluster] = ', '.join(top_terms)
-
+    for cluster_id, words in cluster_texts.items():
+        common = [w for w, _ in Counter(words).most_common(50) if len(w) > 4]
+        label = ", ".join(common[:top_k])
+        cluster_labels[cluster_id] = label
     return cluster_labels
+
+def project_embeddings_pca(embeddings, n_components=2):
+    authors = list(embeddings.keys())
+    X = np.array([embeddings[a] for a in authors])
+    coords = PCA(n_components=n_components).fit_transform(X)
+    return dict(zip(authors, coords))
