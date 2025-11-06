@@ -46,7 +46,7 @@ def visualize_author_graph(G, seed=1472, k=5, iterations=500):
     ]
     plt.legend(handles=handles, title="Author Fields", loc="lower left", fontsize=8, title_fontsize=9, frameon=True)
 
-    plt.axis('off')
+    plt.axis('on') 
     plt.title("Author Co-Authorship Network (Semantic Clusters)", fontsize=14)
     plt.tight_layout()
     plt.show()
