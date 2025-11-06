@@ -1,8 +1,10 @@
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import networkx as nx
+import numpy as np
 from random import uniform
 from scipy.spatial import ConvexHull
+from scipy.interpolate import splprep, splev
 
 def apply_jitter(pos, scale=0.01):
     return {
@@ -10,19 +12,28 @@ def apply_jitter(pos, scale=0.01):
         for node, (x, y) in pos.items()
     }
 
-def draw_cluster_hull(ax, pos, nodes, color="#1f77b4", alpha=0.1):
-    points = [pos[n] for n in nodes if n in pos]
+def draw_cluster_hull_smooth(ax, pos, nodes, color="#1f77b4", alpha=0.1, padding=0.2, smoothness=100):
+    points = np.array([pos[n] for n in nodes if n in pos])
     if len(points) < 3:
         print(f"Skipping hull: only {len(points)} points")
         return
+
     hull = ConvexHull(points)
-    polygon = [points[i] for i in hull.vertices]
-    polygon.append(polygon[0])  # Close the polygon
-    xs, ys = zip(*polygon)
-    ax.fill(xs, ys, color=color, alpha=alpha, zorder=0)
+    polygon = points[hull.vertices]
+
+    # Expand outward from centroid
+    centroid = np.mean(polygon, axis=0)
+    expanded = centroid + (polygon - centroid) * (1 + padding)
+    expanded = np.vstack([expanded, expanded[0]])  # Close polygon
+
+    # Interpolate smooth curve
+    x, y = expanded[:, 0], expanded[:, 1]
+    tck, _ = splprep([x, y], s=0, per=True)
+    xi, yi = splev(np.linspace(0, 1, smoothness), tck)
+
+    ax.fill(xi, yi, color=color, alpha=alpha, zorder=0)
 
 def visualize_author_graph(G, seed=1472, k=5.0, iterations=10):
-    # Use layout seed if available
     if all('layout_seed' in G.nodes[n] for n in G.nodes()):
         seed_pos = {n: G.nodes[n]['layout_seed'] for n in G.nodes()}
         pos = nx.spring_layout(G, pos=seed_pos, seed=seed, k=k, iterations=iterations)
@@ -30,10 +41,8 @@ def visualize_author_graph(G, seed=1472, k=5.0, iterations=10):
     else:
         pos = nx.spring_layout(G, seed=seed, k=k, iterations=iterations)
 
-    # Determine cluster attribute
     cluster_attr = 'semantic_cluster' if 'semantic_cluster' in next(iter(G.nodes(data=True)))[1] else 'cluster'
 
-    # Assign colors to clusters
     hex_colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728',
                   '#9467bd', '#8c564b', '#e377c2', '#7f7f7f',
                   '#bcbd22', '#17becf']
@@ -44,11 +53,11 @@ def visualize_author_graph(G, seed=1472, k=5.0, iterations=10):
 
     fig, ax = plt.subplots(figsize=(10, 8))
 
-    # Draw hulls for all clusters
+    # Draw smooth padded hulls for all clusters
     for theme in themes:
         cluster_nodes = [n for n in G.nodes if G.nodes[n].get(cluster_attr) == theme]
         print(f"Hull: {theme}, node count: {len(cluster_nodes)}")
-        draw_cluster_hull(ax, pos, cluster_nodes, color=theme_to_color.get(theme, "#1f77b4"), alpha=0.1)
+        draw_cluster_hull_smooth(ax, pos, cluster_nodes, color=theme_to_color[theme], alpha=0.1, padding=0.2)
 
     # Draw edges
     weights = [G[u][v]['weight'] for u, v in G.edges()]
@@ -75,6 +84,6 @@ def visualize_author_graph(G, seed=1472, k=5.0, iterations=10):
     ax.legend(handles=handles, title="Author Fields", loc="lower left", fontsize=8, title_fontsize=9, frameon=True)
 
     ax.axis('off')
-    ax.set_title("Author Co-Authorship Network (Semantic Clusters)", fontsize=14)
+    ax.set_title("Author Co-Authorship Network (With Topic Modelled Semantic Groups)", fontsize=14)
     plt.tight_layout()
     plt.show()
