@@ -1,8 +1,7 @@
 import networkx as nx
-import community as louvain
 
-def cluster_author_graph(matrix):
+def cluster_author_graph(matrix, semantic_labels=None):
     G = nx.from_pandas_adjacency(matrix)
-    partition = louvain.best_partition(G)
-    nx.set_node_attributes(G, partition, 'cluster')
+    if semantic_labels:
+        nx.set_node_attributes(G, semantic_labels, 'semantic_cluster')
     return G
