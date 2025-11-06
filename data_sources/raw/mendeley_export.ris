@@ -1,0 +1,442 @@
+TY  - RPRT
+AB  - The transition from fossil-fuel-based transportation systems to those reliant on lowand 
+zero-emission technologies marks a crucial paradigm shift, necessitating a reevaluation of resilience metrics 
+and strategies. As infrastructure investments adapt to a changing climate and the risk of extreme events, our 
+paper identifies the complexities of resilience within the transportation sector, which now integrates a broad 
+array of energy sources like electricity, hydrogen, and synthetic fuels. This deepening integration increases 
+the complexity of maintaining transportation resilience, highlighting the inadequacy of traditional resilience 
+metrics designed for centralized systems under stable climate conditions. We propose a Multi-System 
+Dynamics (MSD) framework to develop new, system-level resilience metrics to effectively manage emerging 
+risks associated with diverse energy sources and extreme weather conditions. This study emphasizes the 
+need for robust scenario analysis and the integration of Cost-Benefit Analysis (CBA) tools that account for 
+resilience, offering a framework to evaluate the economic impacts and benefits of resilience investments. 
+Our proposed approach encompasses evaluating resilience at the system level to identify and mitigate 
+new risks introduced by the adoption of low-carbon technologies and the interconnectedness of modern 
+energy and transportation infrastructures. Through rigorous scenario analysis, we aim to support robust 
+decision-making that can withstand and adapt to the unpredictabilities of a low-carbon future. By advancing 
+these areas, the paper contributes to the strategic planning necessary to foster a resilient, sustainable 
+transportation ecosystem capable of facing both current and future challenges.
+AU  - Prinn, Ronald G
+AU  - Yeh, Sonia
+AU  - Paltsev, Sergey
+AU  - Reilly, John M
+AU  - Daniels, David
+AU  - Linares, Pedro
+DA  - 2024/7//
+PY  - 2024
+SP  - 4
+EP  - 10
+TI  - Designing Resilience for Multi-System Dynamics of Future Transportation
+UR  - http://globalchange.mit.edu/
+ER  -
+TY  - RPRT
+AB  - The aim of this report is to equip cities with 
+practical but evidence-based actions to 
+accelerate accessibility and inclusion in their 
+physical infrastructure, buildings, services 
+and operation.  
+Cities worldwide are experiencing continued 
+growth and increasing resource challenges. 
+In low-and-middle income settings, this 
+is particularly challenging, where in many 
+cases huge infrastructural development 
+is necessary. With resource constraints 
+and increasing global challenges (rising 
+inequality, climate changes, pandemics), it 
+is even more critical that accessibility and 
+inclusive design are seamlessly integrated 
+into the planning and design of cities and all 
+their functions, to ensure the effective  and 
+resilient use of resources to create liveable 
+and enjoyable cities and ensure persons 
+with disabilities are not left behind. 
+Disability policy is generally set by national 
+governments, while cities need locally
+adaptable and practical frameworks for 
+inclusive action. This suggests a need for 
+global agenda of inclusive practices for cities 
+to catalyse shared learning and collective 
+efforts, not reinvent the wheel, and help 
+cities to create their inclusive city.
+AU  - Patrick, Mikaela
+AU  - Muldowney, Annamae
+AU  - Gupta, Shivani
+AU  - McKinnon, Iain
+PY  - 2024
+SP  - 12
+EP  - 13
+TI  - Delivering Inclusive Design in Cities: A Global Action Report
+UR  - https://www.at2030.org/static/at2030_core/outputs/GDI_Hub_-_A_global_action_report_on_Delivering_Inclusive_Desi_vV9Id7s.pdf
+ER  -
+TY  - JOUR
+AB  - Most of a delivery driver’s time is spent outside the vehicle, walking the last-50-feet to reach the delivery customers while the vehicle is stationary. However, little is known about the walking component of delivery routes, while most models and algorithms used for scheduling and planning urban freight vehicles focus solely on the driving component. This study fills this research gap by providing an empirical analysis of the role of walking in last-mile deliveries. The study aims to empirically quantify delivery drivers’ walking distances and shed light on the interrelation between walking and the overall efficiency and sustainability of delivery routes. Two data samples were obtained that recorded more than 1,800 real deliveries performed by a parcel carrier and a beverage carrier in Seattle, WA. Data on both vehicle routes and drivers’ walking sub-routes were obtained and analyzed. Dwell time regression analyses and simulations were performed to understand the impact of walking on last-mile routes. The results highlighted the importance of walking across different types of deliveries. Both carriers either walked longer distances to find better parking or to serve multiple delivery customers from a single stop. The parcel carrier also showed large economies of scale in performing multiple deliveries per stop. An increase in willingness to walk showed a general reduction in the number of stops per route and in total vehicle miles traveled. The paper concludes with a discussion on the importance of walking in scheduling and planning for delivery vehicles in urban areas.
+AU  - Dalla Chiara, Giacomo
+AU  - Goodchild, Anne
+DA  - 2025/6//
+DO  - 10.1007/s11116-025-10633-6
+KW  - Freight parking
+KW  - Freight simulation
+KW  - Last-mile
+KW  - Urban freight
+KW  - Walking behavior
+PB  - Springer
+PY  - 2025
+TI  - The role of walking in last-mile urban deliveries
+T2  - Transportation
+UR  - https://urbanfreightlab.com/wp-content/uploads/2025/06/The-Role-of-Walking-in-Last-Mile-Urban-Delivery.pdf
+ER  -
+TY  - RPRT
+AB  - Cross River Partnership (CRP), The Fitzrovia Partnership, The London Borough of
+ Camden, UPS and Heal’s launched the London Light Freight Walking Freight Trial on
+ the 5th of May 2023 to support low emission last-mile deliveries in the London
+ Borough of Camden. 
+This marked the first time such a trial has taken place on public land, setting a ground
+breaking precedent for future initiatives aimed at improving urban sustainability. By
+ testing low-emission last-mile deliveries in a high-density area, the trial provided
+ valuable insights into the potential for integrating eco-friendly logistics solutions
+ within public spaces and urban infrastructure.
+ The trial formed part of the Smarter Greener Logistics Programme, funded by the
+ Department of Food and Rural Affairs (Defra). The trial, initially scheduled to conclude
+ in May 2024 after a 12-month duration, ended after 10 months in March 2024, due to
+ unforeseen works taking place at the host site, Heal’s. 
+ The London Light Freight Walking Trial aimed to assess the feasibility of walking
+ freight couriers with electric assisted trolleys as a sustainable alternative for last mile
+ deliveries in dense urban areas and pedestrianised zones. The trial focussed on
+ reducing congestion, lowering emissions and improving air quality by replacing light
+ goods vehicles with a zero-emission solution. 
+The trial also highlights the economic and operational advantages of walking freight
+ such as minimising noise pollution and better use of urban spaces. By gathering data
+ on efficiency and scalability, the trial supports the development of future sustainable
+ urban logistics, encouraging a wider adoption of low-impact delivery methods in
+ London. The Cross River Partnership launched this trial to support London’s
+ sustainability goals and explore innovative ways to improve urban logistics.
+AU  - CRP
+DA  - 2025/2//
+PY  - 2025
+TI  - SGL Unpacked: The London Light Freight Walking Trial
+UR  - https://crossriverpartnership.org/wp-content/uploads/2025/02/SGL-Unpacked-The-London-Light-Walking-Freight-Trial-FINAL-1.pdf
+ER  -
+TY  - RPRT
+AB  - Historical manifest data from a parcel carrier undertaking 'next-day' (i.e. non-express) deliveries in an area of central London (mainly EC2 postcode district) were used to quantify the potential benefits of switching from the current van-based deliveries to one where porters or cycle couriers are used for the last-mile delivery, working from set drop-off points. The results suggested that over the business-as-usual case for the area of London studied, the carrier could reduce CO2 emissions by 45% (9500kg/year) and NOx emissions by 33% (7.64kg/year). Annual driving distance could be reduced by 78% (48,100km) and the amount of time spent stationary at the curbside by 45% (2558 hours/year). Scaling up the modelled emissions savings to London's Central Activities Zone, an area approximately 10 times bigger than the modelled case study area and with estimated total annual parcel delivery distance of 15 million km, could see annual emissions savings in the region of 2 million kgCO2 and 1633kgNOx if all carriers utilised porters or cycle couriers. Overall cost savings to the carrier were estimated to be in the range 34%-39%. Some practical operating challenges are identified including sorting and packing of items, parcel handover arrangements, how to deal with failed deliveries, and how to incorporate express items.
+AU  - McLeod, F
+AU  - Bektas, T
+AU  - Allen, J
+AU  - Martinez-Sykora, A
+AU  - Lamas Fernandez, C
+AU  - Bates, O
+AU  - Cheliotis, K
+AU  - Friday, A
+AU  - Piecyk, M
+AU  - Wise, S
+DA  - 2020/3//
+DO  - https://doi.org/10.1016/j.trd.2020.102311
+PY  - 2020
+TI  - Quantifying environmental and financial benefits of using porters and cycle couriers for last-mile parcel delivery Internal report by F
+UR  - https://discovery.ucl.ac.uk/id/eprint/10101730/1/portering_preprint%281%29.pdf
+ER  -
+TY  - JOUR
+AB  - Urban freight and city logistics are central to the UK economy, but face a number of economic and environmental challenges. This paper contributes to a new body of research that investigates the potential of cargo cycles to make city logistics more sustainable and explores ways to encourage their diffusion. The paper makes three key contributions. First, it develops a typology of cycle logistics based on a literature review and expert interviews in order to clarify definitions and terminology. Second, it identifies perception issues, lack of awareness and regulations as major barriers to wider implementation at city level based on snap-shot case studies. Third, it suggests a sustainable city logistics framework for urban governance, logistic operations and future research, to harness the potential of using cargo cycles for sustainable urban freight transport. The paper argues that local authorities have a key role to play in creating conditions that incentivise large logistic companies such as DHL, Hermes and TNT to integrate cargo cycles into their supply chain and hence drive a long-term modal shift. The findings of the paper are of interest to policy makers, urban logistic operators, research institutions and citizens as potential customers.
+AU  - Schliwa, Gabriele
+AU  - Armitage, Richard
+AU  - Aziz, Sara
+AU  - Evans, James
+AU  - Rhoades, Jasmine
+DA  - 2015/3//
+DO  - 10.1016/j.rtbm.2015.02.001
+PY  - 2015
+TI  - Sustainable city logistics - Making cargo cycles viable for urban freight transport
+T2  - Research in Transportation Business and Management
+VL  - 15
+ER  -
+TY  - RPRT
+AB  - Cycle-friendly design and planning: Overview www.cyclinguk.org/campaigns Briefing 2A (October 2012) 0844 736 8450 Cycle-friendly design and planning: Overview THIS BRIEFING COVERS General principles; traffic volume reduction; urban streets and rural lanes; dual carriageways, inter-urban main roads and major junctions; off-road cycle facilities; other cycling infrastructure; maintenance and funding; ensuring high and consistent quality. HEADLINE MESSAGES  Cycling UK's vision is to see a massive step-change in cycle use, so that people of all ages, backgrounds and abilities feel able to cycle safely and confidently for all types of journey.  Our neighbourhoods, town centres and road networks should be fundamentally redesigned to be 'people-friendly', with cycling not only contributing to a reduction in car dependence, but also benefiting from it. Through-traffic should be channelled onto a limited network of main roads-which should have dedicated cycle provision on or alongside them-while traffic volumes and speeds are kept low on other streets or lanes. Dedicated cycle routes and cycle-friendly access restrictions (e.g. limiting motorised access to town-centres or rat-runs) can encourage people to choose cycling over motorised travel for day-today journeys.  The cycle network should include the whole road network, supplemented by high-quality cycle routes away from the road network, e.g. through parks and open spaces, or along canals, waterfronts and disused rail corridors. Dedicated cycle provision should be safe and feel safe, showing that society positively values those who choose to cycle, and avoiding any impression that they are a 'nuisance' to be 'kept out of the way of the traffic.'  In general, Cycling UK advocates: o 20 mph limits for most built-up streets (including villages), and the widespread adoption of 40 mph or lower limits for rural lanes; o Some form of dedicated space on busier urban roads, particularly where higher speed limits are retained; and o Parallel off-road facilities for dual carriageways and inter-urban roads. However, decisions on appropriate solutions will also need to reflect local factors, such as junctions and junction layouts, and demand for parking or loading.  In most places, the main priority for significant capital spending in the years ahead will be to redesign larger junctions to be cycle-friendly, or to open up links for cyclists across (or avoiding) major barriers to safe and convenient cycle travel. Opportunities should also be sought to maximise the funding for cycling improvements through the planning system and road maintenance budgets.
+AU  - WACUK
+DA  - 2012/10//
+PY  - 2012
+TI  - Cycling UK CAMPAIGNS BRIEFING
+Cycle-friendly design and planning: Overview
+UR  - www.cyclinguk.org/campaigns
+ER  -
+TY  - RPRT
+AB  - Kerbside becoming increasingly in-demand & contested space - not possible to meet all 
+transport & place-based functions required of it 
+• National/local government, town planners & urban designers should recognise kerbside 
+needs of freight transport & its importance  
+• National/local government need to reform planning policy to ensure landlords & building 
+occupants implement infrastructure & operations to reduce freight use of kerb space & time  
+• Urban authorities should have to:- Develop kerbside strategies taking account of all stakeholders’ needs & views- Carry out regular reviews of existing kerbside provision for freight transport (suitability of quantity, 
+location & vehicle dwell time)- Engage with & develop working relationships with freight transport industry through regular 
+conversations and meetings - Better incorporate freight kerbside needs into space allocation hierarchies & streetscape designs 
+• Would help to avoid unnecessary freight vehicle km & related emissions impacts as well as 
+negative local business impacts
+ • Such efforts especially important given scale of urban development & rate of change in retail 
+& commercial land use
+AU  - Allen, Julian
+AU  - Piecyk, Maja
+DA  - 2022/11//
+PY  - 2022
+TI  - FREIGHT TRANSPORT AND THE KERBSIDE: THE FUTURE OF LOADING AND UNLOADING IN URBAN AREAS
+UR  - http://www.csrf.ac.uk/
+ER  -
+TY  - JOUR
+AB  - Electric cargo cycles are often considered a viable alternative mode for delivering goods in an urban area. However, cities in the U.S. are struggling to regulate cargo cycles, with most authorities applying the same rules used for motorized vehicles or traditional bikes. One reason is the lack of understanding of the relationship between existing regulations and transport infrastructure and cargo cycle parking and driving behaviors. In this study, we analyzed a cargo cycle pilot test in Seattle and collected detailed data on the types of infrastructure used for driving and parking. GPS data were augmented by installing a video camera on the cargo cycle and recording the types of infrastructure used (distinguishing between the travel lane, bicycle lane, and sidewalk), the time spent on each type, and the activity performed. The analysis created a first-of-its-kind, detailed profile of the parking and driving behaviors of a cargo cycle driver. We observed a strong preference for parking (80 percent of the time) and driving (37 percent of the time) on the sidewalk. We also observed that cargo cycle parking was generally short (about 4 min), and the driver parked very close to the delivery address (30 m on average) and made only one delivery. Using a random utility model, we identified the infrastructure design parameters that would incentivize drivers to not use the sidewalk and to drive more on travel and bicycle lanes. The results from this study can be used to better plan for a future in which cargo cycles are used to make deliveries in urban areas.
+AU  - Dalla Chiara, Giacomo
+AU  - Donnelly, Griffin
+AU  - Gunes, Seyma
+AU  - Goodchild, Anne
+DA  - 2022/12//
+DO  - 10.1016/j.tra.2022.103562
+PY  - 2022
+TI  - How cargo cycle drivers use the urban transport infrastructure
+T2  - Transportation Research Part A: Policy and Practice
+UR  - https://urbanfreightlab.com/publications/how-cargo-cycle-drivers-use-the-urban-transport-infrastructure/
+VL  - 167
+ER  -
+TY  - RPRT
+AB  - Microhubs are relatively small facilities located in or near city or town centres,
+where freight is received in bulk and then re-distributed to nearby residential and/
+or commercial premises by low emission vehicles (e.g. electric vans, cargo cycles).
+Interest in urban microhubs has been growing, as evident by the increased number of
+these facilities in many cities and in the willingness of public authorities to encourage
+and sometimes co-fund them. The deployment of microhubs, and the associated shift
+towards employing low-emission vehicles is becoming urgent, given trends such as
+the increase in demand for home and business deliveries, shifts in political and public
+priorities towards sustainability and liveability (including carbon reduction, cleaner air
+and accident reductions), concerns about congestion, and increased competition for
+roadspace and kerbside space.
+Microhubs can not only reduce environmental problems associated with last-mile
+freight distribution in cities, but under the right conditions can also generate benefits
+for shippers, freight operators and customers, as well as wider economic and social
+benefits for the communities they serve. This report reviews international evidence
+on the realisation of these benefits, and then looks specifically at London. Simulation
+and evaluation studies have shown that, in general, microhubs located in denser
+urban areas reduce emissions while allowing for faster, more reliable, and more
+flexible deliveries, compared with conventional delivery systems. Previous studies
+have shown that the viability of microhubs, both from the operator’s and society’s
+perspective, is location-specific and depends, among other things, on the density of
+demand, the supply of labour, and on the characteristics of the road infrastructure in
+the surrounding areas.
+Drawing upon this prior knowledge, the report develops and demonstrates a method
+for identifying the most suitable potential locations for urban microhubs served by
+cargo bikes. This method was applied to Greater London, using a grid of 39,861
+points at 200m intervals, covering the whole of the Greater London area. The
+suitability of each point was assessed based on (i) the demand for deliveries (from
+residents and businesses), (ii) road infrastructure and operational conditions for
+cycling in the surrounding area, and (iii) the availability of a suitable pool of labour.
+Once these filters had been applied, the remaining 3,109 potential sites was then
+characterised in terms of (iv) wider social and environmental benefits of shifting
+motorised deliveries to cargo cycles and (v) local on site-level constraints.
+The report concludes by mapping the locations of four potential microhub sites
+owned by British Land, in Central and Inner London, onto the remaining grid points.
+AU  - Anciaes, Paulo
+AU  - Jones, Prof Peter
+DA  - 2023/4//
+PY  - 2023
+TI  - Developing low-carbon freight microhubs in London Principles, benefits and locational analysis
+UR  - https://londonurbanlogistics.com/wp-content/uploads/2024/03/UCL_Report-Developing-low-carbon-freight-microhubs-in-London-final-compressed.pdf
+ER  -
+TY  - JOUR
+AB  - Urban logistics are a fundamental part of city life, involving far more than the delivery of goods purchased 
+via e-commerce. Deliveries, collections and servicing in urban areas generate all kinds of non-passenger 
+freight trips by trucks, vans, cargo bikes and other modes of transport. Supermarkets, restaurants, retail 
+shops, construction companies, wholesalers and individual customers rely heavily on the distribution and 
+return of goods, the collection of waste, and other services to fulfil their demands.  
+At the same time, the transport sector accounts for one-quarter of all energy related greenhouse gas 
+(GHG) emissions, with freight transportation making up to 8% of global GHG emissions and as much as 
+11% if warehouses and ports are included. Global freight emissions are expected to continue to grow, with 
+road freight accounting for most of this growth. Additionally, traffic congestion, road crashes, air and noise 
+pollution associated with road urban logistics pressure authorities to act.  
+Given these concerns, the shift to sustainable urban logistics is essential. Urban logistics hubs can enable 
+this shift by splitting urban and interurban traffic and providing transhipment space so that fewer vehicles 
+(or less-polluting vehicles) circulate in urban areas. These hubs are spaces in which crucial logistical 
+functions are carried out in the last leg of the supply chain. Examples of these functions include 
+(de)consolidating shipments, storage (including cold storage), sorting goods, and facilitating the shift from 
+larger to smaller vehicles, including low- and zero-emission vehicles, for distribution to close-by areas. They 
+also facilitate reverse logistics and waste collection. 
+Although different sectors (e.g. retailers, grocery stores, or last-mile parcel hubs) have distinct profiles in 
+terms of trip generation and impacts, hubs can help optimise the last mile of urban logistics in terms of 
+better transport and environmental performance, mitigating some negative externalities. 
+URBAN LOGISTICS HUBS © OECD/ITF 2024 
+9 
+EXECUTIVE SUMMARY 
+In the context of sparse urban space and the need for affordable housing, logistics hubs may not represent 
+the most economically or socially beneficial use of urban real estate. However, their absence could lead to 
+more vehicles or more polluting vehicles (e.g. due to a lack of transshipment facilities). Hubs are more than 
+just urban warehouses. They increasingly provide additional facilities, which are in fact essential for value 
+addition, such as electric vehicle charging stations, rest areas for logistics workers, commercial spaces and 
+other mixed-use functions. Ideally hubs should complement each other rather than compete for space.  
+An urban logistics hub need not be permanent, as in the case of large distribution centres. Temporary 
+microhubs that can be quickly deployed, moved and re-converted, supporting the dynamic component of 
+logistics demand, are increasingly desirable. Vacant parking lots and daytime empty bus depots in cities 
+are examples where such microhubs for logistics activities such as transshipment from larger to smaller, 
+more sustainable modes of transport, including cargo bikes or walking couriers, are already occurring. 
+Recent trends in logistics flows, as well as growing regulatory demands, make urban logistics increasingly 
+complex. This complexity is driven by the vast range of activities resulting from various actors with different 
+and often conflicting economic, social and environmental needs and goals. Logistics flows operate at 
+different scales, interacting with various actors and processes, from global supply chains to local 
+distribution networks, requiring authorities to strengthen their understanding of the sector’s complexity.  
+Most of the recent developments in logistics and associated hubs are driven by private-sector investment 
+and innovation. The public sector should focus on governance while the private sector should lead the 
+construction, operation and management of logistics hubs. But the rapid and continuing changes in the 
+sector pose challenges for public authorities in understanding and regulating the sector effectively. Policy 
+makers should focus on ensuring that the development of urban logistics hubs, and better linkages 
+between hubs and other parts of the logistics chain, improve the sustainability of the sector, while also 
+offering economic efficiency gains.
+AU  - ITF
+DA  - 2024/6//
+IS  - No. 195
+PY  - 2024
+SP  - 68
+EP  - 68
+TI  - Urban Logistics Hubs: Summary and Conclusions
+T2  - OECD Publishing, Paris
+UR  - https://www.itf-oecd.org/urban-logistics-hubs
+ER  -
+TY  - RPRT
+AB  - In 2024, the World Economic Forum, in 
+collaboration with Accenture, published 
+Transforming Urban Logistics: Sustainable and 
+Efficient Last-Mile Delivery in Cities, warning that the 
+rapid growth of e-commerce could soon overwhelm 
+urban infrastructure without urgent intervention. 
+If current trends continue, urban deliveries are 
+expected to grow 78% by 2030 compared to 2019 
+levels. This surge would drive a 32% increase in 
+carbon emissions by 2030, while the number of 
+delivery vehicles on already congested roads could 
+increase by 36%. The consequences of such 
+inaction are steep: more pollution and congestion, 
+undermining the quality of life in cities.1
+ To address this challenge, the report outlined a 
+shared action agenda for last-mile delivery. It calls 
+on both public and private actors to:– Electrify delivery fleets at scale– Reconfigure curbsides and delivery zones– Expand use of urban consolidation centres and 
+micro hubs– Shift to micromobility and non-motorized options– Reform regulatory frameworks and enable 
+data sharing.
+ Building on this action agenda, leading retailers, 
+logistics providers and technology firms have 
+endorsed the Urban Deliveries Ambition Statement,2 
+pledging to accelerate the transformation of urban 
+deliveries through a commitment to developing 
+shared infrastructure and opening up new forms of 
+data collaboration, while also directing capital into 
+the shift towards zero-emission operations.
+ These initiatives are supported by the Innovation 
+Impact Alliance. The Alliance is an initiative of 
+the World Economic Forum’s Centre for Urban 
+Transformation, which brings together innovation 
+ecosystems to spark cross-regional partnerships 
+and to showcase lessons from local projects, 
+inspire action and scale world-leading models 
+and solutions.
+ This document highlights five key solution areas for 
+sustainable last-mile logistics, each illustrated with 
+a real-world promising practice. The solution areas 
+represent a strategic approach that addresses 
+specific challenges in urban logistics transformation, 
+while the promising practices represent real-world 
+implementations that show potential for impact 
+based on early results but may still be evolving. 
+These practices are presented for learning and 
+adaptation as cities and companies experiment 
+and scale new approaches.
+AU  - Brady-Phillips, Vivian
+AU  - Gibbs, Adrienne
+AU  - Hillen, Stanislas
+DA  - 2025/10//
+PY  - 2025
+SP  - 42
+EP  - 42
+TI  - Lessons from the Last Mile: Evolving Practices for Urban Logistics
+UR  - https://reports.weforum.org/docs/WEF_Urban_Deliveries_Case_Studies_Combined_2025.pdf
+ER  -
+TY  - JOUR
+AB  - Last mile logistics (LML) is the least efficient and complex part of supply chain. The main objective of this study was to identify major challenges of urban freight LML and opportunities for intervention. For this, 42 peer-reviewed full papers published after 2010 and three additional references were used. The findings indicated that urban freight flow has a trend of steady growth. The main driving forces behind this steady growth are population growth, urbanization, densification, globalization, online and omni-channel (OC) retailing, and urban economic development. Using typology analysis, three main potential freight LML configurations were mapped and discussed. Freight LML configurations that involve light cargo vehicles and cargo bike-based delivery schemes could be the most sustainable freight LML models if the delivery failure is minimized. The LML challenges were categorized as technological, infrastructural, LML system and management, and logistic cost related challenges, and discussed broadly. Similarly, the potential opportunities were discussed from environmental, economic, and social sustainability aspects. Finally, this report has pinpointed future potential research agendas related to LML. The study could be a knowledge base useful for academicians and practitioners, logistics and technical service providers, policy makers, and customers.
+AU  - Bosona, Techane
+DA  - 2020/11//
+DO  - 10.3390/su12218769
+IS  - 21
+KW  - Freight last mile logistics
+KW  - LML challenges
+KW  - LML sustainability
+KW  - LML typology
+KW  - Urban freight flow
+PB  - MDPI
+PY  - 2020
+SP  - 1
+EP  - 20
+TI  - Urban freight last mile logistics -challenges and opportunities to improve sustainability: A literature review
+T2  - Sustainability (Switzerland)
+UR  - https://www.mdpi.com/2071-1050/12/21/8769
+VL  - 12
+ER  -
+TY  - GEN
+AB  - With growing consumer demand for ultrafast deliveries in city centre locations, British Land commissioned research by Centre for London and University College London into the potential for urban logistics hubs in city centres (‘microhubs’) to cut carbon and pollution from last-mile freight distribution, and to improve efficiency and reliability for customers.
+The research included interviews by Centre for London with logistics experts and policymakers, and a review by UCL of the benefits of microhubs and analysis of suitable locations across London.
+Mike Best, Head of Logistics at British Land, Claire Harding from Centre for London and Peter Jones from UCL discuss the findings, exploring why microhubs are central to the low carbon future of urban logistics, along with a host of other social benefits.
+Growing demand and complexity
+Peter: As a result of the pandemic, demand for home deliveries has grown fast. This is particularly the case for same-day and instant delivery, which had already increased by an average of 36% and 17% per year respectively, pre-Covid.1 Businesses are also relying more on just-in-time deliveries, often holding less stock and relying more on suppliers for services previously done in-house.
+Claire: Although this boom in deliveries gives new convenience and experiences, it comes with major impacts on emissions, air quality, congestion and road safety. London is a big challenge within urban logistics. Its centre is distant from out-of-town logistics hubs; traffic congestion often leads to delays; and lorries and vans struggle on its smaller streets and can pose dangers to pedestrians and cyclists. Logistics operators tell us that, to switch to smaller, lower carbon, less polluting delivery vehicles, they need city centre hubs.
+Mike: British Land started from the premise that, by putting the right logistics facilities at the right point, we could facilitate customers in reducing the carbon footprint of their deliveries and improving efficiency. In two years, we’ve built a pipeline of urban logistics space with a gross development value of £1.5bn which spans Greater London, with wider opportunities across the UK.
+Environmental benefits
+Peter: Microhubs that facilitate deliveries by electric cargo bikes are a powerful possible solution to decrease the environmental and health impacts of urban freight. They have been implemented with success in cities around the world, with studies showing significant carbon savings, reductions in local air pollutants and lower delivery worker heart rates.2 Studies in London have seen carbon savings of 55-90% per parcel and reductions in total distance travelled of 11-20%.2
+Claire: Low carbon deliveries are a visible way for businesses to show their green credentials. They support local authority goals too, not only around net zero, but also improving air quality, reducing noise pollution and enhancing the environment for pedestrians. With London’s policymakers very focused on emissions and air quality – and their track record for innovation – it’s a positive environment for companies looking to decarbonise deliveries.
+Commercial efficiencies
+Mike: As we at British Land work to transition our own portfolio to net zero carbon by 2030, we value the environmental benefits of microhubs. To drive take-up, they also need to give customers commercial efficiencies. Research shows that delivering by cargo bike is significantly quicker in London’s traffic3 – London is the slowest city to drive in worldwide4 – and cargo bikes are cheaper to acquire and maintain.
+Peter: International studies show that microhubs can improve efficiency and service quality, with faster, more reliable and more flexible deliveries, compared with conventional networks. These include 28-31% reductions in delivery costs by using cargo cycles from microhubs.2 One survey found that 36% of customers were willing to pay extra for deliveries from a microhub inside the city,2 reflecting both the environmental benefits and the expected increase in service quality, as bikes tend to give more accurate delivery times, due to fewer traffic delays.
+Mike: UCL’s locational analysis has helped us identify where in London we have sites that will offer both commercial and environmental benefits and tap into a local workforce. As part of this, we’re looking to repurpose the former Crossrail works site beneath Paddington Central. This hub will operate with small electric vehicles and electric cargo bikes, removing around 100 large vans from Westminster’s roads every day and is expected to save three times the carbon absorbed by all the trees in Hyde Park.
+Social impact and employment
+Claire: Microhubs also bring wider benefits. If you’re a community, café owner or local authority looking to create an attractive outdoor environment, delivery vans are a worry. For hundreds of years, deliveries were made by hand, usually by a local workforce. Microhubs are regrowing something that has been part of society for a long time. Some cargo bike services are starting to link small businesses. I recently saw a delivery rider putting bread from a local bakery into displays in a local café and enjoying a free coffee in return.
+Peter: There are opportunities for microhubs to improve the experience for delivery workers too. Van drivers often only have two minutes to make a delivery before risking a PCN fine. This time pressure can be highly stressful – and makes it very difficult to take a toilet break. Hubs will add welfare facilities in convenient locations and cargo bikes are easier to park centrally when riders need a break. This needs to be supported by upgrades to cycle infrastructure for safety.
+Mike: Creating a positive social impact in our communities is important to British Land. We’re interested in how microhubs could create flexible employment and training opportunities for local people, as riders, bike mechanics and more. On all our campuses, logistics customers will be able to tap into our social impact programme, including collaborative community funds and volunteering opportunities.
+Unlocking last-mile logistics in London
+Claire: London’s congestion charge is 20 years old this year. While it was successful at dropping car use, the number of delivery vans and taxis has increased. So, the next set of solutions needs to focus on commercial vehicles. With better, safer cycle infrastructure, microhubs and cargo bikes have a lot of potential. Policymakers’ earlier focus on commuters means there are good radial cycle routes from central London. But it is much harder to move laterally – the cycle equivalent of the south and north circulars. Improving this would be a win, win, win – supporting low carbon deliveries, active travel and community connections.
+Peter: Without action, the problems we’ve discussed will intensify – as same-day and instant deliveries (which tend to be less efficient) are still on the up, and as new road uses and mobility systems (such as e-scooters, car clubs and cycle lanes) increase, making road space for freight vehicles even scarcer. The question needs to move from ‘where can we use cargo bikes?’ to ‘where can’t we – and can we change that?’.
+Mike: Urban logistics in central London is the fastest growing part of the logistics market. With British Land’s skillset in delivering complex, mixed-use, sustainable development and our strategically located portfolio, we’re well positioned to unlock last-mile logistics space in London – both by repurposing existing buildings, like at Paddington Central, and by building hubs into our developments. We’re excited about the contribution this will make to the low carbon future of logistics.
+AU  - British Land
+DA  - 2023/4//
+PY  - 2023
+TI  - Microhubs – the low carbon future of urban logistics
+T2  - The British Land Company PLC
+UR  - https://www.britishland.com/news/microhubs-the-low-carbon-future-of-urban-logistics/
+ER  -
+TY  - GEN
+AB  - Make cities and human settlements inclusive, safe, resilient and sustainable.
+MAKE CITIES AND HUMAN SETTLEMENTS INCLUSIVE, SAFE, RESILIENT AND SUSTAINABLE. The world’s population is constantly increasing, to accommodate everyone, we need to build modern, sustainable cities. For all of us to survive and prosper, we need new, intelligent urban planning that creates safe, affordable and resilient cities with green and culturally inspiring living conditions.
+THE TARGETS
+Everyone can help to make sure that we meet the Global Goals. Use these ten targets to create action to make cities and communities sustainable.
+Target 11.1
+SAFE AND AFFORDABLE HOUSING
+By 2030, ensure access for all to adequate, safe and affordable housing and basic services and upgrade slums.
+Target 11.2
+AFFORDABLE AND SUSTAINABLE TRANSPORT SYSTEMS
+By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons.
+Target 11.3
+INCLUSIVE AND SUSTAINABLE URBANIZATION
+By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries.
+Target 11.4
+PROTECT THE WORLD’S CULTURAL AND NATURAL HERITAGE
+Strengthen efforts to protect and safeguard the world’s cultural and natural heritage.
+Target 11.5
+REDUCE THE ADVERSE EFFECTS OF NATURAL DISASTERS
+By 2030, significantly reduce the number of deaths and the number of people affected and substantially decrease the direct economic losses relative to global gross domestic product caused by disasters, including water-related disasters, with a focus on protecting the poor and people in vulnerable situations.
+Target 11.6
+REDUCE THE ENVIRONMENTAL IMPACT OF CITIES
+By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management.
+Target 11.7
+PROVIDE ACCESS TO SAFE AND INCLUSIVE GREEN AND PUBLIC SPACES
+By 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities.
+Target 11.8
+STRONG NATIONAL AND REGIONAL DEVELOPMENT PLANNING
+Support positive economic, social and environmental links between urban, peri-urban and rural areas by strengthening national and regional development planning.
+Target 11.9
+IMPLEMENT POLICIES FOR INCLUSION, RESOURCE EFFICIENCY AND DISASTER RISK REDUCTION
+By 2020, substantially increase the number of cities and human settlements adopting and implementing integrated policies and plans towards inclusion, resource efficiency, mitigation and adaptation to climate change, resilience to disasters, and develop and implement, in line with the Sendai Framework for Disaster Risk Reduction 2015–2030, holistic disaster risk management at all levels.
+Target 11.a
+SUPPORT LEAST DEVELOPED COUNTRIES IN SUSTAINABLE AND RESILIENT BUILDING
+Support least developed countries, including through financial and technical assistance, in building sustainable and resilient buildings utilizing local materials.
+AU  - United Nations General Assembly
+PY  - 2015
+TI  - Goal 11: Sustainable Cities and Communities
+T2  - The Global Goals
+UR  - https://globalgoals.org/goals/11-sustainable-cities-and-communities/
+ER  -

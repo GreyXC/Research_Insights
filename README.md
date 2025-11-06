@@ -19,7 +19,7 @@ The general flow:
 4. extract keywords and cluster them into thematic groups
 5. created a bar chart for the most frequent key words of out of all the groups
 6. use keyword frequencies and link them with co-occurrence traces on a VOS Map (adjustable between frequency and co-occurrence node filtering)
-7. Generate co-citation vos map
+7. Generate co-authorship vos map
 
 ---
 

@@ -3,6 +3,7 @@ import subprocess
 from pathlib import Path
 from collections import Counter
 import time
+import sys
 
 # Reset PRISMA logs BEFORE any subprocess runs
 log_dir = Path("data_sources_raw/logs")
@@ -103,16 +104,27 @@ for node in G.nodes():
         G.nodes[node]["isolated"] = True
 
 # Compute layout
-pos = compute_layout(G, layout_type="kamada") # spring or kamada or circular or spectral
+pos = compute_layout(G, layout_type="kamada")  # spring or kamada or circular or spectral
 
 # Render interactive map
 plot_interactive(
     G,
     term_freq,
     pos,
-    sizing_mode="frequency", # "frequency" or "co-occurrence"
+    sizing_mode="frequency",  # "frequency" or "co-occurrence"
     cluster_colors=cluster_colors,
     strong_edge_scale=0.5,
     weak_edge_scale=0.5,
     edge_threshold=0.1
 )
+
+# Run author co-authorship pipeline from .RIS file
+try:
+    # Add project root to sys.path for reliable import
+    project_root = Path(__file__).resolve().parent
+    sys.path.insert(0, str(project_root))
+
+    from scripts.analysis.co_author.launch_author_pipeline import run_pipeline as run_author_pipeline
+    run_author_pipeline("data_sources/raw/mendeley_export.ris")
+except Exception as e:
+    print(f"Author pipeline failed: {e}")
