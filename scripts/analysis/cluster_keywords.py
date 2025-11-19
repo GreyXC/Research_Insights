@@ -1,4 +1,5 @@
 from collections import defaultdict, Counter
+from typing import Any, cast
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.cluster import KMeans
 from nltk.corpus import stopwords
@@ -51,7 +52,8 @@ def cluster_keywords(df, column="word_list", n_clusters=6, return_tokens=False):
     labels = kmeans.fit_predict(X)
 
     # Global term frequency from matrix
-    term_freq = X.sum(axis=0).A1
+    X_any = cast(Any, X)
+    term_freq = X_any.sum(axis=0).A1
     term_freq_map = dict(zip(terms, term_freq))
 
     # Assign keywords to clusters based on document labels

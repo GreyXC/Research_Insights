@@ -1,0 +1,16 @@
+rispy-0.10.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+rispy-0.10.0.dist-info/METADATA,sha256=HPcG7vYaN1D_9RoIGn_I6OkSzNdctwZjoEDJz4mpl88,11050
+rispy-0.10.0.dist-info/RECORD,,
+rispy-0.10.0.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rispy-0.10.0.dist-info/WHEEL,sha256=G2gURzTEtmeR8nrdXUJfNiB3VYVxigPQ-bEQujpNiNs,82
+rispy-0.10.0.dist-info/licenses/LICENSE,sha256=4icEuIgDO_OuLHQAAyZvh5Bm5CHFV5XWxpNzXGIWr8A,1070
+rispy/__init__.py,sha256=eTCZp02j1nrWpXMcKkSEslDtMn3l0xwo0xgcyqJ5HSQ,496
+rispy/__pycache__/__init__.cpython-311.pyc,,
+rispy/__pycache__/config.cpython-311.pyc,,
+rispy/__pycache__/parser.cpython-311.pyc,,
+rispy/__pycache__/utils.cpython-311.pyc,,
+rispy/__pycache__/writer.cpython-311.pyc,,
+rispy/config.py,sha256=6jSEysY21EwD9_nlF3vJBWWyN8FWFmrey67KPrann3M,5780
+rispy/parser.py,sha256=bvaaB0C6GTOlUZS7VQbTM_J2lsvL5lV7gnQMRIH6OvI,11644
+rispy/utils.py,sha256=Iw1McH0Y5RT7yAQRGv9REBrXWs5rgzfWFRIlvH4IgwA,1610
+rispy/writer.py,sha256=5Uqn1aBI2MxULhg19LVN3Mq6G1b0qQw9CWLVgiXDDuY,8465

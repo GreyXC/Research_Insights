@@ -4,6 +4,7 @@ from pathlib import Path
 from collections import Counter
 import time
 import sys
+import networkx as nx
 
 # Reset PRISMA logs BEFORE any subprocess runs
 log_dir = Path("data_sources_raw/logs")
@@ -16,8 +17,8 @@ for path in [counts_path, decisions_path]:
         print(f"Reset: {path.name}")
 
 # Run cleaning and count scripts
-subprocess.run(["python", "-m", "scripts.clean.clean_data"], check=True)
-subprocess.run(["python", "-m", "scripts.analysis.count_prisma_stages"], check=True)
+subprocess.run([sys.executable, "-m", "scripts.clean.clean_data"], check=True)
+subprocess.run([sys.executable, "-m", "scripts.analysis.count_prisma_stages"], check=True)
 
 # Wait for prisma_counts.json to exist and be non-empty
 for _ in range(20):
@@ -28,7 +29,7 @@ else:
     raise FileNotFoundError("prisma_counts.json not found or empty after count_prisma_stages.py")
 
 # Generate PRISMA2020-compliant CSV
-subprocess.run(["python", "-m", "scripts.analysis.generate_prisma_csv"], check=True)
+subprocess.run([sys.executable, "-m", "scripts.analysis.generate_prisma_csv"], check=True)
 
 # Load modules
 from scripts.load.load_json import load_mendeley_json
@@ -79,7 +80,7 @@ term_freq = Counter(flat_keywords)
 plot_keyword_bar_chart(clusters, cluster_names)
 
 # Build graph
-G = build_graph(clusters, cluster_names)
+G: nx.Graph = build_graph(clusters, cluster_names)
 
 # Filter nodes (frequency threshold + fallback inclusion)
 visible_nodes = {n for n in G.nodes() if term_freq.get(n, 0) >= 5}
@@ -100,7 +101,7 @@ term_freq = {k: v for k, v in term_freq.items() if k in visible_nodes}
 
 # Tag isolated nodes (no edges)
 for node in G.nodes():
-    if G.degree(node) == 0:
+    if nx.degree(G, node) == 0:
         G.nodes[node]["isolated"] = True
 
 # Compute layout

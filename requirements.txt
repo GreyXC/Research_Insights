@@ -1,0 +1,11 @@
+pandas
+scikit-learn
+nltk
+matplotlib
+seaborn
+networkx
+scipy
+sentence-transformers
+rispy
+alphashape
+plotly

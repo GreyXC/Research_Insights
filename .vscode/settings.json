@@ -1,5 +1,9 @@
 {
     "cSpell.words": [
-        "Vectorizer"
-    ]
+        "kamada",
+        "Vectorizer",
+        "vosmapper"
+    ],
+    "python.defaultInterpreterPath": ".venv\\Scripts\\python.exe",
+    "python.analysis.typeCheckingMode": "basic"
 }

@@ -1,9 +1,10 @@
 import matplotlib.pyplot as plt
+from matplotlib.lines import Line2D
 import networkx as nx
 import seaborn as sns
 import numpy as np
-import alphashape
-from shapely.geometry import Polygon
+import alphashape  # type: ignore[reportMissingImports]
+from shapely.geometry import Polygon  # type: ignore[reportMissingImports]
 
 def draw_cluster_shape(ax, pos, nodes, color, alpha=0.2):
     points = np.array([pos[n] for n in nodes])
@@ -73,18 +74,23 @@ def plot_vos_map(clusters, cluster_names=None, scale=1.0):
         nx.draw_networkx_nodes(G, pos, nodelist=nodes, node_color=[color] * len(nodes), node_size=sizes, label=label)
 
     # Normalize edge weights and style by cluster relation
-    edges = G.edges(data=True)
-    max_weight = max(edge[2]['weight'] for edge in edges)
-    widths = [edge[2]['weight'] / max_weight * 2.5 for edge in edges]
+    edges_list = list(G.edges(data=True))
+    if edges_list:
+        max_weight = max(edge[2].get('weight', 1) for edge in edges_list)
+    else:
+        max_weight = 1
+    widths = [edge[2].get('weight', 1) / max_weight * 2.5 for edge in edges_list]
     edge_colors = [
         'black' if G.nodes[u]['cluster'] == G.nodes[v]['cluster'] else 'gray'
-        for u, v in G.edges()
+        for u, v, _ in edges_list
     ]
 
-    # Draw curved edges with color and weight
+    # Draw curved edges with color and weight. `edgelist` must be a collection
+    # of (u, v) pairs — pass an explicit list of tuples to satisfy type checkers.
+    edgelist_pairs = [(u, v) for u, v, _ in edges_list]
     nx.draw_networkx_edges(
         G, pos,
-        edgelist=edges,
+        edgelist=edgelist_pairs,
         width=widths,
         edge_color=edge_colors,
         alpha=0.4,
@@ -112,8 +118,8 @@ def plot_vos_map(clusters, cluster_names=None, scale=1.0):
 
     # Legend
     handles = [
-        plt.Line2D([0], [0], marker='o', color='w', label=label,
-                   markerfacecolor=label_color_map[label], markersize=10)
+        Line2D([0], [0], marker='o', color='w', label=label,
+               markerfacecolor=label_color_map[label], markersize=10)
         for label in unique_labels
     ]
     ax.legend(handles=handles, title="Cluster", bbox_to_anchor=(1.05, 1), loc="upper left")

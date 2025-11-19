@@ -4,7 +4,14 @@ import matplotlib.pyplot as plt
 
 def plot_theme_clusters(themes_dict):
     fig, ax = plt.subplots(figsize=(12, 6))
-    colors = plt.cm.tab10.colors
+    cmap = plt.get_cmap('tab10')
+    # Use a safe approach: prefer `colors` attribute if available, otherwise
+    # sample the colormap across its number of entries (`cmap.N`). This avoids
+    # relying on stub-only attributes that Pylance may not expose.
+    if hasattr(cmap, 'colors'):
+        colors = getattr(cmap, 'colors')
+    else:
+        colors = [cmap(i) for i in range(getattr(cmap, 'N', 10))]
     bar_width = 0.2
 
     all_keywords = []
