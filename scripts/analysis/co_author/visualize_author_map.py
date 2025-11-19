@@ -13,7 +13,7 @@ def apply_jitter(pos, scale=0.01):
         for node, (x, y) in pos.items()
     }
 
-def draw_cluster_hull_smooth(ax, pos, nodes, color="#1f77b4", alpha=0.1, padding=0.2, smoothness=100):
+def draw_cluster_hull_smooth(ax, pos, nodes, color="#1f77b4", alpha=0.1, padding=0.2, smoothness=50):
     points = np.array([pos[n] for n in nodes if n in pos])
     if len(points) < 3:
         print(f"Skipping hull: only {len(points)} points")
@@ -34,7 +34,7 @@ def draw_cluster_hull_smooth(ax, pos, nodes, color="#1f77b4", alpha=0.1, padding
 
     ax.fill(xi, yi, color=color, alpha=alpha, zorder=0)
 
-def visualize_author_graph(G, seed=1472, k=5.0, iterations=10):
+def visualize_author_graph(G, seed=1472, k=5, iterations=10):
     if all('layout_seed' in G.nodes[n] for n in G.nodes()):
         seed_pos = {n: G.nodes[n]['layout_seed'] for n in G.nodes()}
         pos = nx.spring_layout(G, pos=seed_pos, seed=seed, k=k, iterations=iterations)
@@ -96,7 +96,7 @@ def visualize_author_graph(G, seed=1472, k=5.0, iterations=10):
     handles = [mpatches.Patch(color=color, label=theme) for theme, color in theme_to_color.items()]
     ax.legend(handles=handles, title="Author Fields", loc="lower left", fontsize=8, title_fontsize=9, frameon=True)
 
-    ax.axis('off')
+    ax.axis('on') # Turn on/off axis
     ax.set_title("Co-Authorship Network (With Topic Modelled Semantic Groups)", fontsize=14)
     plt.tight_layout()
     plt.show()
