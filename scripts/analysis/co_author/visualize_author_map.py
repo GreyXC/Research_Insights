@@ -5,6 +5,7 @@ import numpy as np
 from random import uniform
 from scipy.spatial import ConvexHull
 from scipy.interpolate import splprep, splev
+import matplotlib.patheffects as pe
 
 def apply_jitter(pos, scale=0.01):
     return {
@@ -75,15 +76,27 @@ def visualize_author_graph(G, seed=1472, k=5.0, iterations=10):
     max_degree = max(dict(G.degree()).values()) if G.number_of_nodes() > 0 else 1
     for node, (x, y) in pos.items():
         theme = G.nodes[node].get(cluster_attr, 'N/A')
-        label = f"{node}\n[{theme}]"
-        font_size = 6 + 2 * (G.degree(node) / max_degree)
-        ax.text(x, y, label, fontsize=font_size, ha='center', va='center')
+        label = f"{node}"
+        font_size = 6 + 1 * (G.degree(node) / max_degree)
+
+        txt = ax.text(
+            x, y, label,
+            fontsize=font_size,
+            ha='center', va='center',
+            color='black',
+            zorder=3
+        )
+        # Add a white stroke behind the text for contrast against any background
+        txt.set_path_effects([
+            pe.withStroke(linewidth=2, foreground='white'),
+            pe.Normal()
+        ])
 
     # Legend
     handles = [mpatches.Patch(color=color, label=theme) for theme, color in theme_to_color.items()]
     ax.legend(handles=handles, title="Author Fields", loc="lower left", fontsize=8, title_fontsize=9, frameon=True)
 
     ax.axis('off')
-    ax.set_title("Author Co-Authorship Network (With Topic Modelled Semantic Groups)", fontsize=14)
+    ax.set_title("Co-Authorship Network (With Topic Modelled Semantic Groups)", fontsize=14)
     plt.tight_layout()
     plt.show()
