@@ -8,7 +8,7 @@ def name_clusters(clusters):
     palette = {
         "Community-Centered Logistics & Access": "#FF7F0E",
         "Hybrid Automation & Micro-Mobility Systems": "#1F77B4",
-        "Urban Mid-Block Morphology": "#2CA02C",
+        "Urban Mid-Block Architecture": "#2CA02C",
         "Governance, Planning & Open Systems": "#9467BD",
         "Infrastructure Risk & Spatial Interference": "#AA0D0D",
         "Computational Modeling & Responsive Systems": "#F87B62",
@@ -28,7 +28,7 @@ def name_clusters(clusters):
             "vehicle", "fleet", "routing", "cycle", "cargo", "driver",
             "ride-hailing", "platform", "dispatch", "navigation", "sensor"
         },
-        "Urban Mid-Block Morphology": {
+        "Urban Mid-Block Architecture": {
             "mid-block", "urban", "block", "space", "vacant", "underused",
             "activation", "redevelopment", "density", "built environment",
             "land use", "spatial", "zoning", "urban design", "public space",
