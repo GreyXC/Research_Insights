@@ -124,7 +124,7 @@ def plot_vos_map(clusters, cluster_names=None, scale=1.0):
     ]
     ax.legend(handles=handles, title="Cluster", bbox_to_anchor=(1.05, 1), loc="upper left")
 
-    plt.title("VOS-style Keyword Map (Enhanced Connectivity & Scaled Labels)")
+    plt.title("VOS-style Map (Enhanced Connectivity & Scaled Labels)")
     plt.axis("off")
     plt.tight_layout()
     plt.show()
