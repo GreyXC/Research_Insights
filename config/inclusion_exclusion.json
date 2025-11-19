@@ -4,18 +4,18 @@
     "study_designs": ["experimental", "observational"],
     "publication_types": ["journal article", "article"],
     "population_terms": [],
-    "year": { "min": 2000, "max": 2025 },
+    "year": { "min": 2010, "max": 2025 },
     "languages": ["english"]
   },
   "exclusion": {
     "methodologies": ["qualitative"],
     "study_designs": ["case report", "systematic review"],
     "publication_types": ["systematic review", "editorial"],
-    "year": { "before": 1900 },
+    "year": { "before": 2010 },
     "species": ["animal"],
     "languages": []
   },
   "notes": {
-    "year_compelling_reason": "If you restrict by year, record the justification in project docs."
+    "year_compelling_reason": "Due to the field's rapid evolution, focusing on studies from 2010 onwards ensures relevance and applicability of findings."
   }
 }
