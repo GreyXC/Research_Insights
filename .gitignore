@@ -1,0 +1,54 @@
+# === Python bytecode and cache ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# === Virtual environments ===
+.venv/
+env/
+ENV/
+venv/
+
+# === Jupyter Notebook checkpoints ===
+.ipynb_checkpoints/
+
+# === OS-specific files ===
+.DS_Store
+Thumbs.db
+
+# === Editor and IDE settings ===
+.vscode/
+.idea/
+*.swp
+
+# === Large binaries and compiled libraries ===
+*.dll
+*.so
+*.dylib
+*.exe
+
+# === Build artifacts ===
+build/
+dist/
+*.egg-info/
+
+# === Package management ===
+pip-wheel-metadata/
+*.whl
+
+# === PyTorch or TensorFlow model weights ===
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# === Git-specific ===
+*.orig
+*.rej
+
+# === Optional: ignore data or output folders ===
+data/
+outputs/
+results/
