@@ -1,0 +1,21 @@
+{
+  "inclusion": {
+    "comparisons": [],
+    "study_designs": ["experimental", "observational"],
+    "publication_types": ["journal article", "article"],
+    "population_terms": [],
+    "year": { "min": 2000, "max": 2025 },
+    "languages": ["english"]
+  },
+  "exclusion": {
+    "methodologies": ["qualitative"],
+    "study_designs": ["case report", "systematic review"],
+    "publication_types": ["systematic review", "editorial"],
+    "year": { "before": 1900 },
+    "species": ["animal"],
+    "languages": []
+  },
+  "notes": {
+    "year_compelling_reason": "If you restrict by year, record the justification in project docs."
+  }
+}

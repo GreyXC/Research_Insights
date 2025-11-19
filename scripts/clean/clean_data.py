@@ -1,7 +1,25 @@
+import re
 import pandas as pd
 import json
 from pathlib import Path
 from ..analysis.log_prisma_decision import log_decision
+from .check_criteria import load_criteria, check_criteria
+
+# Load inclusion/exclusion criteria from config
+CRITERIA = load_criteria("config/inclusion_exclusion.json")
+
+# Stopword setup (match cluster_keywords behavior)
+try:
+    from nltk.corpus import stopwords
+    # Attempt to access to ensure resource is present
+    _ = stopwords.words("english")
+except Exception:
+    import nltk
+    nltk.download("stopwords")
+    from nltk.corpus import stopwords
+
+from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
+STOP_WORDS = set(stopwords.words("english")) | ENGLISH_STOP_WORDS
 
 def clean_dataframe(df: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
     """
@@ -39,12 +57,43 @@ def clean_dataframe(df: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
         valid_year = year_match.iloc[0] if not year_match.isna().iloc[0] else None
 
         # Apply filters
+        # Basic presence checks
         if abstract == "" or len(abstract) < 30:
             return False, "Missing or short abstract"
         if title == "":
             return False, "Missing title"
         if valid_year is None:
             return False, "Invalid or missing year"
+
+        # Build token list from title + abstract (same tokenization as cluster_keywords)
+        combined = f"{title} {abstract}".lower()
+        tokens = re.findall(r"\b[a-zA-Z]{3,}\b", combined)
+        filtered_tokens = [t for t in tokens if t not in STOP_WORDS]
+
+        # Require a minimum number of topical tokens to be present so the record
+        # can participate meaningfully in keyword clustering.
+        MIN_TOPICAL_TOKENS = 5
+        if len(filtered_tokens) < MIN_TOPICAL_TOKENS:
+            return False, f"Not enough topical tokens ({len(filtered_tokens)})"
+
+        # Build a small record dict to run criteria checks (does not mutate row)
+        record = {
+            "title": title,
+            "abstract": abstract,
+            "keywords": row.get("keywords", []),
+            "publication_type": row.get("publication_type", ""),
+            "study_design": row.get("study_design", ""),
+            "participants": row.get("participants", ""),
+            "year": valid_year,
+            "language": row.get("language", ""),
+            "methods": row.get("methods", ""),
+            "species": row.get("species", "")
+        }
+
+        ok, reason = check_criteria(record, CRITERIA)
+        if not ok:
+            return False, reason
+
         return True, None
 
     for idx, row in df.iterrows():

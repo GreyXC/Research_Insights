@@ -361,18 +361,6 @@
     "ingestion_source":"mendeley_api"
   },
   {
-    "title":"THE MEASURE OF MAN: HUMAN FACTORS IN DESIGN",
-    "authors":[
-      "Dreyfuss"
-    ],
-    "year":"1966",
-    "type":"report",
-    "source":null,
-    "keywords":null,
-    "abstract":"The first circle Is the bearable aone limit. Outsitfe this limit great discomfort or possible damage is encountered. It is also necessary to consider: infra-red radiation, ultra sonic vibration, noxious gases, dust, pollen, and heat exchange with liquids and solids. Note: All data here are subject to qualification, refer to reference sources; for complete information see bibliography.",
-    "ingestion_source":"mendeley_api"
-  },
-  {
     "title":"A systematic review on underground logistics system: designs, impacts, and future directions",
     "authors":[
       "Li",
