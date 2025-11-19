@@ -4,7 +4,7 @@
     "study_designs": ["experimental", "observational"],
     "publication_types": ["journal article", "article"],
     "population_terms": [],
-    "year": { "min": 2010, "max": 2025 },
+    "year": { "min": 2015, "max": 2025 },
     "languages": ["english"]
   },
   "exclusion": {
