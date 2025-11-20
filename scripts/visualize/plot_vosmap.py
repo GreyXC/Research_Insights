@@ -57,7 +57,7 @@ def plot_vos_map(clusters, cluster_names=None, scale=1.0):
                     G.add_edge(terms[i], terms[j], weight=1)
 
     # Improved spacing with spring layout
-    pos = nx.spring_layout(G, seed=1472, k=5, iterations=250)
+    pos = nx.spring_layout(G, seed=1472, k=2.5, iterations=200)
 
     fig, ax = plt.subplots(figsize=(12, 8))
 

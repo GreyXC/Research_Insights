@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+from matplotlib.lines import Line2D
 import networkx as nx
 import seaborn as sns
 import numpy as np
@@ -73,18 +74,19 @@ def plot_vos_map(clusters, cluster_names=None, scale=1.0):
         nx.draw_networkx_nodes(G, pos, nodelist=nodes, node_color=[color] * len(nodes), node_size=sizes, label=label)
 
     # Normalize edge weights and style by cluster relation
-    edges = G.edges(data=True)
-    max_weight = max(edge[2]['weight'] for edge in edges)
-    widths = [edge[2]['weight'] / max_weight * 2.5 for edge in edges]
+    # materialize the edge view to a list so type-checkers accept it
+    edgelist = list(G.edges(data=True))
+    max_weight = max(edge[2]['weight'] for edge in edgelist) if edgelist else 1
+    widths = [edge[2]['weight'] / max_weight * 2.5 for edge in edgelist]
     edge_colors = [
         'black' if G.nodes[u]['cluster'] == G.nodes[v]['cluster'] else 'gray'
-        for u, v in G.edges()
+        for u, v, _ in edgelist
     ]
 
     # Draw curved edges with color and weight
     nx.draw_networkx_edges(
         G, pos,
-        edgelist=edges,
+        edgelist=edgelist,
         width=widths,
         edge_color=edge_colors,
         alpha=0.4,
@@ -112,8 +114,8 @@ def plot_vos_map(clusters, cluster_names=None, scale=1.0):
 
     # Legend
     handles = [
-        plt.Line2D([0], [0], marker='o', color='w', label=label,
-                   markerfacecolor=label_color_map[label], markersize=10)
+        Line2D([0], [0], marker='o', color='w', label=label,
+               markerfacecolor=label_color_map[label], markersize=10)
         for label in unique_labels
     ]
     ax.legend(handles=handles, title="Cluster", bbox_to_anchor=(1.05, 1), loc="upper left")
