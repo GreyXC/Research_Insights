@@ -1,16 +1,5 @@
 from collections import defaultdict, Counter
 from typing import Any, cast
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.cluster import KMeans
-from nltk.corpus import stopwords
-from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
-
-# Ensure stopwords are available
-try:
-    _ = stopwords.words("english")
-except LookupError:
-    import nltk
-    nltk.download("stopwords")
 
 def cluster_keywords(df, column="word_list", n_clusters=6, return_tokens=False):
     """
@@ -26,6 +15,20 @@ def cluster_keywords(df, column="word_list", n_clusters=6, return_tokens=False):
         clustered (dict): Cluster ID → list of (keyword, count) tuples.
         filtered_lists (list): List of filtered token lists (if return_tokens=True).
     """
+    # Heavy imports deferred to function scope so importing this module
+    # doesn't pull large dependencies into the global import path.
+    from sklearn.feature_extraction.text import CountVectorizer, ENGLISH_STOP_WORDS
+    from sklearn.cluster import KMeans
+
+    # Ensure stopwords are available
+    try:
+        from nltk.corpus import stopwords
+        _ = stopwords.words("english")
+    except Exception:
+        import nltk
+        nltk.download("stopwords")
+        from nltk.corpus import stopwords
+
     stop_words = set(stopwords.words("english")) | ENGLISH_STOP_WORDS
 
     # Use pre-cleaned token lists from df[column]

@@ -1,10 +1,11 @@
 import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
-from sentence_transformers import SentenceTransformer
 from collections import defaultdict, Counter
 
-model = SentenceTransformer("all-MiniLM-L6-v2")
+# Lazy model loader for sentence-transformers to avoid importing heavy
+# dependencies at module import time unless the author embeddings are used.
+_sbert_model = None
 
 
 def build_author_embeddings(parsed_entries):
@@ -15,10 +16,19 @@ def build_author_embeddings(parsed_entries):
         for author in authors:
             if abstract:
                 author_texts[author].append(abstract)
+    # Lazy-load the SentenceTransformer model on first use
+    global _sbert_model
+    if _sbert_model is None:
+        try:
+            from sentence_transformers import SentenceTransformer
+        except Exception:
+            raise
+        _sbert_model = SentenceTransformer("all-MiniLM-L6-v2")
+
     embeddings = {}
     for author, texts in author_texts.items():
         joined = " ".join(texts)
-        embeddings[author] = model.encode(joined)
+        embeddings[author] = _sbert_model.encode(joined)
     return embeddings
 
  
