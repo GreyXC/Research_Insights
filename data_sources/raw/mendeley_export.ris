@@ -1,4 +1,270 @@
 TY  - RPRT
+AB  - Traffic jams, long commutes, noise, and
+pollution have become major blights on urban
+life. As the global population grows and becomes
+increasingly urbanized, these problems are likely
+to escalate. Already, 56 percent of the world’s
+population live in cities; by 2050, nearly seven
+in ten people will do so.¹ Even cities without
+projected population growth grapple with
+transport volumes that put pressure on urban
+space and infrastructure.
+By leveraging technology to manage existing
+transport infrastructure efficiently, cities can
+protect or build back neighborhoods to ensure
+they remain vibrant spaces. Several forward-
+thinking cities are looking at ways to ease road
+congestion, decrease emissions, and safeguard
+neighborhoods and green spaces—thereby
+improving quality of life. Hundreds of projects
+have been designed to enhance transport
+systems at city level around the world, as explored
+in McKinsey’s report Urban transportation
+systems of 25 global cities. Such projects include
+developing public-transport infrastructure,
+digitizing transport-system processes, and
+expanding pedestrian and cycling infrastructure.²
+For example, the city of Amsterdam—that made
+the strategic decision to reduce the use of private
+cars as far back as the 1970s—is now planning to
+implement mobility hubs that integrate different
+transport modes with shared mobility options
+such as electric bikes or scooters.³ And the city of
+Paris plans to add 180km of segregated bicycle
+lanes and triple the number of bike parking spots
+throughout the city.⁴
+Solving for urban mobility is a pressing challenge,
+and a highly complex one, as it involves multiple
+transport modes—including road infrastructure
+and public transport networks—and a diverse
+set of stakeholders such as governments,
+municipalities, city councils, and service providers.
+What’s more, what works in one city may not work
+in another. Solutions are often city specific and
+bespoke which means that they are difficult to
+replicate and scale. Moreover, the application
+and protection of the equity principle, requiring the
+transport system to provide all the population with
+the same level of access without any discrimination,
+is of foremost importance when addressing mobility
+challenges.
+This article examines recent trends affecting urban
+mobility, and highlights the digital technologies and
+infrastructure advances that can respond to these
+trends to address the issues that many cities face.
+It also details the key challenges of implementing
+technologies and innovations at scale—keeping
+in mind that the process of connection and/or
+data exchange between infrastructures and users
+must comply with local privacy and data protection
+regulations that change according to specific
+geographies. As there is no one-size-fits-all solution,
+the article concludes by providing case examples
+that could help stakeholders to identify the best way
+forward for their specific context.
+AU  - Boin, Riccardo
+AU  - Möller, Timo
+AU  - Pokotilo, Vadim
+AU  - Ricotti, Andrea
+AU  - Sandri, Nicola
+DA  - 2023/3//
+PY  - 2023
+TI  - infrastructure-technologies-challenges-and-solutions-for-smart-mobility-in-urban-areas
+UR  - https://www.mckinsey.com/~/media/mckinsey/industries/travel%20logistics%20and%20infrastructure/our%20insights/infrastructure%20technologies%20challenges%20and%20solutions%20for%20smart%20mobility%20in%20urban%20areas/infrastructure-technologies-challenges-and-solutions-for-smart-mobility-in-urban-areas.pdf
+ER  -
+TY  - RPRT
+AU  - Brady-Phillips, Vivian
+DA  - 2024/12//
+PY  - 2024
+TI  - Transforming Urban Logistics: Sustainable and Efficient Last-Mile Delivery in Cities
+UR  - https://reports.weforum.org/docs/WEF_Transforming_Urban_Logistics_2024.pdf
+ER  -
+TY  - JOUR
+AB  - The smart grid spawns many innovative ideas, but many of them cannot be easily integrated into the existing power system due to power system constraints, such as the lack of capacity to transport renewable energy in remote areas to the urban centers. An energy delivery system can be built upon the traffic network and electric vehicles (EVs) utilized as energy carriers to transport energy over a large geographical region. A generalized architecture called the vehicular energy network (VEN) is constructed and a mathematically tractable framework is developed. Dynamic wireless (dis)charging allows electric energy, as an energy packet, to be added and subtracted from EV batteries seamlessly. With proper routing, energy can be transported from the sources to destinations through EVs along appropriate vehicular routes. This paper gives a preliminary study of VEN. Models are developed to study its operational and economic feasibilities with real traffic data in the United Kingdom. Our study shows that a substantial amount of renewable energy can be transported from some remote wind farms to London under some reasonable settings and VEN is likely to be profitable in the near future. VEN can complement the power network and enhance its power delivery capability.
+AU  - Lam, Albert Y. S.
+AU  - Leung, Ka-Cheong
+AU  - Li, Victor O. K.
+DA  - 2015/8//
+DO  - 10.1109/TTE.2017.2649887
+PY  - 2015
+TI  - Vehicular Energy Network
+UR  - http://arxiv.org/abs/1408.1312
+UR  - http://dx.doi.org/10.1109/TTE.2017.2649887
+ER  -
+TY  - JOUR
+AB  - This briefing summarizes findings from the Vehicle-to-Grid Oxford project, funded by Innovate UK. The research was conducted by the Transport Studies Unit, University of Oxford. The results set out the role and advantages of using the Vehicle-to-Grid (V2G) system in fleet management, the current barriers to its uptake, implementation strategies and policy recommendations. This briefing has been written for policy-makers and fleet market professionals.
+AU  - Meelen, Toon
+AU  - Budnitz, Hannah
+AU  - Schwanen, Tim
+DA  - 2020/11//
+PY  - 2020
+TI  - Advantages of Electric Vehicle adoption and Vehicle-to-Grid charging in the fleet market: Lessons from the V2GO project
+T2  - https://www.tsu.ox.ac.uk/sites/default/files/2023-01/V2GO-Policy-Brief-TSU.pdf
+ER  -
+TY  - RPRT
+AU  - YouGov
+CY  - London
+DA  - 2004/2//
+PY  - 2004
+TI  - Living in London: Survey Data From Residents of London
+UR  - https://d3nkl3psvxxpe9.cloudfront.net/documents/YG-Archives-pol-itv-LivingLondon-040304.pdf
+ER  -
+TY  - CONF
+AB  - This study was designed to evaluate innovative last-mile delivery concepts involving autonomous parcel robots with simulation and optimization. In the proposed concept, the last mile of parcel delivery is split into a two-tiered system, where parcels are first transported to a transfer point by conventional trucks and then delivered with parcel robots on customer demand. The purpose of this publication is to compare different time slot selection options for customers, namely due window and on demand selection, in the context of city logistics measures such as access regulations and driving bans for city centers. An agent-based simulation model is used, including a Geographic Information System environment and optimization algorithms for allocation and scheduling of delivery robots. The concept is tested in a comprehensive case study located in the city center of Cologne (Germany) based on real data from the parcel delivery company Hermes.
+AU  - Poeting, Moritz
+AU  - Schaudt, Stefan
+AU  - Clausen, Uwe
+DO  - 10.1109/WSC40007.2019.9004811
+PY  - 2019
+TI  - A Comprehensive Case Study in Last-Mile Delivery Concepts for Parcel Robots
+T2  - Proceedings - Winter Simulation Conference
+VL  - 2019-December
+ER  -
+TY  - JOUR
+AB  - Perovskite thin films directly impact solar cell properties, making defect reduction crucial in perovskite solar cell research. In our study, we used perovskite quantum dots in the anti-solvent to act as nucleation centers in MAPbI3 thin films. These centers had lower nucleation barriers than homogeneous nucleation, improving perovskite crystallinity, reducing defects, and extending carrier lifetime. Fine-tuning the energy band also enhanced carrier transport. The most effective results were obtained using CsPb(Br0.5 I0.5)3 perovskite quantum dots. The resulting device, ITO/SnO2/MAPbI3 (300 nm)/spiro-OMeTAD (200 nm)/Ag (100 nm), achieved a 12.88% power conversion efficiency, a 16% increase from the standard element. The modified device maintained approximately 95% of its efficiency over 100 h in a 70% humidity environment.
+AU  - Tsai, Ming Chen
+AU  - Chu, Sheng Yuan
+AU  - Kao, Po Ching
+DO  - 10.3390/ma17061238
+IS  - 6
+PY  - 2024
+TI  - Performance Enhancement of Three-Dimensional MAPbI3 Perovskite Solar Cells by Doping Perovskite Films with CsPbX3 Quantum Dots
+T2  - Materials
+VL  - 17
+ER  -
+TY  - JOUR
+AB  - Problem, research strategy, and findings: Warehousing and distribution center (W&D) expansion has raised concerns about the disproportionate exposure of nearby communities to freight traffic and its resulting health consequences. While local governments wield several tools to manage logistics-related development, few may be as consequential to public health disparities as zoning. In this study we synthesized the state of recent U.S. zoning actions related to W&D, examining their role as tools—or barriers—for advancing public health in communities historically burdened by freight traffic. Specifically, we investigated 92 zoning actions at 67 locations (51 municipalities, 9 counties, and 7 states) and assessed the level at which environmental justice (EJ) principles informed these actions. The most common zoning actions were discretionary decisions on site permits (n = 32). While we offer examples of councils considering EJ issues raised by communities, discretionary processes have drawbacks. Other actions include long-term plans (n = 17), land use definitions (n = 13), development standards (n = 12), and conditional use permitting (n = 14). We also examined four state-level policies. Many regulations restrict by-right W&D development with little indication that these changes are intended to benefit historically burdened communities. Takeaway for practice: Local jurisdictions lack a unified regulatory approach to W&D. However, long-term plans and state environmental policies guide jurisdictions with the most EJ-explicit actions. Equitable and healthy urban freight requires clear strategic land use priorities and environmental safeguards for vulnerable communities but could also include flexibility for W&D development outside conventional industrial areas. We discuss how these findings fit into contemporary debates about zoning and urban freight planning.
+AU  - Fried, Travis
+AU  - Tejada, Carla
+AU  - Dennis-Bauer, Sarah
+AU  - Bolbaatar, Otgondulam
+AU  - Goodchild, Anne
+AU  - Marshall, Julian D.
+AU  - Olmedo, Oliver
+AU  - García, Lizándro
+DO  - 10.1080/01944363.2025.2515134
+KW  - Environmental justice
+KW  - equity
+KW  - last-mile delivery
+KW  - urban freight
+KW  - zoning
+PB  - Routledge
+PY  - 2025
+TI  - Logistics of Zoning, Zoning for Logistics: Toward Healthy and Equitable Development for Urban Freight
+T2  - Journal of the American Planning Association
+ER  -
+TY  - RPRT
+AB  - In 2008 WSP was appointed as the Highways and Transport Term consultant for Wokingham Borough Council 
+(WBC). This included the use and on-going maintenance of the Wokingham Strategic Transport Model 
+(WSTM) and its use to support transport policies and scheme development. Since this appointment WSP have 
+completed two model updates and in Autumn 2015 was commissioned to progress a third: 
+WSTM2 - update of forecast scenarios to include details of Strategic Development Locations (SDLs) and 
+mitigation measures 
+WSTM3 - Update to a 2010 model base year from 2005, compliance with DfT Transport Analysis 
+Guidance, integration of a Public Transport model in VISUM and a Variable Demand Model (VDM) 
+developed using DIADEM 
+WSTM4 - Commissioned in 2015 to update the model base year to 2015 to support strategic and local 
+planning for the next plan period. The model software platform has been changed to VISUM. 
+The WSTM3 has been used for wider strategic testing, localised testing, plan policy evaluation and scheme 
+appraisal within Wokingham Borough shaping transport planning policies and strategies. This has included:  
+Park and Ride Strategy Action Plan 
+Wokingham Town Centre Parking Strategy 
+Wokingham LSTF programme evaluation along the A329 corridor 
+Public consultation on locally significant schemes for Arborfield Relief Road, North Wokingham Distributor 
+Road, South Wokingham Relief Road  
+DfT's LSTF funding (£2.75m) and funding from the Local Pinch Point Fund for: 
+A329 Coppid Beech Junction Improvement (£1.859m of £2.655m total scheme cost) 
+Station Link Road (£2.650m of £3.786m total scheme cost) 
+Section 106 contributions from developers: 
+Hatch Farm Dairies development to Winnersh Relief Road Phase 1 
+South of the M4 J10 development to Eastern Relief Road (ERR) east of Shinfield 
+Initial assessment of the viability for a Third Thames Crossing to support transport objectives of 
+Wokingham and Reading Borough Councils 
+Business Case development and Planning Applications for the Arborfield Cross Relief Road (ACRR), 
+South Wokingham Distributor Road (SWDR) and North Wokingham Distributor Road (NWDR).
+AU  - Murungi, Diana
+AU  - Burton-Brown, Lucy
+DA  - 2018/5//
+PY  - 2018
+SP  - 23
+EP  - 26
+TI  - WOKINGHAM STRATEGIC TRANSPORT MODEL 4 (WSTM4) Local Model Validation Report
+UR  - https://www.wokingham.gov.uk/sites/wokingham/files/2023-06/Wokingham%20Strategic%20Transport%20Model%204%20Local%20Model%20Validation%20Report.pdf
+ER  -
+TY  - RPRT
+AB  - This document addresses planning in uncertain times 
+when a major crisis is triggering significant changes in 
+all areas. An immediate crisis can cause further long
+term changes and increase the impact of other major 
+trends, such as climate change. Managing such 
+fundamental change processes is a key challenge for 
+urban mobility practitioners to integrate into their plans.
+ In this document, a crisis can be defined as any event 
+that may lead to an unstable and dangerous situation 
+which affects the urban mobility systems or whose 
+impact, duration and severity are affected by the urban 
+mobility system. Crises covered in this guide include, but 
+are not limited to, natural or man-made disasters, 
+pandemics, economic crises, social crises, 
+environmental crisis, terrorism, cyberattacks, 
+geopolitical crises, etc.  
+This document is the attempt to articulate generic 
+lessons from how urban mobility systems responded to 
+and were managed during the COVID-19 pandemic. 
+Since the onset of the pandemic, public transport use 
+has been severely reduced, while other modes were 
+rising in popularity. It may sound like a platitude, but it is 
+now truer than ever: Due to the inherent uncertainty of 
+future developments, cities must remain flexible. 
+The climate crisis and other major change processes 
+have been disrupting and continue to disrupt the status 
+quo cities. The necessity to handle these uncertainties 
+and impacts will increase in the years to come.  
+While COVID-19 was the initial impetus for the creation 
+of this guide, this document is intended to suggest 
+responses to this crisis but also to contribute to 
+resilience planning for any future crises. More 
+specifically, it aims at including resilience principles in 
+sustainable urban mobility planning (SUMP). 
+The first section of this topic guide first introduces the 
+concept of resilience in the context of urban mobility and 
+the importance of integrating it into the SUMP procedure. 
+It presents the 4 phases of the SUMP cycle with a 
+resilience focus.
+ The second section addresses specific resilience-related 
+themes such as car independent lifestyles, 
+electromobility, collective passenger transport, demand 
+management strategies, road safety, transport 
+telematics and urban freight. This section results from 
+hands-on experiences made by research and innovation 
+projects related to the mentioned topics proposed for 
+short-term and long-term measures, lessons learned 
+and case examples, using the COVID-19 pandemic as a 
+case study.
+AU  - Böhler, Susanne
+AU  - Brand, Ralf
+AU  - Marie Brunner, Lisa
+AU  - Juliat, Morgane
+AU  - Rupprecht Laura Babío Somoza, Siegfried
+AU  - Cré, Ivo
+AU  - Karmigianni, Maria
+AU  - Pana Tronca, Luciano
+AU  - Kao, Ping-Jen
+AU  - Bosetti, Simone
+AU  - Borgato Georgia Ayfantopoulou, Stefano
+AU  - Xenou, Elpida
+AU  - Teresa De la Cruz Eiriz, M
+AU  - Royo Caroline Busquet, Beatriz
+AU  - Fernández Balaguer, Sergio
+AU  - Burrieza Galán, Javier
+AU  - Maria Salanova, Jose
+AU  - Magkos, Evripidis
+PY  - 2021
+SP  - 37
+EP  - 37
+TI  - PLANNING FOR MORE RESILIENT AND ROBUST URBAN MOBILITY
+ER  -
+TY  - RPRT
 AB  - The transition from fossil-fuel-based transportation systems to those reliant on lowand 
 zero-emission technologies marks a crucial paradigm shift, necessitating a reevaluation of resilience metrics 
 and strategies. As infrastructure investments adapt to a changing climate and the risk of extreme events, our 
@@ -439,4 +705,82 @@ PY  - 2015
 TI  - Goal 11: Sustainable Cities and Communities
 T2  - The Global Goals
 UR  - https://globalgoals.org/goals/11-sustainable-cities-and-communities/
+ER  -
+TY  - JOUR
+AB  - Perovskite/Si tandem solar cells have the potential to considerably out-perform conventional solar cells. Under standard test conditions, perovskite/Si tandem solar cells already outperform the Si single junction. Under realistic conditions, however, as we show, tandem solar cells made from current record cells are hardly more efficient than the Si cell alone. We model the performance of realistic perovskite/Si tandem solar cells under real-world climate conditions, by incorporating parasitic cell resistances, nonradiative recombination, and optical losses into the detailed-balance limit. We show quantitatively that when optimizing these parameters in the perovskite top cell, perovskite/Si tandem solar cells could reach efficiencies above 38% under realistic conditions, even while leaving the Si cell untouched. Despite the rapid efficiency increase of perovskite solar cells, our results emphasize the need for further material development, careful device design, and light management strategies, all necessary for highly efficient perovskite/Si tandem solar cells.
+AU  - Futscher, Moritz H.
+AU  - Ehrler, Bruno
+DO  - 10.1021/acsenergylett.7b00596
+IS  - 9
+PY  - 2017
+TI  - Modeling the Performance Limitations and Prospects of Perovskite/Si Tandem Solar Cells under Realistic Operating Conditions
+T2  - ACS Energy Letters
+VL  - 2
+ER  -
+TY  - GEN
+AB  - Perovskite/silicon (Si) tandem solar cells (TSCs) have emerged as a promising candidate among PV technologies due to their capability to greatly increase power conversion efficiency (PCE) exceeding the Shockley-Queisser limit of single-junction solar cells. Nevertheless, obstacles to the durability of perovskite materials and the environmental consequences of their life cycle present notable barriers to their widespread commercial deployment. The objective of this article is to deliver a review of life cycle assessment (LCA) and sustainability analysis of perovskite/Si TSCs: first, focusing on their working principle, configuration, components and recent progress and then presenting an overview of the LCA and sustainability study performed on perovskite/Si TSCs. Finally, this review highlights important directions for future LCA and sustainability studies required for the successful development of this remarkable perovskite/Si TSC PV technology.
+AU  - Akram, Waseem
+AU  - Li, Xikang
+AU  - Ahmed, Shakeel
+AU  - Ouyang, Zhengbiao
+AU  - Li, Guijun
+DA  - 2024/12//
+DO  - 10.1039/d4su00431k
+IS  - 1
+PB  - Royal Society of Chemistry
+PY  - 2024
+SP  - 21
+EP  - 36
+TI  - A review of life cycle assessment and sustainability analysis of perovskite/Si tandem solar cells
+T2  - RSC Sustainability
+UR  - https://pubs.rsc.org/en/content/articlelanding/2025/su/d4su00431k
+VL  - 3
+ER  -
+TY  - GEN
+AB  - Perovskite/Si tandem solar cells (PSTSCs) have emerged as a leading candidate for surpassing the Shockley–Queisser (SQ) efficiency limit inherent to single-junction silicon solar cells. Following their inaugural demonstration in 2015, perovskite/Si tandem solar cells have experienced remarkable technological progression, reaching a certified power conversion efficiency of 34.9% by 2025. To elucidate pathways for realizing the full potential of perovskite/Si tandem solar cells, this review commences with an examination of fundamental operational mechanisms in multi-junction photovoltaic architectures. Subsequent sections systematically analyze technological breakthroughs across three critical PSTSC components organized by an optical path sequence: (1) innovations in perovskite photoactive layers through component engineering, additive optimization, and interfacial modification strategies; (2) developments in charge transport and recombination management via advanced interconnecting layers; and (3) silicon subcell architectures. The review concludes with a critical analysis of persistent challenges in device stability, scalability, structural optimization and fabrication method, proposing strategic research directions to accelerate the transition from laboratory-scale achievements to commercially viable photovoltaic solutions.
+AU  - Huang, Jingyu
+AU  - Mao, Lin
+DA  - 2025/8//
+DO  - 10.3390/en18164327
+IS  - 16
+KW  - interconnection layer
+KW  - perovskite/Si tandem solar cells
+KW  - silicon solar cells
+KW  - stability
+KW  - wide-bandgap perovskite
+PB  - Multidisciplinary Digital Publishing Institute (MDPI)
+PY  - 2025
+TI  - A Review on Perovskite/Silicon Tandem Solar Cells: Current Status and Future Challenges
+T2  - Energies
+UR  - https://www.mdpi.com/1996-1073/18/16/4327
+VL  - 18
+ER  -
+TY  - JOUR
+AB  - Motivated by the urgent need to discover innovative and sustainable approaches to address the strain on urban resources, this paper introduces a novel concept proposing the utilization of “sleeping assets”. These sleeping assets encompass three distinct categories of urban infrastructures: neglected routes, idle real estate, and underused resources. By harnessing these assets, cities can alleviate the intense competition for land, traffic infrastructure, and parking areas. The findings presented in this paper are derived from an extensive literature study and expert interviews conducted with relevant stakeholders from Hamburg, Paris, Stockholm, and Vienna. Building upon the most pertinent insights from the literature and a structured content analysis of the interviews, we outline the advantages of employing sleeping assets for urban logistics initiatives. Additionally, we identify seven main categories of implementation barriers that must be taken into account. The results of this study reveal political and legislative barriers as one of the major impeding factors in initiating the utilization of sleeping assets. To address these barriers, this paper points towards crucial leverage for cities and provides an outlook on possible forms of sustainable urban logistics implementation. Thus, this work can support researchers as well as practitioners from city administrations and urban logistics interested in using sleeping assets by encouraging the exploitation of unused potential and avoiding particular implementation pitfalls.
+AU  - Schachenhofer, Larissa
+AU  - Kummer, Yvonne
+AU  - Hirsch, Patrick
+DA  - 2023/7//
+DO  - 10.3390/app13137557
+IS  - 13
+PY  - 2023
+TI  - An Analysis of Underused Urban Infrastructures: Usage Opportunities and Implementation Barriers for Sustainable Logistics
+T2  - Applied Sciences (Switzerland)
+VL  - 13
+ER  -
+TY  - GEN
+AB  - The development of smart cities has led to transforming modern city operations by applying emerging technologies from the fourth industrial revolution such as the Internet of Things, BIM and machine learning. To prepare for the future development of cities, it is necessary to investigate the current status of city development, research topics and the direction toward future cities. In this study, a systematic literature review was conducted following the combination of literature review guides by Kitchenham and the PRISMA statement. The review identified 141 peer-reviewed academic papers from web-based archives, such as Web of Science and SCOPUS, that were categorized into five topics related to smart cities and urban areas. The technologies applied in the research were analyzed to determine the direction future cities should take based on current smart cities and emerging technologies that will shape individuals’ daily lives. However, it was discovered that research papers on critical areas, such as mobility and management, were lacking compared to those on building design and urban planning. This paper concludes with an example of a future urban area that has been transformed due to adoption of future mobility technology to address the shortcomings of the reviewed literature on building and urban environments.
+AU  - Park, Sang Jun
+AU  - Kim, Ju Hyung
+AU  - Maing, Min Jung
+AU  - Ahn, Jin Ho
+AU  - Kim, Yang Gil
+AU  - Ham, Nam Hyuk
+AU  - Kim, Jae Jun
+DO  - 10.3390/land13010016
+IS  - 1
+PY  - 2024
+TI  - Transformation of Buildings and Urban Spaces to Adapt for Future Mobility: A Systematic Literature Review
+T2  - Land
+VL  - 13
 ER  -

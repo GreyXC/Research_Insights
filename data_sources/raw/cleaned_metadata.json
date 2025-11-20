@@ -370,6 +370,22 @@
     "ingestion_source":"mendeley_api"
   },
   {
+    "title":"infrastructure-technologies-challenges-and-solutions-for-smart-mobility-in-urban-areas",
+    "authors":[
+      "Boin",
+      "M\u00f6ller",
+      "Pokotilo",
+      "Ricotti",
+      "Sandri"
+    ],
+    "year":"2023",
+    "type":"report",
+    "source":null,
+    "keywords":null,
+    "abstract":"Traffic jams, long commutes, noise, and\npollution have become major blights on urban\nlife. As the global population grows and becomes\nincreasingly urbanized, these problems are likely\nto escalate. Already, 56 percent of the world\u2019s\npopulation live in cities; by 2050, nearly seven\nin ten people will do so.\u00b9 Even cities without\nprojected population growth grapple with\ntransport volumes that put pressure on urban\nspace and infrastructure.\nBy leveraging technology to manage existing\ntransport infrastructure efficiently, cities can\nprotect or build back neighborhoods to ensure\nthey remain vibrant spaces. Several forward-\nthinking cities are looking at ways to ease road\ncongestion, decrease emissions, and safeguard\nneighborhoods and green spaces\u2014thereby\nimproving quality of life. Hundreds of projects\nhave been designed to enhance transport\nsystems at city level around the world, as explored\nin McKinsey\u2019s report Urban transportation\nsystems of 25 global cities. Such projects include\ndeveloping public-transport infrastructure,\ndigitizing transport-system processes, and\nexpanding pedestrian and cycling infrastructure.\u00b2\nFor example, the city of Amsterdam\u2014that made\nthe strategic decision to reduce the use of private\ncars as far back as the 1970s\u2014is now planning to\nimplement mobility hubs that integrate different\ntransport modes with shared mobility options\nsuch as electric bikes or scooters.\u00b3 And the city of\nParis plans to add 180km of segregated bicycle\nlanes and triple the number of bike parking spots\nthroughout the city.\u2074\nSolving for urban mobility is a pressing challenge,\nand a highly complex one, as it involves multiple\ntransport modes\u2014including road infrastructure\nand public transport networks\u2014and a diverse\nset of stakeholders such as governments,\nmunicipalities, city councils, and service providers.\nWhat\u2019s more, what works in one city may not work\nin another. Solutions are often city specific and\nbespoke which means that they are difficult to\nreplicate and scale. Moreover, the application\nand protection of the equity principle, requiring the\ntransport system to provide all the population with\nthe same level of access without any discrimination,\nis of foremost importance when addressing mobility\nchallenges.\nThis article examines recent trends affecting urban\nmobility, and highlights the digital technologies and\ninfrastructure advances that can respond to these\ntrends to address the issues that many cities face.\nIt also details the key challenges of implementing\ntechnologies and innovations at scale\u2014keeping\nin mind that the process of connection and\/or\ndata exchange between infrastructures and users\nmust comply with local privacy and data protection\nregulations that change according to specific\ngeographies. As there is no one-size-fits-all solution,\nthe article concludes by providing case examples\nthat could help stakeholders to identify the best way\nforward for their specific context.",
+    "ingestion_source":"mendeley_api"
+  },
+  {
     "title":"Vehicular Energy Network",
     "authors":[
       "Lam",
@@ -665,7 +681,7 @@
   {
     "title":"SGL Unpacked: The London Light Freight Walking Trial",
     "authors":[
-
+      "CRP"
     ],
     "year":"2025",
     "type":"report",
@@ -842,6 +858,98 @@
     "source":"The British Land Company PLC",
     "keywords":null,
     "abstract":"We have both a responsibility and an opportunity to manage our business in an environmentally and socially responsible manner. Our approach to sustainability is focused on three key pillars where British Land can create the most benefit: Greener Spaces, Thriving Places and Responsible Choices.\n\nWe recognise the importance of regular materiality assessments to inform our Sustainability Strategy.\n\nGreener Spaces\nWe\u2019re decarbonising our portfolio and enhancing climate resilience to create places where people, businesses and nature flourish. Our ambitious 2030 targets include reducing embodied carbon intensity by 50% and reducing operational carbon intensity by 75% versus 2019.\n\nThriving Places\nWe\u2019re creating a long-lasting, positive social impact by supporting our customers and communities. Generating impact through employment and education programmes and impactful use of our spaces supports the success of our places.\n\nResponsible Choices\nWe're making responsible choices across all areas of our business and encouraging our customers, partners and suppliers to do the same. Our areas of focus include diversity, equality and inclusion; Real Living Wage; health and safety; responsible employment; and responsible procurement.\n\nSustainability Leadership\nWe have a strong track record of leadership in international benchmarks and external commitments. This provides external recognition of our commitment and action on environmental, social and governance (ESG) issues.\n\nUN SUSTAINABLE DEVELOPMENT GOALS\nOur 2030 Sustainability Strategy supports multiple UN Sustainable Development Goals and particularly focuses on goals 8 \u2013 Decent work and economic growth and 12 \u2013 Responsible consumption and production, and is underpinned by 17 \u2013 Partnership for the goals.",
+    "ingestion_source":"mendeley_api"
+  },
+  {
+    "title":"Goal 11: Sustainable Cities and Communities",
+    "authors":[
+      "United Nations General Assembly"
+    ],
+    "year":"2015",
+    "type":"web_page",
+    "source":"The Global Goals",
+    "keywords":null,
+    "abstract":"Make cities and human settlements inclusive, safe, resilient and sustainable.\n\nMAKE CITIES AND HUMAN SETTLEMENTS INCLUSIVE, SAFE, RESILIENT AND SUSTAINABLE. The world\u2019s population is constantly increasing, to accommodate everyone, we need to build modern, sustainable cities. For all of us to survive and prosper, we need new, intelligent urban planning that creates safe, affordable and resilient cities with green and culturally inspiring living conditions.\n\nTHE TARGETS\nEveryone can help to make sure that we meet the Global Goals. Use these ten targets to create action to make cities and communities sustainable.\n\nTarget 11.1\n\nSAFE AND AFFORDABLE HOUSING\nBy 2030, ensure access for all to adequate, safe and affordable housing and basic services and upgrade slums.\n\nTarget 11.2\n\nAFFORDABLE AND SUSTAINABLE TRANSPORT SYSTEMS\nBy 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons.\n\nTarget 11.3\n\nINCLUSIVE AND SUSTAINABLE URBANIZATION\nBy 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries.\n\nTarget 11.4\n\nPROTECT THE WORLD\u2019S CULTURAL AND NATURAL HERITAGE\nStrengthen efforts to protect and safeguard the world\u2019s cultural and natural heritage.\n\nTarget 11.5\n\nREDUCE THE ADVERSE EFFECTS OF NATURAL DISASTERS\nBy 2030, significantly reduce the number of deaths and the number of people affected and substantially decrease the direct economic losses relative to global gross domestic product caused by disasters, including water-related disasters, with a focus on protecting the poor and people in vulnerable situations.\n\nTarget 11.6\n\nREDUCE THE ENVIRONMENTAL IMPACT OF CITIES\nBy 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management.\n\nTarget 11.7\n\nPROVIDE ACCESS TO SAFE AND INCLUSIVE GREEN AND PUBLIC SPACES\nBy 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities.\n\nTarget 11.8\n\nSTRONG NATIONAL AND REGIONAL DEVELOPMENT PLANNING\nSupport positive economic, social and environmental links between urban, peri-urban and rural areas by strengthening national and regional development planning.\n\nTarget 11.9\n\nIMPLEMENT POLICIES FOR INCLUSION, RESOURCE EFFICIENCY AND DISASTER RISK REDUCTION\nBy 2020, substantially increase the number of cities and human settlements adopting and implementing integrated policies and plans towards inclusion, resource efficiency, mitigation and adaptation to climate change, resilience to disasters, and develop and implement, in line with the Sendai Framework for Disaster Risk Reduction 2015\u20132030, holistic disaster risk management at all levels.\n\nTarget 11.a\n\nSUPPORT LEAST DEVELOPED COUNTRIES IN SUSTAINABLE AND RESILIENT BUILDING\nSupport least developed countries, including through financial and technical assistance, in building sustainable and resilient buildings utilizing local materials.",
+    "ingestion_source":"mendeley_api"
+  },
+  {
+    "title":"Modeling the Performance Limitations and Prospects of Perovskite\/Si Tandem Solar Cells under Realistic Operating Conditions",
+    "authors":[
+      "Futscher",
+      "Ehrler"
+    ],
+    "year":"2017",
+    "type":"journal",
+    "source":"ACS Energy Letters",
+    "keywords":null,
+    "abstract":"Perovskite\/Si tandem solar cells have the potential to considerably out-perform conventional solar cells. Under standard test conditions, perovskite\/Si tandem solar cells already outperform the Si single junction. Under realistic conditions, however, as we show, tandem solar cells made from current record cells are hardly more efficient than the Si cell alone. We model the performance of realistic perovskite\/Si tandem solar cells under real-world climate conditions, by incorporating parasitic cell resistances, nonradiative recombination, and optical losses into the detailed-balance limit. We show quantitatively that when optimizing these parameters in the perovskite top cell, perovskite\/Si tandem solar cells could reach efficiencies above 38% under realistic conditions, even while leaving the Si cell untouched. Despite the rapid efficiency increase of perovskite solar cells, our results emphasize the need for further material development, careful device design, and light management strategies, all necessary for highly efficient perovskite\/Si tandem solar cells.",
+    "ingestion_source":"mendeley_api"
+  },
+  {
+    "title":"A review of life cycle assessment and sustainability analysis of perovskite\/Si tandem solar cells",
+    "authors":[
+      "Akram",
+      "Li",
+      "Ahmed",
+      "Ouyang",
+      "Li"
+    ],
+    "year":"2024",
+    "type":"generic",
+    "source":"RSC Sustainability",
+    "keywords":null,
+    "abstract":"Perovskite\/silicon (Si) tandem solar cells (TSCs) have emerged as a promising candidate among PV technologies due to their capability to greatly increase power conversion efficiency (PCE) exceeding the Shockley-Queisser limit of single-junction solar cells. Nevertheless, obstacles to the durability of perovskite materials and the environmental consequences of their life cycle present notable barriers to their widespread commercial deployment. The objective of this article is to deliver a review of life cycle assessment (LCA) and sustainability analysis of perovskite\/Si TSCs: first, focusing on their working principle, configuration, components and recent progress and then presenting an overview of the LCA and sustainability study performed on perovskite\/Si TSCs. Finally, this review highlights important directions for future LCA and sustainability studies required for the successful development of this remarkable perovskite\/Si TSC PV technology.",
+    "ingestion_source":"mendeley_api"
+  },
+  {
+    "title":"A Review on Perovskite\/Silicon Tandem Solar Cells: Current Status and Future Challenges",
+    "authors":[
+      "Huang",
+      "Mao"
+    ],
+    "year":"2025",
+    "type":"generic",
+    "source":"Energies",
+    "keywords":[
+      "interconnection layer",
+      "perovskite\/Si tandem solar cells",
+      "silicon solar cells",
+      "stability",
+      "wide-bandgap perovskite"
+    ],
+    "abstract":"Perovskite\/Si tandem solar cells (PSTSCs) have emerged as a leading candidate for surpassing the Shockley\u2013Queisser (SQ) efficiency limit inherent to single-junction silicon solar cells. Following their inaugural demonstration in 2015, perovskite\/Si tandem solar cells have experienced remarkable technological progression, reaching a certified power conversion efficiency of 34.9% by 2025. To elucidate pathways for realizing the full potential of perovskite\/Si tandem solar cells, this review commences with an examination of fundamental operational mechanisms in multi-junction photovoltaic architectures. Subsequent sections systematically analyze technological breakthroughs across three critical PSTSC components organized by an optical path sequence: (1) innovations in perovskite photoactive layers through component engineering, additive optimization, and interfacial modification strategies; (2) developments in charge transport and recombination management via advanced interconnecting layers; and (3) silicon subcell architectures. The review concludes with a critical analysis of persistent challenges in device stability, scalability, structural optimization and fabrication method, proposing strategic research directions to accelerate the transition from laboratory-scale achievements to commercially viable photovoltaic solutions.",
+    "ingestion_source":"mendeley_api"
+  },
+  {
+    "title":"An Analysis of Underused Urban Infrastructures: Usage Opportunities and Implementation Barriers for Sustainable Logistics",
+    "authors":[
+      "Schachenhofer",
+      "Kummer",
+      "Hirsch"
+    ],
+    "year":"2023",
+    "type":"journal",
+    "source":"Applied Sciences (Switzerland)",
+    "keywords":null,
+    "abstract":"Motivated by the urgent need to discover innovative and sustainable approaches to address the strain on urban resources, this paper introduces a novel concept proposing the utilization of \u201csleeping assets\u201d. These sleeping assets encompass three distinct categories of urban infrastructures: neglected routes, idle real estate, and underused resources. By harnessing these assets, cities can alleviate the intense competition for land, traffic infrastructure, and parking areas. The findings presented in this paper are derived from an extensive literature study and expert interviews conducted with relevant stakeholders from Hamburg, Paris, Stockholm, and Vienna. Building upon the most pertinent insights from the literature and a structured content analysis of the interviews, we outline the advantages of employing sleeping assets for urban logistics initiatives. Additionally, we identify seven main categories of implementation barriers that must be taken into account. The results of this study reveal political and legislative barriers as one of the major impeding factors in initiating the utilization of sleeping assets. To address these barriers, this paper points towards crucial leverage for cities and provides an outlook on possible forms of sustainable urban logistics implementation. Thus, this work can support researchers as well as practitioners from city administrations and urban logistics interested in using sleeping assets by encouraging the exploitation of unused potential and avoiding particular implementation pitfalls.",
+    "ingestion_source":"mendeley_api"
+  },
+  {
+    "title":"Transformation of Buildings and Urban Spaces to Adapt for Future Mobility: A Systematic Literature Review",
+    "authors":[
+      "Park",
+      "Kim",
+      "Maing",
+      "Ahn",
+      "Kim",
+      "Ham",
+      "Kim"
+    ],
+    "year":"2024",
+    "type":"generic",
+    "source":"Land",
+    "keywords":null,
+    "abstract":"The development of smart cities has led to transforming modern city operations by applying emerging technologies from the fourth industrial revolution such as the Internet of Things, BIM and machine learning. To prepare for the future development of cities, it is necessary to investigate the current status of city development, research topics and the direction toward future cities. In this study, a systematic literature review was conducted following the combination of literature review guides by Kitchenham and the PRISMA statement. The review identified 141 peer-reviewed academic papers from web-based archives, such as Web of Science and SCOPUS, that were categorized into five topics related to smart cities and urban areas. The technologies applied in the research were analyzed to determine the direction future cities should take based on current smart cities and emerging technologies that will shape individuals\u2019 daily lives. However, it was discovered that research papers on critical areas, such as mobility and management, were lacking compared to those on building design and urban planning. This paper concludes with an example of a future urban area that has been transformed due to adoption of future mobility technology to address the shortcomings of the reviewed literature on building and urban environments.",
     "ingestion_source":"mendeley_api"
   }
 ]
