@@ -35,7 +35,7 @@ def build_author_embeddings(parsed_entries):
 
 def cluster_author_embeddings(embeddings, n_clusters=2):
     X = np.array(list(embeddings.values()))
-    kmeans = KMeans(n_clusters=n_clusters, random_state=15000)
+    kmeans = KMeans(n_clusters=n_clusters, random_state=1472)
     labels = kmeans.fit_predict(X)
     return dict(zip(embeddings.keys(), labels))
 

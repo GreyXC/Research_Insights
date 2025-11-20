@@ -34,7 +34,7 @@ def draw_cluster_hull_smooth(ax, pos, nodes, color="#1f77b4", alpha=0.1, padding
 
     ax.fill(xi, yi, color=color, alpha=alpha, zorder=0)
 
-def visualize_author_graph(G, seed=1472, k=5, iterations=10):
+def visualize_author_graph(G, seed=1472, k=0.5, iterations=10):
     if all('layout_seed' in G.nodes[n] for n in G.nodes()):
         seed_pos = {n: G.nodes[n]['layout_seed'] for n in G.nodes()}
         pos = nx.spring_layout(G, pos=seed_pos, seed=seed, k=k, iterations=iterations)
@@ -52,7 +52,7 @@ def visualize_author_graph(G, seed=1472, k=5, iterations=10):
 
     print("Available cluster labels:", themes)
 
-    fig, ax = plt.subplots(figsize=(10, 8))
+    fig, ax = plt.subplots(figsize=(15, 10))
 
     # Draw smooth padded hulls for all clusters
     for theme in themes:
