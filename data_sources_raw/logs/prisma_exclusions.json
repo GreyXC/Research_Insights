@@ -1,3 +1,5 @@
 {
-  "Missing or short abstract": 9
+  "excl_year_before": 2,
+  "Missing or short abstract": 8,
+  "year_too_early": 2
 }

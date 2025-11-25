@@ -1,0 +1,21 @@
+{
+  "inclusion": {
+    "comparisons": [],
+    "study_designs": ["experimental", "observational"],
+    "publication_types": ["journal article", "article"],
+    "population_terms": [],
+    "year": { "min": 2015, "max": 2025 },
+    "languages": ["english"]
+  },
+  "exclusion": {
+    "methodologies": ["qualitative"],
+    "study_designs": ["case report", "systematic review"],
+    "publication_types": ["systematic review", "editorial"],
+    "year": { "before": 2010 },
+    "species": ["animal"],
+    "languages": []
+  },
+  "notes": {
+    "year_compelling_reason": "Due to the field's rapid evolution, focusing on studies from 2010 onwards ensures relevance and applicability of findings."
+  }
+}

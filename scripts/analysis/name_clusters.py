@@ -13,7 +13,7 @@ def name_clusters(clusters):
         "Infrastructure Risk & Spatial Interference": "#AA0D0D",
         "Computational Modeling & Responsive Systems": "#F87B62",
         "Environmental Integration & Urban Sustainability": "#E377C2",
-        "Emerging CLuster": "#7F7F7F"
+        "Emerging Cluster": "#7F7F7F"
     }
 
     # Expanded theme keyword sets
@@ -96,8 +96,19 @@ def name_clusters(clusters):
         if label in palette:
             colors[label] = palette[label]
         else:
-            # Assign a distinct fallback color
-            fallback_color = "#999999"
+            # Assign a distinct, deterministic fallback color for this emergent label.
+            # Use an MD5-derived hue so colors are stable between runs but varied
+            # across different fallback labels. Convert HLS -> RGB for nicer palettes.
+            import hashlib
+            import colorsys
+
+            digest = hashlib.md5(label.encode("utf-8")).hexdigest()
+            hue_deg = int(digest[:8], 16) % 360
+            hue = hue_deg / 360.0
+            lightness = 0.45
+            saturation = 0.6
+            r, g, b = colorsys.hls_to_rgb(hue, lightness, saturation)
+            fallback_color = "#{:02x}{:02x}{:02x}".format(int(r * 255), int(g * 255), int(b * 255))
             colors[label] = fallback_color
 
         used_labels.add(label)

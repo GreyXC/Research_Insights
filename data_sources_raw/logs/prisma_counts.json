@@ -1,8 +1,8 @@
 {
-  "records_identified": 60,
+  "records_identified": 63,
   "duplicates_removed": 0,
-  "records_screened": 60,
-  "records_excluded": 9,
+  "records_screened": 63,
+  "records_excluded": 12,
   "reports_assessed": 51,
   "reports_excluded": 0,
   "studies_included": 51

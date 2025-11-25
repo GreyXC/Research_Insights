@@ -22,7 +22,7 @@ def plot_keyword_bar_chart(clusters, cluster_names, cluster_colors=None):
     palette = sns.color_palette("hls", len(cluster_order))
 
     # Plot
-    plt.figure(figsize=(14, 6))
+    plt.figure(figsize=(18, 6))
     sns.barplot(
         data=df,
         x="Keyword",

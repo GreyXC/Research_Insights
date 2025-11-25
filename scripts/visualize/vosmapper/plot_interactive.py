@@ -1,4 +1,3 @@
-import plotly.graph_objects as go
 from collections import defaultdict
 import numpy as np
 import math
@@ -37,6 +36,13 @@ def plot_interactive(
     weak_edge_scale=1.0,
     edge_threshold=0.05
 ):
+    # Import heavy plotting library lazily to avoid importing plotly when
+    # this module is imported but interactive plotting is not used.
+    try:
+        import plotly.graph_objects as go
+    except Exception:
+        raise
+
     cluster_nodes = defaultdict(list)
     cluster_edges = defaultdict(list)
 
