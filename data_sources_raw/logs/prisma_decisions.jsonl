@@ -1,12 +1,12 @@
-{"id": "0", "stage": "screening", "decision": "exclude_irrelevant", "reason": "excl_year_before", "timestamp": "2025-11-20T14:35:53.573651"}
-{"id": "6", "stage": "screening", "decision": "exclude_irrelevant", "reason": "Missing or short abstract", "timestamp": "2025-11-20T14:35:53.577651"}
-{"id": "12", "stage": "screening", "decision": "exclude_irrelevant", "reason": "Missing or short abstract", "timestamp": "2025-11-20T14:35:53.581653"}
-{"id": "21", "stage": "screening", "decision": "exclude_irrelevant", "reason": "year_too_early", "timestamp": "2025-11-20T14:35:53.585652"}
-{"id": "26", "stage": "screening", "decision": "exclude_irrelevant", "reason": "Missing or short abstract", "timestamp": "2025-11-20T14:35:53.588651"}
-{"id": "27", "stage": "screening", "decision": "exclude_irrelevant", "reason": "excl_year_before", "timestamp": "2025-11-20T14:35:53.588651"}
-{"id": "30", "stage": "screening", "decision": "exclude_irrelevant", "reason": "Missing or short abstract", "timestamp": "2025-11-20T14:35:53.589656"}
-{"id": "32", "stage": "screening", "decision": "exclude_irrelevant", "reason": "Missing or short abstract", "timestamp": "2025-11-20T14:35:53.590652"}
-{"id": "33", "stage": "screening", "decision": "exclude_irrelevant", "reason": "Missing or short abstract", "timestamp": "2025-11-20T14:35:53.591652"}
-{"id": "37", "stage": "screening", "decision": "exclude_irrelevant", "reason": "Missing or short abstract", "timestamp": "2025-11-20T14:35:53.592653"}
-{"id": "39", "stage": "screening", "decision": "exclude_irrelevant", "reason": "Missing or short abstract", "timestamp": "2025-11-20T14:35:53.594653"}
-{"id": "58", "stage": "screening", "decision": "exclude_irrelevant", "reason": "year_too_early", "timestamp": "2025-11-20T14:35:53.600651"}
+{"id": "0", "stage": "screening", "decision": "exclude_irrelevant", "reason": "excl_year_before", "timestamp": "2025-11-24T14:13:10.725998"}
+{"id": "6", "stage": "screening", "decision": "exclude_irrelevant", "reason": "Missing or short abstract", "timestamp": "2025-11-24T14:13:10.730999"}
+{"id": "12", "stage": "screening", "decision": "exclude_irrelevant", "reason": "Missing or short abstract", "timestamp": "2025-11-24T14:13:10.735411"}
+{"id": "21", "stage": "screening", "decision": "exclude_irrelevant", "reason": "year_too_early", "timestamp": "2025-11-24T14:13:10.738410"}
+{"id": "26", "stage": "screening", "decision": "exclude_irrelevant", "reason": "Missing or short abstract", "timestamp": "2025-11-24T14:13:10.740410"}
+{"id": "27", "stage": "screening", "decision": "exclude_irrelevant", "reason": "excl_year_before", "timestamp": "2025-11-24T14:13:10.740410"}
+{"id": "30", "stage": "screening", "decision": "exclude_irrelevant", "reason": "Missing or short abstract", "timestamp": "2025-11-24T14:13:10.741412"}
+{"id": "32", "stage": "screening", "decision": "exclude_irrelevant", "reason": "Missing or short abstract", "timestamp": "2025-11-24T14:13:10.742412"}
+{"id": "33", "stage": "screening", "decision": "exclude_irrelevant", "reason": "Missing or short abstract", "timestamp": "2025-11-24T14:13:10.743411"}
+{"id": "37", "stage": "screening", "decision": "exclude_irrelevant", "reason": "Missing or short abstract", "timestamp": "2025-11-24T14:13:10.744412"}
+{"id": "39", "stage": "screening", "decision": "exclude_irrelevant", "reason": "Missing or short abstract", "timestamp": "2025-11-24T14:13:10.745411"}
+{"id": "58", "stage": "screening", "decision": "exclude_irrelevant", "reason": "year_too_early", "timestamp": "2025-11-24T14:13:10.752911"}
